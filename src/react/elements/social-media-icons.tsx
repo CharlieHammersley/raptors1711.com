@@ -31,14 +31,6 @@ export class SocialMediaIcons extends React.Component<Props, State> {
 				link: "http://facebook.com/raptors1711",
 				component: <FacebookIcon />
 			},
-			"Twitter": {
-				link: "http://twitter.com/Team1711Raptors",
-				component: <TwitterIcon />
-			},
-			"Snapchat": {
-				link: "https://www.snapchat.com/add/raptors_1711",
-				component: <SnapchatIcon />
-			},
 			"GitHub": {
 				link: "https://github.com/frc1711",
 				component: <GitHubIcon />
