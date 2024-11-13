@@ -11,7 +11,7 @@ import { PageHeading } from "../elements/page-heading";
 import { TextImageBox } from "../elements/text-image-box";
 import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 
-type LeadProfile = {
+type SMEProfile = {
 	name: string,
 	title: string,
 	bio: React.ReactNode,
@@ -20,10 +20,10 @@ type LeadProfile = {
 
 export class MeetTheLeadsPage extends React.Component<Props, State> {
 	
-	public static readonly LEADS: LeadProfile[] = [
+	public static readonly LEADS: SMEProfile[] = [
 		{
 			name: "Grady Luyt",
-			title: "Tech Captain",
+			title: "Tech SME",
 			bio: <p>
 				This is Grady’s fourth year on the team, and he’s looking forward to the 2022 build season. With
 				2020 being cut short and 2021 being virtual, Grady has big goals for the team this year with it
@@ -34,7 +34,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		},
 		{
 			name: "Sage Brown",
-			title: "Non Tech and Safety Captain",
+			title: "Non Tech and Safety SME",
 			bio: <p>Sage spent her freshman and sophomore year on the build team and started doing safety her junior
 				year. She’s now a senior and is excited to participate with non tech and safety at comps since she
 				couldn’t last year. When she’s not at robotics, Sage can be found cross-country skiing or starting
@@ -44,7 +44,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		},
 		{
 			name: "Miles Lettinga",
-			title: "Build Lead and Driver",
+			title: "Build SME and Driver",
 			bio: <p>
 				This is Miles’ second year with the RAPTORS; he previously competed with 4338 in Israel. Miles’
 				favorite part of FIRST is meeting new people and being to learn new things with the team. Miles’ is
@@ -55,7 +55,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		},
 		{
 			name: "Ian Elder",
-			title: "Electrical Lead",
+			title: "Electrical SME",
 			bio: <p>
 				Ian’s been doing electrical for three years on the team and loves “the holy sparkiness of 120 volt
 				AC” (but don’t tell Sage about all the sparks he makes). When he isn’t making sparks, you can find
@@ -65,7 +65,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		},
 		{
 			name: "Gabriel Seaver",
-			title: "Programming Lead",
+			title: "Programming SME",
 			bio: <p>
 				This is Gabriel’s third year sitting in the dark corner on his fancy computer. Last year, Gabriel
 				programmed a reusable code library for swerve drive for our robot. When Gabriel is not programming,
@@ -98,8 +98,8 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		}
 		
 		return (
-			<Page name="meet-the-leads">
-				<PageHeading>Meet the Leads</PageHeading>
+			<Page name="meet-the-SMEs">
+				<PageHeading>Meet the SMEs</PageHeading>
 				{leads}
 			</Page>
 		);
