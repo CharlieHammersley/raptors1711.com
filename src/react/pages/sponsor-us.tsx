@@ -18,17 +18,19 @@ export class SponsorUs extends React.Component<Props, State> {
 					 alt="RAPTORS team members showing off the blue banner that they received after winning their
 					      Traverse City district competition." />
 				<p>
-					TC Central's RAPTORS Robotics Team 1711 is heading to States and a strong showing will earn them a
-					chance to complete at Worlds in Houston, TX! The registration fees and travel expenses are
+					The upcoming season is a great time to support our work. 
+					Your donation will help fund key programs and ensure 
+					we can continue making a positive impact.
+					The registration fees and travel expenses are
 					significant, so any amount is greatly appreciated!
 				</p>
 				<p>
-					<i>To sponsor/donate to our team, please visit the link below, and add <span className="team-name">
+					<i>To sponsor/donate to our team, please contact us using the link below or by emailing raptors1711@gmail.com, and add <span className="team-name">
 					RAPTORS Team 1711</span> in the program designation box or memo line if you are sending a check.</i>
 				</p>
-				<a href="https://bit.ly/3uyeQmP"
+				<a href="mailto:raptors1711@gmail.com"
 				   target="_blank"
-				   rel="noreferrer">Click Here to Sponsor FRC Team 1711 - The RAPTORS</a>
+				   rel="noreferrer">Click Here to Contact FRC Team 1711 - The RAPTORS</a>
 			</Page>
 		);
 		
