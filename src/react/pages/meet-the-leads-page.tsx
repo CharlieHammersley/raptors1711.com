@@ -22,56 +22,64 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 	
 	public static readonly LEADS: LeadProfile[] = [
 		{
-			name: "Grady Luyt",
-			title: "Tech Captain",
-			bio: <p>
-				This is Grady’s fourth year on the team, and he’s looking forward to the 2022 build season. With
-				2020 being cut short and 2021 being virtual, Grady has big goals for the team this year with it
-				being his last. On the rare times where Grady isn’t working on the robot, you can usually find him
-				trying to break into Sage’s safety prize candy safe.
+			name: "Kayden Mcmillan",
+			title: "Driver, Strategy SME, Build SME, & Design SME",
+			bio: <p>Kayden has been a part of the RAPTORS for 4 years now after joining in 8th grade. Now on his 
+				junior year, he’s become our primary driver as well as branching out to strategy and design.
+				When he’s not in the build room, you’ll see Kayden gaming, 3d printing, or crying about CAD.
 			</p>,
 			image: leadImageGradyLuyt
 		},
 		{
-			name: "Sage Brown",
-			title: "Non Tech and Safety Captain",
-			bio: <p>Sage spent her freshman and sophomore year on the build team and started doing safety her junior
-				year. She’s now a senior and is excited to participate with non tech and safety at comps since she
-				couldn’t last year. When she’s not at robotics, Sage can be found cross-country skiing or starting
-				her AP Lit reductions the night before they’re due.
+			name: "Aviannah Stieve",
+			title: "Human Player & Communications SME",
+			bio: <p>This is Aviannah’s junior year after joining the team in 8th grade. Now on her 4th year with the 
+				RAPTORS, Aviannah leads media, outreach, and communications on the team as well as being the human player. 
+				Aviannah likes reading and practicing debate with her friend Sally. 
 			</p>,
 			image: leadImageSageBrown
 		},
 		{
-			name: "Miles Lettinga",
-			title: "Build Lead and Driver",
-			bio: <p>
-				This is Miles’ second year with the RAPTORS; he previously competed with 4338 in Israel. Miles’
-				favorite part of FIRST is meeting new people and being to learn new things with the team. Miles’ is
-				looking forward to this season and has big goals like advancing to worlds. When Miles isn’t
-				building a robot, he’s busy with his AP Chemistry and Calculus homework.
+			name: "Oscar Falcon",
+			title: "Operator, Strategy SME, & Programming SME",
+			bio: <p>This year will be Oscar’s third competition season on the team and he’s looking forward to the next game.
+				Over his years on the team Oscar has become a programming and strategy SME as well as becoming the 
+				operator driver. When he’s not programming or working on spreadsheets you can find Oscar gaming or doing his 
+				AP Bio reading.
 			</p>,
 			image: leadImageMilesLettinga
 		},
 		{
-			name: "Ian Elder",
-			title: "Electrical Lead",
+			name: "Francesca Harbold",
+			title: "Electrical SME",
 			bio: <p>
-				Ian’s been doing electrical for three years on the team and loves “the holy sparkiness of 120 volt
-				AC” (but don’t tell Sage about all the sparks he makes). When he isn’t making sparks, you can find
-				Ian in his car, outside the room, waiting for robotics to start.
+				This is Frannie’s 7th year in FIRST and her 3rd as a RAPTOR. Frannie is a junior and she’s looking forward
+				to the 2026 build season. During her time on the team she’s become the electrical SME and heavily involved
+				in our social media and outreach. Outside of FRC, Frannie enjoys sailing, baking, debate, and traveling.
 			</p>,
 			image: leadImageIanElder
 		},
 		{
-			name: "Gabriel Seaver",
-			title: "Programming Lead",
+			name: "Milo Woodruff",
+			title: "Drive Coach & Strategy SME",
 			bio: <p>
-				This is Gabriel’s third year sitting in the dark corner on his fancy computer. Last year, Gabriel
-				programmed a reusable code library for swerve drive for our robot. When Gabriel is not programming,
-				you can find him “crying about AP Lang”.
+				Joining his freshmen year, Milo has been on the team for 3 competition seasons. In that time he’s become our 
+				drive coach and strategy SME but also helps with build and design. When he’s not scouting matches, Milo enjoys 
+				playing tennis and taking food from the snack cabinet.
+
 			</p>,
 			image: leadImageGabrielSeaver
+		},
+		{
+			name: "Charlie Hammersley",
+			title: "Programming SME & Safety SME",
+			bio: <p>
+				This is Charlie's 3rd competition season with the RAPTORS after joining their freshmen year. In this time they've 
+				become a programming and safety SME although they help communications, media, and is the second human player. If 
+				they're not crying about AP Calc BC, Charlie can be found crocheting or writing.
+
+			</p>,
+			image: leadImageIanElder
 		}
 	];
 	
