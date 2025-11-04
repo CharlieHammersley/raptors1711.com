@@ -4,6 +4,14 @@ import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
 import leadImageMilesLettinga from "../../assets/images/leads/miles-lettinga.jpg";
 import leadImageIanElder from "../../assets/images/leads/ian-elder.jpg";
 import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
+
+import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
+import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.jpeg";
+import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.jpeg";
+import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.jpeg";
+import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.jpg";
+import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.jpg";
+
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Props, State } from "./home";
@@ -24,59 +32,58 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		{
 			name: "Kayden Mcmillan",
 			title: "Driver, Strategy SME, Build SME, & Design SME",
-			bio: <p>Kayden has been a part of the RAPTORS for 4 years now after joining in 8th grade. Now on his 
-				junior year, he’s become our primary driver as well as branching out to strategy and design.
-				When he’s not in the build room, you’ll see Kayden gaming, 3d printing, or crying about CAD.
+			bio: <p>Kayden has been a part of the RAPTORS for 4 years now after joining in 8th grade. Now in his junior year, 
+				he’s become our primary driver, as well as branching out to the strategy and design teams. When he’s not in the 
+				build room, you’ll find Kayden CADing, 3d printing, or socializing with his friends. He loves to play with 
+				his dogs, RJ, and Sasha, as well as friends’ cats, when he is able.
 			</p>,
-			image: leadImageGradyLuyt
+			image: smeImageKayden
 		},
 		{
 			name: "Aviannah Stieve",
 			title: "Human Player & Communications SME",
-			bio: <p>This is Aviannah’s junior year after joining the team in 8th grade. Now on her 4th year with the 
-				RAPTORS, Aviannah leads media, outreach, and communications on the team as well as being the human player. 
-				Aviannah likes reading and practicing debate with her friend Sally. 
+			bio: <p>This is Aviannah’s junior year after joining the team in 8th grade. Now in her 4th year with the RAPTORS, 
+				Aviannah leads media, outreach, and communications on the team, as well as being the human player. Aviannah likes 
+				reading, playing with her cat Silver Bell, and practicing with the debate team.
 			</p>,
-			image: leadImageSageBrown
+			image: smeImageAviannah
 		},
 		{
 			name: "Oscar Falcon",
 			title: "Operator, Strategy SME, & Programming SME",
-			bio: <p>This year will be Oscar’s third competition season on the team and he’s looking forward to the next game.
-				Over his years on the team Oscar has become a programming and strategy SME as well as becoming the 
-				operator driver. When he’s not programming or working on spreadsheets you can find Oscar gaming or doing his 
-				AP Bio reading.
+			bio: <p>This year will be Oscar’s third competition season on the team, and he’s looking forward to the next game. 
+				Over his years on the team, Oscar has become the programming SME and strategy SME, as well as the 
+				operator driver. When he’s not programming or working on spreadsheets, you can find Oscar gaming or 
+				spending time with his family of seven.
 			</p>,
-			image: leadImageMilesLettinga
+			image: smeImageOscar
 		},
 		{
 			name: "Francesca Harbold",
 			title: "Electrical SME",
-			bio: <p>
-				This is Frannie’s 7th year in FIRST and her 3rd as a RAPTOR. Frannie is a junior and she’s looking forward
-				to the 2026 build season. During her time on the team she’s become the electrical SME and heavily involved
-				in our social media and outreach. Outside of FRC, Frannie enjoys sailing, baking, debate, and traveling.
+			bio: <p>This is Frannie’s 7th year in FIRST and her 3rd as a RAPTOR. Frannie is a junior, and she’s looking forward to 
+				the 2026 build season. During her time on the team, she’s become the electrical SME as well as being heavily 
+				involved in our social media and outreach. Outside of FRC, Frannie enjoys sailing, baking, debating, and 
+				playing with her dog, Leia.
 			</p>,
-			image: leadImageIanElder
+			image: smeImageFrannie
 		},
 		{
 			name: "Milo Woodruff",
 			title: "Drive Coach & Strategy SME",
-			bio: <p>
-				Joining his freshmen year, Milo has been on the team for 3 competition seasons. In that time he’s become our 
-				drive coach and strategy SME but also helps with build and design. When he’s not scouting matches, Milo enjoys 
-				playing tennis and taking food from the snack cabinet.
-
+			bio: <p>Joining his freshman year, Milo has been on the team for 3 competition seasons. In that time, he’s become our 
+				drive coach and strategy SME, but also helps with build and design aspects. In his spare time, Milo enjoys 
+				scouting matches and playing tennis.
+				
 			</p>,
-			image: leadImageGabrielSeaver
+			image: smeImageMilo
 		},
 		{
 			name: "Charlie Hammersley",
 			title: "Programming SME & Safety SME",
-			bio: <p>
-				This is Charlie's 3rd competition season with the RAPTORS after joining their freshmen year. In this time they've 
-				become a programming and safety SME although they help communications, media, and is the second human player. If 
-				they're not crying about AP Calc BC, Charlie can be found crocheting or writing.
+			bio: <p>This is Charlie's 3rd competition season with the RAPTORS after joining their freshman year. In this time, they've 
+				become a programming SME, safety SME, and secondary human player, although they occasionally help media. If 
+				they're not crying about Calc BC, Charlie can be found crocheting or writing.
 
 			</p>,
 			image: leadImageIanElder
