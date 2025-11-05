@@ -27,21 +27,10 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 	
 	public static readonly MENTORS: MentorProfile[] = [
 		{
-			name: "Jennifer Dezeeuw",
-			title: "Coach",
-			bio: <p>
-				Mrs. DeZeeuw has been with the RAPTORS for 6 years, and this is her 3rd year as our coach. Overseeing
-				all of the complex behind-the-scenes planning, she applies for grants, orders supplies, arranges meals
-				and transportation, and connects the robotics team with the school. Additionally, she assists with
-				Chairman’s Award, Safety team, Super Science Saturday, and other Non-Tech projects.
-			</p>,
-			image: mentorImageJenniferDezeeuw
-		},
-		{
 			name: "Leilani Sigsbey",
 			title: "Non-Tech Mentor",
 			bio: <p>
-				Leilani has been a part of FIRST robotics for 4 years. She assists with the Non-Tech team, focusing on
+				Leilani has been a part of FIRST robotics for 7 years. She assists with the Non-Tech team, focusing on
 				primarily Chairman's and outreach events. Leilani graduated from Central in 2021, majors in public
 				relations at Ferris State, and enjoys volunteering within the community. She is excited to get back onto
 				the FIRST Robotics scene.
@@ -60,21 +49,10 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 			image: mentorImageTrevorSears
 		},
 		{
-			name: "John Failor",
-			title: "School Liaison & Logistics Mentor",
-			bio: <p>
-				Mr. John Failor focuses on the financial and sponsorship aspects of the RAPTORS Team. Being a
-				mathematics staff member at Traverse City Central High School, Mr. Failor allows the team to utilize
-				supplies and materials that the school provides. If he is not currently grading papers, Mr. Failor
-				enjoys cross-country skiing and mountain biking.
-			</p>,
-			image: mentorImageJohnFailor
-		},
-		{
 			name: "Jeremiah Stieve",
 			title: "Build Mentor",
 			bio: <p>
-				This is Mr. Stieve’s second year on the team; he assists the Tech side of the team and is most excited
+				This is Mr. Stieve’s fith year on the team; he assists the Tech side of the team and is most excited
 				for the new game. Furthermore, Mr. Stieve anticipates seeing new talent join the RAPTORS and enjoys
 				outdoor sports in his free time.
 			</p>,
@@ -91,43 +69,14 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 			image: mentorImageRussRiker
 		},
 		{
-			name: "Brian Lettinga",
-			title: "Finance & Logistics Mentor",
-			bio: <p>
-				This is Mr. Lettinga’s fourth year with FIRST. He helps supervise the Build team and is most excited to
-				see FIRST robotics competitions in the United States. Sports, fishing, and cooking are his favorite
-				hobbies.
-			</p>,
-			image: mentorImageBrianLettinga
-		},
-		{
 			name: "Eric Smith",
-			title: "Build Mentor",
+			title: "Build Mentor & School Liaison",
 			bio: <p>
-				Eric Smith has been a part of FIRST Robotics for 4 years. He assists the Strategy and Mechanical teams
-				and looks forward to seeing what a full game looks like and how it plays out. Eric’s hobbies include
+				Eric Smith has been a part of FIRST Robotics for 7 years. He assists the Strategy and Mechanical teams
+				and recently has taken up the financial and sponsorship aspects too. Eric’s hobbies include
 				watching and playing sports, specifically, basketball.
 			</p>,
 			image: mentorImageEricSmith
-		},
-		{
-			name: "Paul DeZeeuw",
-			title: "Build & Design Mentor",
-			bio: <p>
-				Paul DeZeeuw has also been with the RAPTORS for 6 year, as a mentor. He continues to help the tech side
-				of the team throughout the build season. Helping everyone understand various building ideas, Paul
-				DeZeeuw is a valued mentor on the team.
-			</p>,
-			image: mentorImagePaulDeZeeuw
-		},
-		{
-			name: "Greg Luyt",
-			title: "Build Mentor",
-			bio: <p>
-				Greg Luyt has been a RAPTORS mentor for 4 years. He helps out with everything and keeps things on task.
-				Mr. Luyt is excited to get back to competition and enjoys playing music, skiing, and hiking.
-			</p>,
-			image: mentorImageGregLuyt
 		},
 	];
 	
