@@ -1,5 +1,6 @@
 import "./home.scss";
 import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
+import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 
@@ -12,7 +13,7 @@ export class Home extends React.Component<Props, State> {
     	
     	return (
 			<Page name="home">
-				<img src={teamKickoffPicture}
+				<img src={driveTeamPhoto}
 					 alt="The Raptors at their 2019 kickoff event."
 				     className="banner-image" />
 				<p>
