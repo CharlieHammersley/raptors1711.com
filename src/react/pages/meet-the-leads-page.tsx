@@ -33,9 +33,9 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 			name: "Kayden Mcmillan",
 			title: "Driver, Strategy SME, Build SME, & Design SME",
 			bio: <p>Kayden has been a part of the RAPTORS for 4 years now after joining in 8th grade. Now in his junior year, 
-				he’s become our primary driver, as well as branching out to the strategy and design teams. When he’s not in the 
-				build room, you’ll find Kayden CADing, 3d printing, or socializing with his friends. He loves to play with 
-				his dogs, RJ, and Sasha, as well as friends’ cats, when he is able.
+				he’s become our primary driver as well as branching out to lead the strategy, build, and design teams. When he’s not in the 
+				build room, you’ll find Kayden CADing, 3d printing, or socializing with his friends. He loves to play with his dogs, 
+				RJ, and Sasha, as well as friends’ cats when he is able.
 			</p>,
 			image: smeImageKayden
 		},
@@ -60,7 +60,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 		},
 		{
 			name: "Francesca Harbold",
-			title: "Electrical SME",
+			title: "Electrical SME & Technician",
 			bio: <p>This is Frannie’s 7th year in FIRST and her 3rd as a RAPTOR. Frannie is a junior, and she’s looking forward to 
 				the 2026 build season. During her time on the team, she’s become the electrical SME as well as being heavily 
 				involved in our social media and outreach. Outside of FRC, Frannie enjoys sailing, baking, debating, and 
@@ -86,7 +86,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 				they're not crying about Calc BC, Charlie can be found crocheting or writing.
 
 			</p>,
-			image: leadImageIanElder
+			image: leadImageSageBrown // placeholder
 		}
 	];
 	
