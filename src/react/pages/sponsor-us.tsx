@@ -16,13 +16,13 @@ export class SponsorUs extends React.Component<Props, State> {
 				<PageHeading>Sponsorship Opportunities</PageHeading>
 				<img src={mitvcBlueBanner}
 					 alt="RAPTORS team members showing off the blue banner that they received after winning their
-					      Traverse City district competition." />
+					      Traverse City district competition."/>
 				<p>
 					TC Central's RAPTORS Robotics Team 1711 is heading into the 2026 season with a new robot.
 					The registration fees and travel expenses are significant, so any amount is greatly appreciated!
 				</p>
 				<p>
-					<i>To sponsor/donate to our team, please visit the link below, and add <span className="team-name">
+					<i>To donate to our team, please visit the link below, and add <span className="team-name">
 					RAPTORS Team 1711</span> in the program designation box or memo line if you are sending a check.</i>
 				</p>
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog"
