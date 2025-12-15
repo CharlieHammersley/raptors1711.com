@@ -1,4 +1,4 @@
-import "./meet-the-leads-page.scss";
+import "./meet-the-smes-page.scss";
 import leadImageGradyLuyt from "../../assets/images/leads/grady-luyt.jpg";
 import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
 import leadImageMilesLettinga from "../../assets/images/leads/miles-lettinga.jpg";
@@ -19,16 +19,16 @@ import { PageHeading } from "../elements/page-heading";
 import { TextImageBox } from "../elements/text-image-box";
 import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 
-type LeadProfile = {
+type SMEProfile = {
 	name: string,
 	title: string,
 	bio: React.ReactNode,
 	image: string
 };
 
-export class MeetTheLeadsPage extends React.Component<Props, State> {
+export class MeetTheSMEsPage extends React.Component<Props, State> {
 	
-	public static readonly LEADS: LeadProfile[] = [
+	public static readonly SMEs: SMEProfile[] = [
 		{
 			name: "Kayden Mcmillan",
 			title: "Driver, Strategy SME, Build SME, & Design SME",
@@ -92,30 +92,30 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 	
 	public render(): React.ReactNode {
 		
-		let leads: React.ReactNode[] = [];
+		let SMEs: React.ReactNode[] = [];
 		let reversed: boolean = false;
 		
-		for (let lead of MeetTheLeadsPage.LEADS) {
+		for (let SME of MeetTheSMEsPage.SMES) {
 			
-			leads.push(
-				<TextImageBox image={lead.image}
-							  imageAlt={lead.name}
+			SMEs.push(
+				<TextImageBox image={SME.image}
+							  imageAlt={SME.name}
 							  reverse={reversed = !reversed}
-							  className={sanitizeStringToID(lead.name)}>
-					<div className="lead-header">
-						<h4>{lead.name}</h4>
-						<h6>{lead.title}</h6>
+							  className={sanitizeStringToID(SME.name)}>
+					<div className="SME-header">
+						<h4>{SME.name}</h4>
+						<h6>{SME.title}</h6>
 					</div>
-					{lead.bio}
+					{SME.bio}
 				</TextImageBox>
 			);
 			
 		}
 		
 		return (
-			<Page name="meet-the-leads">
-				<PageHeading>Meet the Leads</PageHeading>
-				{leads}
+			<Page name="meet-the-SMEs">
+				<PageHeading>Meet the SMEs</PageHeading>
+				{SMEs}
 			</Page>
 		);
 	
