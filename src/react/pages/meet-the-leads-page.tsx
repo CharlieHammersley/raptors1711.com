@@ -86,7 +86,7 @@ export class MeetTheLeadsPage extends React.Component<Props, State> {
 				they're not crying about Calc BC, Charlie can be found crocheting or writing.
 
 			</p>,
-			image: leadImageSageBrown // placeholder
+			image: leadImageSageBrown
 		}
 	];
 	
