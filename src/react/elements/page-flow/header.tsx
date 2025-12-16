@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "../logo";
 
+
 export type NavigationLinks = {
 	
 	[name: string]: string | {
