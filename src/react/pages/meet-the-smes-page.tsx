@@ -81,7 +81,7 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 		{
 			name: "Charlie Hammersley",
 			title: "Programming SME & Safety SME",
-			bio: <p>This is Charlie's 3rd competition season with the RAPTORS after joining their freshman year. In this time, they've 
+			bio: <p>This is Charlie's 3rd competition season with the RAPTORS after joining their freshman year. In this season, they've 
 				become a programming SME, safety SME, and secondary human player, although they occasionally help media. If 
 				they're not crying about Calc BC, Charlie can be found crocheting or writing.
 

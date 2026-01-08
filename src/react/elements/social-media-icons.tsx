@@ -3,6 +3,7 @@ import { ReactComponent as FacebookIcon } from "../../assets/images/icons/facebo
 import { ReactComponent as GitHubIcon } from "../../assets/images/icons/github.svg";
 import { ReactComponent as InstagramIcon } from "../../assets/images/icons/instagram.svg";
 import { ReactComponent as TwitterIcon } from "../../assets/images/icons/twitter.svg";
+import { ReactComponent as TikTokIcon } from "../../assets/images/icons/tiktok.svg"
 import { ReactComponent as SnapchatIcon } from "../../assets/images/icons/snapchat.svg";
 import React from "react";
 
@@ -35,10 +36,14 @@ export class SocialMediaIcons extends React.Component<Props, State> {
 				link: "http://twitter.com/Team1711Raptors",
 				component: <TwitterIcon />
 			},
-			"Snapchat": {
+			"TikTok": {
+				link: "https://www.tiktok.com/@theraptors1711",
+				component: <TikTokIcon />
+			},
+			/*"Snapchat": {
 				link: "https://www.snapchat.com/add/raptors_1711",
 				component: <SnapchatIcon />
-			},
+			},*/
 			"GitHub": {
 				link: "https://github.com/frc1711",
 				component: <GitHubIcon />
