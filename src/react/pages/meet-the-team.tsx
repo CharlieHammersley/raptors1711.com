@@ -23,7 +23,7 @@ export class MeetTheTeam extends React.Component<Props, State> {
 		{
 			content: (
 				<p>
-					Team 1711 The RAPTORS was formed in 2007 initially by Mr. John Failor and a small group of students eager
+					Team 1711 The RAPTORS was formed in 2006 initially by Mr. John Failor and a small group of students eager
 					to learn about FIRST Robotics. Our team meets multiple times per week year round, ramping up practices into 
 					the build season.
 				</p>
