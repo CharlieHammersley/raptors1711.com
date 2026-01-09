@@ -15,13 +15,14 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 13.x
-
+          node-version: 18.x
+          cache: 'npm'
+          
       - name: Install NPM packages
         run: npm ci
 
@@ -29,5 +30,4 @@ jobs:
         run: npm run build
 
       - name: Run tests
-        run: npm run test
-
+        run: npm test -- --watch=false
