@@ -1,11 +1,11 @@
 import "./meet-the-smes-page.scss";
-import leadImageGradyLuyt from "../../assets/images/leads/grady-luyt.jpg";
+//import leadImageGradyLuyt from "../../assets/images/leads/grady-luyt.jpg";
 import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
-import leadImageMilesLettinga from "../../assets/images/leads/miles-lettinga.jpg";
-import leadImageIanElder from "../../assets/images/leads/ian-elder.jpg";
-import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
+//import leadImageMilesLettinga from "../../assets/images/leads/miles-lettinga.jpg";
+//import leadImageIanElder from "../../assets/images/leads/ian-elder.jpg";
+//import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
 
-import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
+//import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
 import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.jpeg";
 import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.jpeg";
 import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.jpeg";
