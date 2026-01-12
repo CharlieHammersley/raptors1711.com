@@ -9,7 +9,7 @@ import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg
 import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.jpeg";
 import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.jpeg";
 import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.jpeg";
-import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.jpg";
+import smeImageKayden from "C:\Users\hammerslcha00\Documents\raptors1711.com\src\assets\images\smes\dt-kayden-headshot.jpeg";
 import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.jpg";
 
 import React from "react";
