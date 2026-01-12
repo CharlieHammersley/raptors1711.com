@@ -1,5 +1,5 @@
 import "./home.scss";
-import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
+//import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
 import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
