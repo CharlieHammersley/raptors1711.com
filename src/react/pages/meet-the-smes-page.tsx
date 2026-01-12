@@ -95,7 +95,7 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 		let SMEs: React.ReactNode[] = [];
 		let reversed: boolean = false;
 		
-		for (let SME of MeetTheSMEsPage.SMES) {
+		for (let SME of MeetTheSMEsPage.SMEs) {
 			
 			SMEs.push(
 				<TextImageBox image={SME.image}
