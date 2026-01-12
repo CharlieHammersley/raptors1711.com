@@ -10,7 +10,7 @@ import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.jpeg
 import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.jpeg";
 import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.jpeg";
 import smeImageKayden from "C:\Users\hammerslcha00\Documents\raptors1711.com\src\assets\images\smes\dt-kayden-headshot.jpeg";
-import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.jpg";
+import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.jpeg";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";
