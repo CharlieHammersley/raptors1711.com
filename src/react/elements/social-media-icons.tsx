@@ -4,7 +4,7 @@ import { ReactComponent as GitHubIcon } from "../../assets/images/icons/github.s
 import { ReactComponent as InstagramIcon } from "../../assets/images/icons/instagram.svg";
 import { ReactComponent as TwitterIcon } from "../../assets/images/icons/twitter.svg";
 import { ReactComponent as TikTokIcon } from "../../assets/images/icons/tiktok.svg"
-import { ReactComponent as SnapchatIcon } from "../../assets/images/icons/snapchat.svg";
+//import { ReactComponent as SnapchatIcon } from "../../assets/images/icons/snapchat.svg";
 import React from "react";
 
 export type Props = Readonly<{
