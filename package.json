@@ -4,18 +4,18 @@
 	"private": true,
 	"homepage": "https://raptors1711.com/",
 	"dependencies": {
-		"sass": "1.92.1",
-		"react": "18.3.1",
-		"react-dom": "18.3.1",
-		"react-router-dom": "7.8.2",
+		"sass": "1.97.2",
+		"react": "25.3",
+		"react-dom": "25.3",
+		"react-router-dom": "7.12",
 		"react-scripts": "5.0.1",
-		"typescript": "4.9.5",
-		"web-vitals": "^1.1.2"
+		"typescript": "5.9.3",
+		"web-vitals": "^5.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "18.15.3",
-		"@types/react": "18.3.24",
-		"@types/react-dom": "18.3.7"
+		"@types/node": "25.0.9",
+		"@types/react": "19.2.8",
+		"@types/react-dom": "19.2.3"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -42,6 +42,6 @@
 		]
 	},
 	"engines": {
-		"node": "18.x"
+		"node": "25.x"
 	}
 }
