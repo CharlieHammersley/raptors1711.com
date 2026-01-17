@@ -1,11 +1,12 @@
 import "./social-media-icons.scss";
-import { ReactComponent as FacebookIcon } from "../../assets/images/icons/facebook.svg";
-import { ReactComponent as GitHubIcon } from "../../assets/images/icons/github.svg";
-import { ReactComponent as InstagramIcon } from "../../assets/images/icons/instagram.svg";
-import { ReactComponent as TwitterIcon } from "../../assets/images/icons/twitter.svg";
-import { ReactComponent as TikTokIcon } from "../../assets/images/icons/tiktok.svg"
+import FacebookIcon from "../../assets/images/icons/facebook.svg?react";
+import GitHubIcon from "../../assets/images/icons/github.svg?react";
+import InstagramIcon from "../../assets/images/icons/instagram.svg?react";
+import TwitterIcon from "../../assets/images/icons/twitter.svg?react";
+import TikTokIcon from "../../assets/images/icons/tiktok.svg?react";
 //import { ReactComponent as SnapchatIcon } from "../../assets/images/icons/snapchat.svg";
 import React from "react";
+
 
 export type Props = Readonly<{
 	orientation: "vertical" | "horizontal",
