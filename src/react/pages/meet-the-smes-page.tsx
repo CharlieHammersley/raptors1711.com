@@ -6,11 +6,11 @@ import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
 //import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
 
 //import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
-import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.jpeg";
-import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.jpeg";
-import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.jpeg";
-import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.jpeg";
-import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.jpeg";
+import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.png";
+import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.png";
+import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.png";
+import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.png";
+import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.png";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";
