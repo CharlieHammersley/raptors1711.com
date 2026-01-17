@@ -15,9 +15,10 @@ export class Footer extends React.Component<Props, State> {
 				<FRCLogoHorizontalRule />
 				<div className="footer-content">
 					<div className="row">
-						<p className="repo-link">find this site on <a target="_blank" rel="noreferrer" href="https://github.com/frc1711/raptors1711.com">GitHub</a></p>
 						<SocialMediaIcons />
-						<p className="made-with-love">made with ❤️ by <a target="_blank" rel="noreferrer" href="https://github.com/T99">Trevor Sears</a></p>
+						<p className="team-info-ln1">The RAPTORS - FIRST Robotics Competition Team 1711 - raptors1711@gmail.com</p>
+						<p className="team-info-ln2">TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
+						<p className="repo-link">View this site on <a target="_blank" rel="noreferrer" href="https://github.com/frc1711/raptors1711.com">GitHub</a></p>
 					</div>
 				</div>
 			</footer>

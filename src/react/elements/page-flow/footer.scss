@@ -25,23 +25,24 @@ footer {
 			justify-content: space-between;
 			align-items: center;
 			
-			p.repo-link, p.made-with-love {
+			p.repo-link {
 				
 				flex: 1;
 				display: inline-block;
 				font-size: 0.7em;
+				color: #868686
 				
 				a {
 					
-					color: #8CA9EE;
+					color: #c2c2c2;
 					
 				}
 				
 			}
 			
-			p.made-with-love {
+			p.team-info-ln1, p.team-info-ln2  {
 				
-				text-align: right;
+				text-align: center;
 				
 			}
 			
