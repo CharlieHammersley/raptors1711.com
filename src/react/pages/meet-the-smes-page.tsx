@@ -83,7 +83,7 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 			title: "Programming SME & Safety SME",
 			bio: <p>This is Charlie's 3rd competition season with the RAPTORS after joining their freshman year. In this season, they've 
 				become a programming SME, safety SME, and secondary human player, although they occasionally help media. If 
-				they're not crying about Calc BC, Charlie can be found crocheting or writing.
+				they're not crying about Calculus, Charlie can be found crocheting or writing.
 
 			</p>,
 			image: leadImageSageBrown
