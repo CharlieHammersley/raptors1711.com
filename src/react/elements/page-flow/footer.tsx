@@ -9,37 +9,38 @@ export type State = Readonly<{}>;
 export class Footer extends React.Component<Props, State> {
     
     public render(): React.ReactNode {
-		
-		/*return (
-			<footer>
-				<FRCLogoHorizontalRule />
-				<div className="footer-content">
-					<div className="row">
-						<SocialMediaIcons />
-						<p className="team-info-ln1">The RAPTORS - FIRST Robotics Competition Team 1711 - raptors1711@gmail.com - TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
-						<p className="team-info-ln2"></p>
-						<p className="repo-link">View this site on <a target="_blank" rel="noreferrer" href="https://github.com/frc1711/raptors1711.com">GitHub</a></p>
-					</div>
-				</div>
-			</footer>
-		);*/
-
 		return (
-			<footer>
-				<div className="footer-content">
-					<div className="row-1">
-						<SocialMediaIcons />
-						<p className="team-info-ln1">The RAPTORS - FIRST Robotics Competition Team 1711 - raptors1711@gmail.com - TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
-						<p className="repo-link">View this site on <a target="_blank" rel="noreferrer" href="https://github.com/frc1711/raptors1711.com">GitHub</a></p>
+			<footer >
+				<hr/>
+				<div className="columns">
+					<div className="sponsor">
+						<h3>Sponsor Us</h3>
 					</div>
-					<div className="row-2">
-						<SocialMediaIcons />
-						<p className="team-info-ln1">The RAPTORS - FIRST Robotics Competition Team 1711 - raptors1711@gmail.com - TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
-						<p className="team-info-ln2"></p>
-						<p className="repo-link">View this site on <a target="_blank" rel="noreferrer" href="https://github.com/frc1711/raptors1711.com">GitHub</a></p>
+					<hr />
+    				<div className="navigate">
+						<h3>Navigate</h3>
+						<a href="https://raptors1711.com/">Home</a> <br />
+						<a href="https://raptors1711.com/meet-the-SMEs">Meet the SMEs</a><br />
+						<a href="https://raptors1711.com/meet-the-mentors">Meet the Mentors</a><br />
+						<a href="https://raptors1711.com/sponsorship">Sponsorship Opportunities</a><br />
+						<a href="https://raptors1711.com/contact-us">Contact Us</a>
+					</div>
+					<hr />
+    				<div className="stay-connected">
+						<h3>Stay Connected</h3>
+						<p>Contact Us: <u>raptors1711@gmail.com</u></p>
+						<p>The RAPTORS send out a monthly newsletter.</p>
+						<a href="https://forms.gle/QHoFpEftiZY6WB2M8" className="news-button" target="_blank"
+				   		rel="noopener noreferrer">Sign up for our newsletter!</a>
+						<SocialMediaIcons/>
 					</div>
 				</div>
-			</footer>
+				<FRCLogoHorizontalRule/>
+				<div className="bottom-row">
+						<p className="team-info">The RAPTORS - FIRST Robotics Competition Team 1711 - TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
+						<a className="repo-link" rel="noopener noreferrer" href="https://github.com/frc1711/raptors1711.com">Find this site on GitHub</a>
+					</div>
+  			</footer>
 		);
 		
 	}

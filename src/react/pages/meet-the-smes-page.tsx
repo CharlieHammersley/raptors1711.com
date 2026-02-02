@@ -72,8 +72,8 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 			name: "Milo Woodruff",
 			title: "Drive Coach & Strategy SME",
 			bio: <p>Joining his freshman year, Milo has been on the team for 3 competition seasons. In that time, he’s become our 
-				drive coach and strategy SME, but also helps with build and design aspects. In his spare time, Milo enjoys 
-				scouting matches and playing tennis.
+				drive coach and strategy SME, but also helps with many build and design aspects. In his spare time, Milo enjoys 
+				scouting matches, watching sports, and playing varsity tennis.
 				
 			</p>,
 			image: smeImageMilo

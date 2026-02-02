@@ -12,53 +12,77 @@ footer {
 	.logo-horizontal-rule {
 		
 		margin-bottom: 8px;
-		
-	}
-	
-	.footer-content {
-		
+		align-items: center;
+	}	
+
+	.columns {
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
 		padding: 0 $spacing / 2;
+
+		hr {
+			padding: 0;
+		}
 		
-		.row-1 {
-			
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			
-			p.repo-link {
-				
-				flex: 1;
-				display: inline-block;
-				font-size: 0.7em;
-				color: #868686
-				
-				a {
-					
-					color: #c2c2c2;
-					
-				}
-				
-			}
-			
-			p.team-info-ln1, p.team-info-ln2  {
-				
-				text-align: center;
-				
-			}
+		.stay-connected {
+			flex: 1;
+			text-align: center;
+			order: 1;
+			flex-direction: column;
+			gap: 16px;
 			
 			.social-media-icons {
-				
-				flex: 1;
-				
+				text-align: center;
+				margin-top: 26px;
 			}
-			
+
+			.news-button {
+				text-decoration: none;
+				position: relative;
+				top: 10px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px 6px; 
+				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+			}
 		}
 
-		.row-2 { 
-			display: flex;
-			align-items: center;
+		.navigate {
+			flex: 1;
+			text-align: center;
+
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				color: white;
+			}
+		}
+
+		.sponsor {
+			flex: 1;
+			text-align: center;
 		}
 		
 	}
+
+	.bottom-row {
+			text-align: center;
+			align-items: center;
+
+			.team-info { 
+				display: flex;
+				justify-content: space-between;
+				text-align: center;
+			}
+
+			.repo-link {
+				font-size: 0.8em;
+				color: #868686
+			}
+		}
 	
 }
