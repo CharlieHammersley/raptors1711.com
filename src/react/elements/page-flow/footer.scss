@@ -47,12 +47,74 @@ footer {
 			}
 			
 			.social-media-icons {
+<<<<<<< Updated upstream
 				
 				flex: 1;
 				
 			}
 			
 		}
+=======
+				text-align: center;
+				margin-top: 26px;
+			}
+
+			.news-button {
+				text-decoration: none;
+				position: relative;
+				top: 10px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px 6px; 
+				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+				&:visited {
+					color: white;
+				}
+			}
+		}
+
+		.navigate {
+			flex: 1;
+			text-align: center;
+
+			a {
+				text-decoration: underline;
+				color: white;
+			}
+			
+		}
+
+		.sponsor {
+			flex: 1;
+			text-align: center;
+			flex: 1;
+			text-align: center;
+			flex-direction: column;
+			p {
+				margin-bottom: 10px;
+			}		
+			a {
+				text-decoration: none;
+				position: relative;
+				top: 10px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px 6px; 
+				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+				
+				&:visited {
+					color: white;
+				}	
+			}
+			
+		}
+>>>>>>> Stashed changes
 		
 	}
 	

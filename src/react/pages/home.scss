@@ -1,8 +1,19 @@
 .page-home main {
 	
+	//align-items: center;
+	flex: 1;
+	text-align: center;
+	flex-direction: column;
 	img.banner-image {
 		
 		width: 100%;
+		padding: 10px 0;
+		
+	}
+
+	img.newsletter-image1, img.newsletter-image2 {
+		
+		width: 50%;
 		padding: 10px 0;
 		
 	}
@@ -10,7 +21,48 @@
 	p {
 		
 		text-align: justify;
+		margin-bottom: 16px;
+		justify-self: center;
 		
 	}
+	
+	.buttons {
+		.more-button {
+			margin-right:16px;
+			text-decoration: none;
+			position: relative;
+			top: 10px;
+			background: #203321;
+			font-weight: bold;
+			font-size: 1rem;
+			padding: 6px 6px; 
+			color: white;
+			border-radius: 3px;
+			border: 1px solid white;
+
+			&:visited {
+				color: white;
+			}
+		}
+
+		.history-button {
+			margin-left:16px;
+			text-decoration: none;
+			position: relative;
+			top: 10px;
+			background: #203321;
+			font-weight: bold;
+			font-size: 1rem;
+			padding: 6px 6px; 
+			color: white;
+			border-radius: 3px;
+			border: 1px solid white;
+
+			&:visited {
+				color: white;
+			}
+		}
+	}
+	
 	
 }

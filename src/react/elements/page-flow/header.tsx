@@ -34,11 +34,18 @@ export class Header extends React.Component<Props, State> {
 		
 		return {
 			"Home": "/home",
+			"About Us": "/about-us",
 			"Meet the Team": {
 				"Meet the Team": "/meet-the-team",
 				"Meet the SMEs": "/meet-the-SMEs",
 				"Meet the Mentors": "/meet-the-mentors",
 			},
+			"Our History": {
+				"Our History": "/team-history",
+				"2025 Season": "/history-25",
+				"2024 Season": "/history-24",
+			},
+			
 			"Sponsor/Donate": "/sponsorship",
 			"Contact Us": "/contact-us"
 		};
