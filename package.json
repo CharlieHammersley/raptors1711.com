@@ -4,6 +4,7 @@
 	"private": true,
 	"homepage": "https://raptors1711.com/",
 	"dependencies": {
+		"@devmade/express-hot-reload": "^1.0.5",
 		"react": "19.2.3",
 		"react-dom": "19.2.3",
 		"react-router-dom": "7.12.0",

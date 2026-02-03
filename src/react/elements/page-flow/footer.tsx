@@ -11,19 +11,26 @@ export class Footer extends React.Component<Props, State> {
     public render(): React.ReactNode {
 		return (
 			<footer >
+				<br />
 				<hr/>
 				<div className="columns">
 					<div className="sponsor">
 						<h3>Sponsor Us</h3>
+						<p>Interested in supporting the team? Write a check made out to “TCAPS” including “The RAPTORS” in the memo line, or</p>
+						<a rel="noopener noreferrer" 
+						href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog">
+						Become a Sponsor Today!</a>
+						
+					
 					</div>
 					<hr />
     				<div className="navigate">
 						<h3>Navigate</h3>
-						<a href="https://raptors1711.com/">Home</a> <br />
-						<a href="https://raptors1711.com/meet-the-SMEs">Meet the SMEs</a><br />
-						<a href="https://raptors1711.com/meet-the-mentors">Meet the Mentors</a><br />
-						<a href="https://raptors1711.com/sponsorship">Sponsorship Opportunities</a><br />
-						<a href="https://raptors1711.com/contact-us">Contact Us</a>
+						<a href="https://raptors1711.com/">Home&gt;</a> <br />
+						<a href="https://raptors1711.com/meet-the-SMEs">Meet the SMEs&gt;</a><br />
+						<a href="https://raptors1711.com/meet-the-mentors">Meet the Mentors&gt;</a><br />
+						<a href="https://raptors1711.com/sponsorship">Sponsorship Opportunities&gt;</a><br />
+						<a href="https://raptors1711.com/contact-us">Contact Us&gt;</a>
 					</div>
 					<hr />
     				<div className="stay-connected">

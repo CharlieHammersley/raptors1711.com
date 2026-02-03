@@ -1,6 +1,7 @@
 $pageWidth: 1000px;
 
-$backgroundColor: #233b22;
+$backgroundColor: #1b2b1b;
+$footerBackgroundColor: #182417;
 $foregroundColor: white;
 $firstBlue: #0066B3;
 $firstRed: #ED1C24;
@@ -9,6 +10,7 @@ $firstRed: #ED1C24;
 	
 	--page-width: #{$pageWidth};
 	--color-bg: #{$backgroundColor};
+	--color-fbg: #{$footerBackgroundColor};
 	--color-fg: #{$foregroundColor};
 	--color-first-blue: #{$firstBlue};
 	--color-first-red: #{$firstRed};
