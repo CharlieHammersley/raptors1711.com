@@ -3,8 +3,8 @@
 footer {
 	
 	$spacing: 10px;
-	
-	@include expandToMaxWidth();
+	width: 100%;
+	max-width: var(--max-header-footer-width);
 	
 	margin-bottom: $spacing;
 	background-color: var(--color-bg);

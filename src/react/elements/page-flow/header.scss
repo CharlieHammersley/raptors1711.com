@@ -1,10 +1,9 @@
 @import "../../../assets/styles/variables";
 
 header {
-	
 	$spacing: 10px;
-	
-	@include expandToMaxWidth();
+	width: 100%;
+	max-width: var(--max-header-footer-width);
 	
 	margin-top: $spacing;
 	background-color: var(--color-bg);
