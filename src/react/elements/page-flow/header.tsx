@@ -34,10 +34,22 @@ export class Header extends React.Component<Props, State> {
 		
 		return {
 			"Home": "/home",
+			"About Us": "/about-us",
 			"Meet the Team": {
 				"Meet the Team": "/meet-the-team",
 				"Meet the SMEs": "/meet-the-SMEs",
 				"Meet the Mentors": "/meet-the-mentors",
+			},
+			"History": {
+				"History": "/history",
+				"2025 Season": "/history-2025",
+				"2024 Season": "/history-2024",
+				/*"2023 Season": "/history-2025",
+				"2022 Season": "/history-2024",
+				"2021 Season": "/history-2025",
+				"2019 Season": "/history-2024",
+				"2018 Season": "/history-2025",
+				"2017 Season": "/history-2024",*/
 			},
 			"Sponsor/Donate": "/sponsorship",
 			"Contact Us": "/contact-us"

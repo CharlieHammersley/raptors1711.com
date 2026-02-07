@@ -20,8 +20,6 @@ export class Footer extends React.Component<Props, State> {
 						<a rel="noopener noreferrer" 
 						href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog">
 						Become a Sponsor Today!</a>
-						
-					
 					</div>
 					<hr />
     				<div className="navigate">

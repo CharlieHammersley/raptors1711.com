@@ -1,6 +1,7 @@
 import "./home.scss";
 //import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
-import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
+//import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
+import fullTeamPhoto from "../../assets/images/drone-shot-team-photo-loft.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 
@@ -13,7 +14,7 @@ export class Home extends React.Component<Props, State> {
     	
     	return (
 			<Page name="home">
-				<img src={driveTeamPhoto}
+				<img src={fullTeamPhoto}
 					 alt="The Raptors at their 2019 kickoff event."
 				     className="banner-image" />
 				<p>
@@ -24,6 +25,8 @@ export class Home extends React.Component<Props, State> {
 					RAPTORS are about encouraging innovation in all academic pursuits and fostering a culture that
 					supports all learning endeavors.
 				</p>
+				<a href="https://raptors1711.com/about-us">Learn More</a>
+				<a href="https://raptors1711.com/history">Team History</a>
 			</Page>
 		);
 		
