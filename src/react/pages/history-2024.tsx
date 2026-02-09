@@ -1,6 +1,6 @@
 import "./history-2024.scss";
 import React from "react";
-import historyPhoto from "../../assets/images/artemis-in-action.png";
+import historyPhoto from "../../assets/images/artemis-in-action.PNG";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
 
