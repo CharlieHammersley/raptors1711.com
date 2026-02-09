@@ -1,5 +1,5 @@
 import "./sponsor-us.scss";
-import mitvcBlueBanner from "../../assets/images/mitvc-district-championship-banner.jpg";
+import sponsorPhoto from "../../assets/images/ribbon-cutting.jpg";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
@@ -14,9 +14,8 @@ export class SponsorUs extends React.Component<Props, State> {
     	return (
 			<Page name="sponsor-us">
 				<PageHeading>Sponsorship Opportunities</PageHeading>
-				<img src={mitvcBlueBanner}
-					 alt="RAPTORS team members showing off the blue banner that they received after winning their
-					      Traverse City district competition."/>
+				<img src={sponsorPhoto}
+					 alt="RAPTORS team members at the Innovation and Manufacturing Center ribbon cutting ceremony."/>
 				<p>
 					TC Central's RAPTORS Robotics Team 1711 is heading into the 2026 season with a new robot.
 					The registration fees and travel expenses are significant, so any amount is greatly appreciated!

@@ -2,6 +2,7 @@ import "./history-2025.scss";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
+import historyPhoto from "../../assets/images/scylla-standard.jpg";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -13,6 +14,7 @@ export class History2025 extends React.Component<Props, State> {
         return (
             <Page name="history-2025">
                 <PageHeading>2025 Season</PageHeading>
+                <img src={historyPhoto} alt="Our 2025 bot, Scylla."/>
                 <div className="game">
                     <h2>The Game - Reefscape</h2>
                     <p>Included in FIRST DIVE, this year’s game was water and coral reef inspired; Reefscape was pick and place game, 

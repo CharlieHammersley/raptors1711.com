@@ -1,5 +1,6 @@
 import "./history-2024.scss";
 import React from "react";
+import historyPhoto from "../../assets/images/artemis-in-action.png";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
 
@@ -13,6 +14,8 @@ export class History2024 extends React.Component<Props, State> {
         return (
             <Page name="history-2024">
                 <PageHeading>2024 Season</PageHeading>
+                <img src={historyPhoto}
+                                     alt="Our 2024 bot, Artemis."/>
                 <div className="game">
                     <h2>The Game - Reefscape</h2>
                     <p>This year’s game theme was music; Crescendo was a shooting game in which two alliances of three teams would compete to score the most points by 
