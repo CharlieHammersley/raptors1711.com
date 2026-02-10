@@ -21,7 +21,7 @@ export class History2024 extends React.Component<Props, State> {
                     <p>This year’s game theme was music; Crescendo was a shooting game in which two alliances of three teams would compete to score the most points by 
                         completing various tasks. These included scoring rings, called Notes, into a tall goal, called the Speaker, as well as climbing onto a chain at 
                         the end of the game.
-                        <a href="https://en.wikipedia.org/wiki/Reefscape"> Learn more about Crescendo.</a>
+                        <a href="https://en.wikipedia.org/wiki/Crescendo_(FIRST)"> Learn more about Crescendo.</a>
                     </p>
                 </div>
                 <div className="season">
