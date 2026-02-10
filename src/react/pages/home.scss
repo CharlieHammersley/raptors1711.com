@@ -11,17 +11,58 @@
 		outline: 2px solid white;
 		
 	}
+	.news {
+		margin-top: 25px;
+
+		p {
+			text-align: center;
+			margin-bottom: 10px;
+			text-indent: 0px;
+		}
+
+		a.news-button {
+			text-decoration: underline;
+			color: white;
+			position: relative;
+			font-weight: bold;
+
+
+			&:visited {
+				color: white;
+			}
+		}
+	}
+
+	img.newsletter1 {
+		border-left: 3px solid transparent;
+		border-top: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+
+		outline: 2px solid white;
+		width: 50%;
+	}
+
+	img.newsletter2 {
+		border-right: 3px solid transparent;
+		border-top: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+
+		outline: 2px solid white;
+		width: 50%;
+	}
 	
 	p {
-		
+		text-indent: 50px;
 		text-align: justify;
 		
 	}
 
-	a {
+	a.history-button, a.about-us-button {
+		margin-right: 10px;
+		margin-left: 10px;
 		text-decoration: none;
 		position: relative;
-		top: 10px;
+		top: 15px;
 		background: #203321;
 		font-weight: bold;
 		font-size: 1rem;

@@ -24,6 +24,7 @@ export class History2025 extends React.Component<Props, State> {
                         <a href="https://en.wikipedia.org/wiki/Reefscape"> Learn more about Reefscape.</a>
                     </p>
                 </div>
+                <br />
                 <div className="season">
                     <h2>Our Season - 2025</h2>
                     <p>After the 2024 season, we lost much of our team as graduating seniors. Due to this, there was a vacuum of experience as the team consisted of only one senior and 
@@ -51,7 +52,15 @@ export class History2025 extends React.Component<Props, State> {
                         to be a bad season and made it a good one, gearing us up for an even better 2026. Thank you to all of our sponsors, mentors, and contributors! Your help is greatly appreciated!
                     </p>
                 </div>
-                <div className="robot"></div>
+                <br />
+                <div className="robot">
+                    <h2>Our Robot - Scylla</h2>
+                    <p>
+                        Pronounced Sill-uh, our bot was medium-sized, designed to quickly score coral at all levels of the Reef. Scylla uses a tiered elevator system to lift the coral up and score using a 
+                        compliance star mechanism. Our design was heavily inspired by this season’s theme, including many aspects reflecting our beach town home. 
+                    </p>
+                </div>
+                <br />
                 <div className="gallery"></div>
                 
             </Page>

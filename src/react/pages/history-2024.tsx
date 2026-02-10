@@ -14,8 +14,7 @@ export class History2024 extends React.Component<Props, State> {
         return (
             <Page name="history-2024">
                 <PageHeading>2024 Season</PageHeading>
-                <img src={historyPhoto}
-                                     alt="Our 2024 bot, Artemis."/>
+                <img src={historyPhoto} alt="Our 2024 bot, Artemis."/>
                 <div className="game">
                     <h2>The Game - Reefscape</h2>
                     <p>This year’s game theme was music; Crescendo was a shooting game in which two alliances of three teams would compete to score the most points by 
@@ -24,6 +23,7 @@ export class History2024 extends React.Component<Props, State> {
                         <a href="https://en.wikipedia.org/wiki/Crescendo_(FIRST)"> Learn more about Crescendo.</a>
                     </p>
                 </div>
+                <br />
                 <div className="season">
                     <h2>Our Season - 2024</h2>
                     <p>
@@ -45,7 +45,17 @@ export class History2024 extends React.Component<Props, State> {
                         of the season, the team persevered through a difficult schedule and some technical failures to secure a high-note ending for the 2024 season.
                     </p>
                 </div>
-                <div className="robot"></div>
+                <br />
+                <div className="robot">
+                    <h2>Our Robot - Artemis</h2>
+                    <p>
+                        Our 2024 bot, Artemis, is a low-to-the-ground bot intended to make quick cycles into the speaker. Artemis has a ground intake through a hole in the pan, 
+                        directly feeding our shooting mechanism. Our shooter has a mode for scoring into the Amplifier, where notes are shot upward and are deflected back into the 
+                        Amplifier by a Lexan sheet. The bot also has two “Raptor Claws” that can hook onto the chain for a quick climb. In a match, Artemis has such a low profile 
+                        it’s able to traverse under the stage and avoid most defense.
+                    </p>
+                </div>
+                <br />
                 <div className="gallery"></div>
                 
             </Page>

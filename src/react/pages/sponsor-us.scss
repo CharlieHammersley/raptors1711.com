@@ -4,13 +4,19 @@
 	flex-direction: column;
 	align-items: center;
 	
-	img {
+	img.header-photo {
 		
 		max-width: 80%;
 		border: 5px solid transparent;
 		outline: 2px solid white;
 		margin-bottom: 30px;
 		
+	}
+
+	img.sponsor-photo {
+		max-width: 80%;
+		margin-bottom: -250px;
+		margin-top: -50px;
 	}
 	
 	p {
