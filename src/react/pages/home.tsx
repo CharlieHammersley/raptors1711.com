@@ -1,7 +1,7 @@
 import "./home.scss";
 //import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
 //import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
-import fullTeamPhoto from "../../assets/images/drone-shot-team-photo-loft.png";
+import fullTeamPhoto from "../../assets/images/drone-shot-team-photo.png";
 import latestNews1 from "../../assets/images/newsletters/jan-news-1.png";
 import latestNews2 from "../../assets/images/newsletters/jan-news-2.png";
 import React from "react";
@@ -19,6 +19,7 @@ export class Home extends React.Component<Props, State> {
 				<img src={fullTeamPhoto}
 					alt="The Raptors at their 2019 kickoff event."
 				    className="banner-image" />
+				<br />
 				<p>
 					FIRST Robotics Team 1711, the RAPTORS, are a nationally competitive FIRST robotics team based in
 					Traverse City, Michigan. We pride ourselves on our relentless commitment to community outreach,

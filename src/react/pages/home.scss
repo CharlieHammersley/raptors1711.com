@@ -2,6 +2,9 @@
 
 	align-items: center;
 	text-align: center;
+	p {
+		margin-top: 10px;
+	}
 
 	img.banner-image {
 		
@@ -9,8 +12,10 @@
 		padding: 10px 0;
 		border: 2px solid transparent;
 		outline: 2px solid white;
+		align-self: center;
 		
 	}
+
 	.news {
 		margin-top: 25px;
 
