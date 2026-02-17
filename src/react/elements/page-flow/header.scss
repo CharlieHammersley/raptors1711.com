@@ -49,12 +49,16 @@ header {
 					&:hover:before, &:hover:after{
 						
 						opacity: 1;
-						
 					}
-					
+
+					&:hover {
+						
+						text-decoration: underline;
+					}
+
 					&:before, &:after {
 						
-						content: " — ";
+						//content: " — ";
 						position: absolute;
 						white-space: pre;
 						opacity: 0;
