@@ -3,7 +3,7 @@
 footer {
 	
 	$spacing: 10px;
-	width: 100%;
+	width: 110%;
 	max-width: var(--max-header-footer-width);
 	
 	margin-bottom: $spacing;
@@ -68,9 +68,9 @@ footer {
 			flex: 1;
 			text-align: center;
 			flex-direction: column;
-			p {
+			.buffer {
 				margin-bottom: 10px;
-			}		
+			}	
 			a {
 				text-decoration: none;
 				position: relative;

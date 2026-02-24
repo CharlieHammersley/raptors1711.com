@@ -16,7 +16,8 @@ export class Footer extends React.Component<Props, State> {
 				<div className="columns">
 					<div className="sponsor">
 						<h3>Sponsor Us</h3>
-						<p>Interested in supporting the team? Write a check made out to “TCAPS” including “The RAPTORS” in the memo line, or</p>
+						<p>Interested in supporting the team?</p>
+						<p className="buffer">Write a check made out to “TCAPS” including “The RAPTORS” in the memo line, or</p>
 						<a rel="noopener noreferrer" 
 						href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog">
 						Become a Sponsor Today!</a>

@@ -110,7 +110,7 @@ export class Header extends React.Component<Props, State> {
 		return (
 			<header>
 				<div className="header-content">
-					<Logo>RAPTOR<br/>Robotics</Logo>
+					<Logo>Raptors<br/>Team 1711</Logo>
 					<nav>
 						{ navigationContent }
 					</nav>
