@@ -2,8 +2,47 @@
 	
 	.text-image-box:first-of-type {
 			
-		margin-top: 10px;
+		margin-top: 50px;
 		
 	}
+
+	.text-box {
+		.section-title {
+			display: flex;
+			align-items: baseline;
+			justify-content: center;
+			flex-wrap: wrap;
+			margin-bottom: 5px;
+			padding: 1 5px;
+		}
+	}
+
+	.subteams {
+		align-items: center;
+		text-align: center;
+		margin-bottom: 50px;
+
+		.smes-button {
+			margin-right: 10px;
+			margin-left: 10px;
+			text-decoration: none;
+			position: relative;
+			top: 15px;
+			background: #203321;
+			font-weight: bold;
+			font-size: 1rem;
+			padding: 6px  6px; 
+			color: white;
+			border-radius: 3px;
+			border: 1px solid white;
+
+			&:visited {
+			
+				color: white;
+
+			}
+		}
+	}
+	
 	
 }

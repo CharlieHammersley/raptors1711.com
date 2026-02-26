@@ -17,6 +17,8 @@ export class AboutUs extends React.Component<Props, State> {
                 <PageHeading>About Us</PageHeading>
                 <img src={aboutUsPhoto} alt="Our 2025 bot, Scylla."/>
                 <p>
+                    Team 1711 The RAPTORS was formed in 2006 initially by Mr. John Failor and a small group of students eager to learn about FIRST Robotics. 
+                    Our team meets multiple times per week year round, ramping up practices into the build season.
                     RAPTORS stands for Robots and People Transmitting Objective Radical Synergy. Team 1711 is heavily involved in our community, 
                     especially through connecting with younger students. Our biggest annual event is Super Science Saturday, which encourages elementary
                     school students to develop an interest in STEM through hands-on activities and guest speakers. The RAPTORS love to have fun in and
