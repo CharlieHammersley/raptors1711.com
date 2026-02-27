@@ -2,8 +2,8 @@ import "./home.scss";
 //import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
 //import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
 import fullTeamPhoto from "../../assets/images/drone-shot.png";
-import latestNews1 from "../../assets/images/newsletters/jan-news-1.png";
-import latestNews2 from "../../assets/images/newsletters/jan-news-2.png";
+import latestNews1 from "../../assets/images/newsletters/feb-news-1.png";
+import latestNews2 from "../../assets/images/newsletters/feb-news-2.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 
