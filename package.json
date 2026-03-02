@@ -13,7 +13,7 @@
 		"web-vitals": "^5.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "25.0.9",
+		"@types/node": "24.14.0",
 		"@types/react": "19.2.8",
 		"@types/react-dom": "19.2.3",
 		"@vitejs/plugin-react": "^5.1.2",
@@ -44,6 +44,6 @@
 		]
 	},
 	"engines": {
-		"node": "25.x"
+		"node": "24.x"
 	}
 }
