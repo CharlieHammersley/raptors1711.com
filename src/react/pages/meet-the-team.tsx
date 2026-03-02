@@ -167,7 +167,7 @@ export class MeetTheTeam extends React.Component<Props, State> {
 						Experts, or SMEs, are leaders in their specific Subteams. They’re the most knowledgeable in their specialty and must 
 						meet many requirements to become one.
 					</p>
-					<a className="smes-button" href="https://raptors1711.com/meet-the-SMEs">Meet the SMEs</a>
+					<a className="smes-button" href="/meet-the-SMEs">Meet the SMEs</a>
 				</div>
 				{sections}
 			</Page>

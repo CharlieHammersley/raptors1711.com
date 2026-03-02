@@ -23,8 +23,8 @@ export class History extends React.Component<Props, State> {
                     play an integral role in the well being of team 1711.
                 </p>
                 <ul>
-                    <li><a href="https://raptors1711.com/history-2025">2025 Season</a></li>
-                    <li><a href="https://raptors1711.com/history-2024">2024 Season</a></li>
+                    <li><a href="/history-2025">2025 Season</a></li>
+                    <li><a href="/history-2024">2024 Season</a></li>
                 </ul>
             </Page>
         );

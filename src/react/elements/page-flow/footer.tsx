@@ -25,11 +25,11 @@ export class Footer extends React.Component<Props, State> {
 					<hr />
     				<div className="navigate">
 						<h3>Navigate</h3>
-						<a href="https://raptors1711.com/">Home&gt;</a> <br />
-						<a href="https://raptors1711.com/meet-the-SMEs">Meet the SMEs&gt;</a><br />
-						<a href="https://raptors1711.com/meet-the-mentors">Meet the Mentors&gt;</a><br />
-						<a href="https://raptors1711.com/sponsorship">Sponsorship Opportunities&gt;</a><br />
-						<a href="https://raptors1711.com/contact-us">Contact Us&gt;</a>
+						<a href="/">Home&gt;</a> <br />
+						<a href="/meet-the-SMEs">Meet the SMEs&gt;</a><br />
+						<a href="/meet-the-mentors">Meet the Mentors&gt;</a><br />
+						<a href="/sponsorship">Sponsorship Opportunities&gt;</a><br />
+						<a href="/contact-us">Contact Us&gt;</a>
 					</div>
 					<hr />
     				<div className="stay-connected">
