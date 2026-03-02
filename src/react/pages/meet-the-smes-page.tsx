@@ -1,6 +1,6 @@
 import "./meet-the-smes-page.scss";
 //import leadImageGradyLuyt from "../../assets/images/leads/grady-luyt.jpg";
-import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
+//import leadImageSageBrown from "../../assets/images/leads/sage-brown.jpg";
 //import leadImageMilesLettinga from "../../assets/images/leads/miles-lettinga.jpg";
 //import leadImageIanElder from "../../assets/images/leads/ian-elder.jpg";
 //import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
@@ -11,6 +11,7 @@ import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.png";
 import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.png";
 import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.png";
 import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.png";
+import smeImageCharlie from "../../assets/images/smes/dt-charlie-headshot.png";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";
@@ -90,7 +91,7 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 				become a programming SME, safety SME, and secondary human player, although they occasionally help media. If 
 				they're not crying about Calculus, Charlie can be found crocheting or writing.
 			</p>,
-			image: leadImageSageBrown
+			image: smeImageCharlie
 		}
 	];
 	
