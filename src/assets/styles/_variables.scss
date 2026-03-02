@@ -1,6 +1,8 @@
 $pageWidth: 1000px;
+$maxHeaderFooterWidth: 2050px;
 
-$backgroundColor: #282C34;
+$backgroundColor: #162116;
+$footerBackgroundColor: #162116;
 $foregroundColor: white;
 $firstBlue: #0066B3;
 $firstRed: #ED1C24;
@@ -9,9 +11,11 @@ $firstRed: #ED1C24;
 	
 	--page-width: #{$pageWidth};
 	--color-bg: #{$backgroundColor};
+	--color-fbg: #{$footerBackgroundColor};
 	--color-fg: #{$foregroundColor};
 	--color-first-blue: #{$firstBlue};
 	--color-first-red: #{$firstRed};
+	--max-header-footer-width: #{$maxHeaderFooterWidth};
 	
 }
 

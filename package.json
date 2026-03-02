@@ -4,24 +4,26 @@
 	"private": true,
 	"homepage": "https://raptors1711.com/",
 	"dependencies": {
-		"sass": "1.92.1",
-		"react": "18.3.1",
-		"react-dom": "18.3.1",
-		"react-router-dom": "7.8.2",
-		"react-scripts": "5.0.1",
-		"typescript": "4.1.6",
-		"web-vitals": "^1.1.2"
+		"@devmade/express-hot-reload": "^1.0.5",
+		"react": "19.2.3",
+		"react-dom": "19.2.3",
+		"react-router-dom": "7.12.0",
+		"sass": "1.97.2",
+		"typescript": "5.9.3",
+		"web-vitals": "^5.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "18.15.3",
-		"@types/react": "18.3.24",
-		"@types/react-dom": "18.3.7"
+		"@types/node": "24.8.0",
+		"@types/react": "19.2.8",
+		"@types/react-dom": "19.2.3",
+		"@vitejs/plugin-react": "^5.1.2",
+		"vite": "^7.3.1",
+		"vite-plugin-svgr": "^4.5.0"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test --passWithNoTests",
-		"eject": "react-scripts eject"
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -42,6 +44,6 @@
 		]
 	},
 	"engines": {
-		"node": "22.x"
+		"node": "24.x"
 	}
 }

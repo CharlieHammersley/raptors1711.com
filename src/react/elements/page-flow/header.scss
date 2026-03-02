@@ -1,13 +1,13 @@
 @import "../../../assets/styles/variables";
 
 header {
-	
 	$spacing: 10px;
-	
-	@include expandToMaxWidth();
+	width: 100%;
+	max-width: var(--max-header-footer-width);
+	padding: 0 20px;
 	
 	margin-top: $spacing;
-	background-color: var(--color-bg);
+	background-color: var(--color-fbg);
 	
 	div.header-content {
 		
@@ -50,12 +50,16 @@ header {
 					&:hover:before, &:hover:after{
 						
 						opacity: 1;
-						
 					}
-					
+
+					&:hover {
+						
+						text-decoration: underline;
+					}
+
 					&:before, &:after {
 						
-						content: " — ";
+						//content: " — ";
 						position: absolute;
 						white-space: pre;
 						opacity: 0;

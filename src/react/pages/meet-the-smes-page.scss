@@ -1,0 +1,31 @@
+.page-meet-the-SMEs main {
+	
+	.text-image-box {
+		
+		.text-box {
+			
+			.SME-header {
+				
+				display: flex;
+				align-items: baseline;
+				justify-content: center;
+				flex-wrap: wrap;
+				margin-bottom: 5px;
+				padding: 1 5px;
+				//white-space: nowrap;
+				
+				h4 {
+					font-size: 1.7rem;
+				}
+				
+				h6 {
+					font-size: 1.1rem;
+				}
+				
+			}
+			
+		}
+		
+	}
+
+}

@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "../logo";
 
+
 export type NavigationLinks = {
 	
 	[name: string]: string | {
@@ -33,10 +34,22 @@ export class Header extends React.Component<Props, State> {
 		
 		return {
 			"Home": "/home",
+			"About Us": "/about-us",
 			"Meet the Team": {
 				"Meet the Team": "/meet-the-team",
-				"Meet the Leads": "/meet-the-leads",
+				"Meet the SMEs": "/meet-the-SMEs",
 				"Meet the Mentors": "/meet-the-mentors",
+			},
+			"History": {
+				"History": "/history",
+				"2025 Season": "/history-2025",
+				"2024 Season": "/history-2024",
+				/*"2023 Season": "/history-2025",
+				"2022 Season": "/history-2024",
+				"2021 Season": "/history-2025",
+				"2019 Season": "/history-2024",
+				"2018 Season": "/history-2025",
+				"2017 Season": "/history-2024",*/
 			},
 			"Sponsor/Donate": "/sponsorship",
 			"Contact Us": "/contact-us"
@@ -97,7 +110,7 @@ export class Header extends React.Component<Props, State> {
 		return (
 			<header>
 				<div className="header-content">
-					<Logo>RAPTOR<br/>Robotics</Logo>
+					<Logo>Raptors<br/>Team 1711</Logo>
 					<nav>
 						{ navigationContent }
 					</nav>

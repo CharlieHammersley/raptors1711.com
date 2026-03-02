@@ -3,56 +3,103 @@
 footer {
 	
 	$spacing: 10px;
+	width: 100%;
+	max-width: var(--max-header-footer-width);
 	
-	@include expandToMaxWidth();
+	padding-bottom: $spacing;
+	background-color: #111612;
+
+	font-size: .9rem;
 	
-	margin-bottom: $spacing;
-	background-color: var(--color-bg);
-	
-	.frc-logo-horizontal-rule {
+	.logo-horizontal-rule {
 		
 		margin-bottom: 8px;
+		align-items: center;
+	}	
+
+	.columns {
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 calc($spacing / 2);
+
+		hr {
+			padding: 0;
+		}
 		
-	}
-	
-	.footer-content {
-		
-		padding: 0 $spacing / 2;
-		
-		.row {
-			
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			
-			p.repo-link, p.made-with-love {
-				
-				flex: 1;
-				display: inline-block;
-				font-size: 0.7em;
-				
-				a {
-					
-					color: #8CA9EE;
-					
-				}
-				
-			}
-			
-			p.made-with-love {
-				
-				text-align: right;
-				
-			}
+		.stay-connected {
+			flex: 1;
+			text-align: center;
+			flex-direction: column;
 			
 			.social-media-icons {
-				
-				flex: 1;
-				
+				text-align: center;
+				margin-top: 26px;
+			}
+
+			.news-button {
+				text-decoration: none;
+				position: relative;
+				top: 10px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px 6px; 
+				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+			}
+		}
+
+		.navigate {
+			flex: 1;
+			text-align: center;
+
+			a {
+				text-decoration: underline;
+				color: white;
 			}
 			
 		}
+
+		.sponsor {
+			flex: 1;
+			text-align: center;
+			flex: 1;
+			text-align: center;
+			flex-direction: column;
+			.buffer {
+				margin-bottom: 10px;
+			}	
+			a {
+				text-decoration: none;
+				position: relative;
+				top: 10px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px 6px; 
+				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+			}
+		}
 		
 	}
+
+	.bottom-row {
+			text-align: center;
+			align-items: center;
+
+			.team-info { 
+				justify-content: space-between;
+				text-align: center;
+			}
+
+			.repo-link {
+				font-size: 0.8em;
+				color: #868686
+			}
+		}
 	
 }
