@@ -3,10 +3,10 @@
 footer {
 	
 	$spacing: 10px;
-	width: 110%;
+	width: 100%;
 	max-width: var(--max-header-footer-width);
 	
-	margin-bottom: $spacing;
+	padding-bottom: $spacing;
 	background-color: #111612;
 
 	font-size: .9rem;

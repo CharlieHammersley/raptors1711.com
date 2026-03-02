@@ -3,10 +3,10 @@
 .page {
 	
 	height: 100%;
-	padding: 0 20px;
+	//padding: 0 20px;
 	overflow: auto;
 
-	min-height: 1000px;
+	min-height: 100vh;
 
 	background-color: var(--color-bg);
 	color: var(--color-fg);
