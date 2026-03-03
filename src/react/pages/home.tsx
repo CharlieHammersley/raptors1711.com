@@ -34,7 +34,6 @@ export class Home extends React.Component<Props, State> {
 				<div className="news">
 					<h2>News</h2>
 					<p>The RAPTORS finished off a successful 2025 season with REEFSCAPE and are now exited to move into FIRST AGE. We publish a monthly Newsletter, sign up <a target="_blank" className="news-button" rel="noopener noreferrer" href="https://forms.gle/QHoFpEftiZY6WB2M8">Here</a>.</p>
-
 					<img className="newsletter1" src={latestNews1} alt="Our Latest Newsletter, Page 1." />
 					<img className="newsletter2" src={latestNews2} alt="Our Latest Newsletter, Page 2." />
 				</div>
