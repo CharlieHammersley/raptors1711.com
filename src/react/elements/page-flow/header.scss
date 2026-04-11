@@ -5,6 +5,9 @@ header {
 	width: 100%;
 	max-width: var(--max-header-footer-width);
 	padding: 0 20px;
+	position: sticky;
+	top: 0;
+	z-index: 999;
 	
 	margin-top: $spacing;
 	background-color: var(--color-fbg);
