@@ -2,6 +2,8 @@ import "./header.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "../logo";
+import logoImage from "/src/assets/images/team-gear-logo-white.png";
+
 
 
 export type NavigationLinks = {
@@ -111,11 +113,12 @@ export class Header extends React.Component<Props, State> {
 			<header>
 				<div className="header-content">
 					<Logo>Raptors<br/>Team 1711</Logo>
+					<img src={logoImage} alt="RAPTORS Logo" className="logoImage"/>
 					<nav>
 						{ navigationContent }
 					</nav>
 				</div>
-				<hr />
+				
 			</header>
 		);
 		

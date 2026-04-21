@@ -9,13 +9,20 @@ header {
 	top: 0;
 	z-index: 999;
 	
-	margin-top: $spacing;
-	background-color: var(--color-fbg);
+	//margin-top: $spacing;
+	background-color: #111612;
 	
 	div.header-content {
-		
+		margin-top: $spacing;
+		margin-bottom: $spacing;
 		display: flex;
 		padding: 0 $spacing;
+
+		img {
+			align-self: center;
+			width: 4%;
+			height: 4%;
+		}
 		
 		.logo {
 			

@@ -1,6 +1,6 @@
 import "./footer.scss";
 import React from "react";
-import { FRCLogoHorizontalRule } from "../logo-horizontal-rule";
+import { LogoHorizontalRule } from "../logo-horizontal-rule";
 import { SocialMediaIcons } from "../social-media-icons";
 
 export type Props = Readonly<{}>;
@@ -11,8 +11,8 @@ export class Footer extends React.Component<Props, State> {
     public render(): React.ReactNode {
 		return (
 			<footer >
-				<br />
 				<hr/>
+				
 				<div className="columns">
 					<div className="sponsor">
 						<h3>Sponsor Us</h3>
@@ -41,7 +41,7 @@ export class Footer extends React.Component<Props, State> {
 						<SocialMediaIcons/>
 					</div>
 				</div>
-				<FRCLogoHorizontalRule/>
+				<LogoHorizontalRule/>
 				<div className="bottom-row">
 						<p className="team-info">The RAPTORS - FIRST Robotics Competition Team 1711 - TC Central High School - 1150 Milliken Drive - Traverse City - MI 49686</p>
 						<a className="repo-link" rel="noopener noreferrer" href="https://github.com/frc1711/raptors1711.com">Find this site on GitHub</a>

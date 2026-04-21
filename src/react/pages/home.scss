@@ -1,110 +1,133 @@
+@import "/src/assets/styles/variables";
+
 .page-home main { 
 	//max-width: var(--page-width);
 	align-items: center;
 	text-align: center;
+	margin-bottom: 30px;
+	$spacing: 10px;
+
 	img.banner-image {
 		
 		width: 100vw;
 		height: 100vh;
+		//width: 100%;
+		
 		overflow: hidden;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		z-index: -1;
 		object-fit: cover;
-		
-
-		//height: 80%;
-		//object-fit: cover;
-		//padding: 5px 5px;
-		//border: 2px solid transparent;
-		//outline: 2px solid white;
 		align-self: center;
-		//border-radius: 30px;
+		
+
+		/*height: 80%;
+		object-fit: cover;
+		padding: 5px 5px;
+		border: 2px solid transparent;
+		outline: 2px solid white;
+		border-radius: 30px;*/
 		
 	}
 
-	.reg-width {
-	max-width: var(--page-width);
-	margin: 0 auto;
-	
-	p {
-		margin-top: 10px;
-	}
+	.front-image-block {
+		position: relative;
+		width: 100%;
+		overflow:hidden;
 
-	
-
-	.news {
-		max-width: var(--page-width);
-		margin-top: 35px;
-
-		p {
-			text-align: center;
-			margin-bottom: 10px;
-			text-indent: 0px;
+		img {
+			width: 100vw;
+			height: 100vh;
 		}
 
-		a.news-button {
-			text-decoration: underline;
-			color: white;
-			position: relative;
-			font-weight: bold;
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
 
+			background: rgba(0, 0, 0, 0.6);
+			backdrop-filter: blur(.2px);
+		}
 
-			&:visited {
+		.overlay-text {
+			position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
+    
+    		color: white;
+    		text-align: center;
+    		z-index: 2;
+			
+			.logo {
+			
+				display: inline-block;
+				margin-right: $spacing;
+				font-size: 7vh;
+				padding: 10px 10px;
+			
+			}
+
+			p {
+				padding: 5px 5px;
+			}
+
+			a {
+				max-width: var(--page-width);
+				margin-right: 10px;
+				margin-left: 10px;
+				text-decoration: none;
+				position: relative;
+				top: 15px;
+				background: #203321;
+				font-weight: bold;
+				font-size: 1rem;
+				padding: 6px  6px; 
 				color: white;
+				border-radius: 3px;
+				border: 1px solid white;
+
+				&:visited {
+					color: rgb(255, 255, 255);
+				}
 			}
 		}
 	}
 
-	img.newsletter1 {
+	.about-us-block {
 		max-width: var(--page-width);
-		border-left: 3px solid transparent;
-		border-top: 3px solid transparent;
-		border-bottom: 3px solid transparent;
+		margin: 0 auto;
 
-		outline: 2px solid white;
-		width: 50%;
-	}
-
-	img.newsletter2 {
-		max-width: var(--page-width);
-		border-right: 3px solid transparent;
-		border-top: 3px solid transparent;
-		border-bottom: 3px solid transparent;
-
-		outline: 2px solid white;
-		width: 50%;
-	}
-	
-	p {
-		max-width: var(--page-width);
-		text-indent: 50px;
-		text-align: justify;
-		
-	}
-
-	a.history-button, a.about-us-button {
-		max-width: var(--page-width);
-		margin-right: 10px;
-		margin-left: 10px;
-		text-decoration: none;
-		position: relative;
-		top: 15px;
-		background: #203321;
-		font-weight: bold;
-		font-size: 1rem;
-		padding: 6px  6px; 
-		color: white;
-		border-radius: 3px;
-		border: 1px solid white;
-
-		&:visited {
-			
-			color: white;
-			
+		p {
+			max-width: var(--page-width);
+			text-indent: 50px;
+			text-align: justify;
+			margin-top: 10px;
 		}
-	}
+		
+		a {
+			max-width: var(--page-width);
+			margin-right: 10px;
+			margin-left: 10px;
+			text-decoration: none;
+			position: relative;
+			top: 15px;
+			background: #203321;
+			font-weight: bold;
+			font-size: 1rem;
+			padding: 6px  6px; 
+			color: white;
+			border-radius: 3px;
+			border: 1px solid white;
+
+			&:visited {
+				color: rgb(255, 255, 255);
+			}
+		}
+	
 	}
 	
 }
