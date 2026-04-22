@@ -5,7 +5,7 @@ import aboutUsImg4 from "../../assets/images/about-us-3.jpg";
 import aboutUsImg3 from "../../assets/images/design_tess.webp";
 import aboutUsImg5 from "../../assets/images/design_trevor.webp";
 import aboutUsImg6 from "../../assets/images/leads/sage-brown.jpg";
-import aboutUsImg7 from "../../assets/images/23-strategy.jpeg";
+import aboutUsImg7 from "../../assets/images/strategy-states-26.png";
 
 import driveTeam from "../../assets/images/dt-group-2026.jpg";
 

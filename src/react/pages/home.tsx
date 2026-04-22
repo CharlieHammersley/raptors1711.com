@@ -45,6 +45,28 @@ export class Home extends React.Component<Props, State> {
 					</p>
 					<a className="about-us-button" href="/about-us">Learn More</a>
 				</div>
+				<div className="first-block">
+					<h1>What is FRC?</h1>
+					<p>
+						FRC, or FIRST Robotics Competition, is a competitive international robotics contest for middle to highschoolers.
+						Each year, teams from around the world work to build a robot to complete various tasks to earn points at an event. 
+						Durring competition, teams are placed on alliances of three robots, where they compete to finish tasks faster and 
+						earn more points than the opposing alliance.
+					</p>
+					<video src="https://www.youtube.com/watch?v=_fybREErgyM"></video>
+				</div>
+				<div className="outreach-block">
+					<h1>Outreach</h1>
+					<p>
+						The RAPTORS are committed to supporting our community through numerous outreach events. We organise many STEM based 
+						eductation events each year, such as Super Science Saturday and SPIKE Lego camps. Moreover, our members contribute an 
+						average of [NUMBER] hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
+					</p>
+					<a className="outreach-button" href="/outreach">Learn More</a>
+				</div>
+				<div className="sponsor-block">
+
+				</div>
 			</Page>
 		);
 		

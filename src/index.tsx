@@ -14,6 +14,7 @@ import { History } from "./react/pages/history";
 import { History2025 } from "./react/pages/history-2025";
 import { History2024 } from "./react/pages/history-2024";
 import { AboutUs } from "./react/pages/about-us";
+import { Outreach } from "./react/pages/outreach";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -35,6 +36,7 @@ root.render(
         <Route path="/history" element={<History />} />
         <Route path="/history-2025" element={<History2025 />} />
         <Route path="/history-2024" element={<History2024 />} />
+        <Route path="/outreach" element={<Outreach />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

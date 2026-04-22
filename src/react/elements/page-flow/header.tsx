@@ -37,6 +37,7 @@ export class Header extends React.Component<Props, State> {
 		return {
 			"Home": "/home",
 			"About Us": "/about-us",
+			"Our Outreach": "/outreach",
 			"Meet the Team": {
 				"Meet the Team": "/meet-the-team",
 				"Meet the SMEs": "/meet-the-SMEs",
@@ -44,6 +45,7 @@ export class Header extends React.Component<Props, State> {
 			},
 			"History": {
 				"History": "/history",
+				//"2026 Season": "/history-2026",
 				"2025 Season": "/history-2025",
 				"2024 Season": "/history-2024",
 				/*"2023 Season": "/history-2025",
