@@ -27,7 +27,7 @@ export class Home extends React.Component<Props, State> {
 						<Logo>The RAPTORS</Logo>
 						<h2>FRC Team 1711</h2>
 						<p>
-							FIRST Robotics Team 1711, the RAPTORS, are a nationally competitive FIRST robotics team based in
+							Team 1711, the RAPTORS, are a nationally competitive FIRST Robotics team based in
 							Traverse City, Michigan.
 						</p>
 						<a className="meet-the-team-button" href="/meet-the-team">Meet the Team</a>
@@ -48,10 +48,11 @@ export class Home extends React.Component<Props, State> {
 				<div className="first-block">
 					<h1>What is FRC?</h1>
 					<p>
-						FRC, or FIRST Robotics Competition, is a competitive international robotics contest for middle to highschoolers.
-						Each year, teams from around the world work to build a robot to complete various tasks to earn points at an event. 
+						FRC, or FIRST Robotics Competition, is an international robotics contest for middle to highschoolers.
+						Each year, teams from around the world work to build a robot to complete various tasks to earn points at events. 
 						Durring competition, teams are placed on alliances of three robots, where they compete to finish tasks faster and 
-						earn more points than the opposing alliance.
+						earn more points than the opposing alliance. Each season, beginning on January 10th 12:00 PM EST, a new game is 
+						released. Watch the video below to learn about this year's game, REBUILT.
 					</p>
 					<video src="https://www.youtube.com/watch?v=_fybREErgyM"></video>
 				</div>

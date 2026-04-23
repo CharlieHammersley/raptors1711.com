@@ -11,10 +11,13 @@ import { MeetTheSMEsPage } from "./react/pages/meet-the-smes-page";
 import { MeetTheMentorsPage } from "./react/pages/meet-the-mentors-page";
 import { SponsorUs } from "./react/pages/sponsor-us";
 import { History } from "./react/pages/history";
-import { History2025 } from "./react/pages/history-2025";
-import { History2024 } from "./react/pages/history-2024";
+import { History2026 } from "./react/pages/history-pages/history-2026";
+import { History2025 } from "./react/pages/history-pages/history-2025";
+import { History2024 } from "./react/pages/history-pages/history-2024";
 import { AboutUs } from "./react/pages/about-us";
 import { Outreach } from "./react/pages/outreach";
+import { History2023 } from "./react/pages/history-pages/history-2023";
+import { History2022 } from "./react/pages/history-pages/history-2022";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -34,8 +37,11 @@ root.render(
         <Route path="/sponsorship" element={<SponsorUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/history" element={<History />} />
+        <Route path="/history-2026" element={<History2026 />} />
         <Route path="/history-2025" element={<History2025 />} />
         <Route path="/history-2024" element={<History2024 />} />
+        <Route path="/history-2023" element={<History2023 />} />
+        <Route path="/history-2022" element={<History2022 />} />
         <Route path="/outreach" element={<Outreach />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
