@@ -3,11 +3,11 @@ import "./home.scss";
 //import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
 import fullTeamPhoto from "../../assets/images/states-26-award.png";
 import headerVideo from "../../assets/images/tc-auton-26.mp4"
-import latestNews1 from "../../assets/images/newsletters/feb-news-1.png";
-import latestNews2 from "../../assets/images/newsletters/feb-news-2.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Logo } from "../elements/logo";
+import { TextImageBox } from "../elements/text-image-box";
+import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 import { LogoHorizontalRule } from "/src/react/elements/logo-horizontal-rule";
 
 
@@ -46,7 +46,7 @@ export class Home extends React.Component<Props, State> {
 					<a className="about-us-button" href="/about-us">Learn More</a>
 				</div>
 				<div className="first-block">
-					<h1>What is FRC?</h1>
+					<h2>What is FRC?</h2>
 					<p>
 						FRC, or FIRST Robotics Competition, is an international robotics contest for middle to highschoolers.
 						Each year, teams from around the world work to build a robot to complete various tasks to earn points at events. 
@@ -54,10 +54,9 @@ export class Home extends React.Component<Props, State> {
 						earn more points than the opposing alliance. Each season, beginning on January 10th 12:00 PM EST, a new game is 
 						released. Watch the video below to learn about this year's game, REBUILT.
 					</p>
-					<video src="https://www.youtube.com/watch?v=_fybREErgyM"></video>
 				</div>
 				<div className="outreach-block">
-					<h1>Outreach</h1>
+					<h2>Outreach</h2>
 					<p>
 						The RAPTORS are committed to supporting our community through numerous outreach events. We organise many STEM based 
 						eductation events each year, such as Super Science Saturday and SPIKE Lego camps. Moreover, our members contribute an 

@@ -1,8 +1,8 @@
 import "./history-2025.scss";
 import React from "react";
-import { Page } from "../../elements/page-flow/page";
-import { PageHeading } from "../../elements/page-heading";
-import historyPhoto from "../../assets/images/scylla-standard.jpg";
+import { Page } from "/src/react/elements/page-flow/page";
+import { PageHeading } from "/src/react/elements/page-heading";
+import historyPhoto from "/src/assets/images/scylla-standard.jpg";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
