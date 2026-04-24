@@ -35,7 +35,7 @@ export class Home extends React.Component<Props, State> {
 					</div>
 				</div>
 				<div className="about-us-block">
-					<h1>About Us</h1>
+					<h2>About Us</h2>
 					<p>
 						We pride ourselves on our relentless commitment to community outreach,
 						tireless work ethic, and inspiring initiatives. The RAPTORS, fundamentally, are about more than just

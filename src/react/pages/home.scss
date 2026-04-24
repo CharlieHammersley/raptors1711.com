@@ -98,8 +98,10 @@
 	}
 
 	.about-us-block {
+		
 		max-width: var(--page-width);
 		margin: 0 auto;
+		margin-top: $spacing;
 
 		p {
 			max-width: var(--page-width);
