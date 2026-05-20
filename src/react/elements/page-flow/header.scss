@@ -8,9 +8,11 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 999;
+	box-shadow: -5px 20px 20px rgba(0, 0, 0, 0.4);
 	
 	//margin-top: $spacing;
-	background-color: #111612;
+	background: #142018;
+	background: linear-gradient(90deg, rgba(20, 32, 24, 1) 0%, rgba(27, 50, 36, 1) 50%);
 	
 	div.header-content {
 		margin-top: $spacing;
