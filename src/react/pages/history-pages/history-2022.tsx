@@ -17,3 +17,4 @@ export class History2022 extends React.Component<Props, State> {
             </Page>
         );
     }
+}

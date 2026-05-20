@@ -1,5 +1,5 @@
 import "./meet-the-team.scss";
-import aboutUsImg1 from "../../assets/images/23-working-on-bot.jpeg";
+import aboutUsImg1 from "../../assets/images/billy-build-26.JPG";
 import aboutUsImg2 from "../../assets/images/23-electrical.jpg";
 import aboutUsImg4 from "../../assets/images/about-us-3.jpg";
 import aboutUsImg3 from "../../assets/images/design_tess.webp";

@@ -97,10 +97,8 @@
 		}
 	}
 
-	.about-us-block {
-		max-width: var(--page-width);
-		margin: 0 auto;
-
+	.about-us-block, .first-block, .outreach-block {
+		
 		p {
 			max-width: var(--page-width);
 			text-indent: 50px;
@@ -127,7 +125,26 @@
 				color: rgb(255, 255, 255);
 			}
 		}
-	
 	}
-	
+
+	.about-us-block {
+		max-width: var(--page-width);
+		margin: 0 auto;
+		margin-top: $spacing;
+		margin-bottom: $spacing;
+	}
+
+	.first-block {
+		max-width: var(--page-width);
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: $spacing;
+	}
+
+	.outreach-block {
+		max-width: var(--page-width);
+		margin: 0 auto;
+		margin-top: $spacing;
+		margin-bottom: $spacing;
+	}
 }
