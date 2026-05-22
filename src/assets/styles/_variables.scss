@@ -1,22 +1,31 @@
 $pageWidth: 1000px;
 $maxHeaderFooterWidth: 2050px;
 
-$backgroundColor: #456b52;
-$footerBackgroundColor: #142018;
 $foregroundColor: white;
 $firstBlue: #0066B3;
 $firstRed: #ED1C24;
+$raptorsBlack: #16261c;
+$raptorsGreen: #234831;
+$raptorsLight: #45644f;
+$raptorsGrey: #363636;
+$greenGradient: linear-gradient(90deg,rgba(22, 38, 28, 1) 10%, rgba(35, 72, 49, 1) 90%);
+$blackGradient: linear-gradient(180deg,rgba(22, 38, 28, 1) 1%, rgba(0, 0, 0, 1) 80%);
+$lightGradient: linear-gradient(315deg,rgba(22, 38, 28, 1) 10%, rgba(35, 72, 49, 1) 90%);
 
 :root {
 	
 	--page-width: #{$pageWidth};
-	--color-bg: #{$backgroundColor};
-	--color-fbg: #{$footerBackgroundColor};
 	--color-fg: #{$foregroundColor};
 	--color-first-blue: #{$firstBlue};
 	--color-first-red: #{$firstRed};
 	--max-header-footer-width: #{$maxHeaderFooterWidth};
-	
+	--r-black: #{$raptorsBlack};
+	--r-green: #{$raptorsGreen};
+	--r-light:#{$raptorsLight};
+	--r-grey:#{$raptorsGrey};
+	--r-green-gradient:#{$greenGradient};
+	--r-black-gradient:#{$blackGradient};
+	--r-light-gradient:#{$lightGradient};
 }
 
 @mixin expandToMaxWidth($maxWidth: $pageWidth) {

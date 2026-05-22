@@ -10,10 +10,7 @@ header {
 	z-index: 999;
 	box-shadow: -5px 20px 20px rgba(0, 0, 0, 0.4);
 	
-	//margin-top: $spacing;
-	background: #142018;
-	background: linear-gradient(90deg, rgba(20, 32, 24, 1) 0%, rgba(27, 50, 36, 1) 50%);
-	
+	background: var(--r-green-gradient);
 	div.header-content {
 		margin-top: $spacing;
 		margin-bottom: $spacing;
@@ -22,8 +19,9 @@ header {
 
 		img {
 			align-self: center;
-			width: 4%;
-			height: 4%;
+			max-width: none;
+			width: 60px;
+			height: auto;
 		}
 		
 		.logo {
@@ -103,7 +101,7 @@ header {
 					top: 100%;
 					display: none;
 					flex-direction: column;
-					background-color: var(--color-bg);
+					background-color: var(--r-green-gradient);
 					box-shadow: 0 8px 8px #000A;
 					padding: 6px;
 					border: {
