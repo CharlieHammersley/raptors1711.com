@@ -32,9 +32,11 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Build",
 			content: (
 				<p>
-					The Build Subteam is the foremost mechanical Subteam, directly constructing the robot, building field elements, 
-					and directing early prototyping. Working closely with the design team, Build ensures the robot is constructed to 
-					professional standards. In competition, Build is responsible for most of the mechanical fixes the robot must undergo.
+					The Build Subteam serves as the foundation of our robot’s mechanical development, transforming ideas into 
+					reality through fabrication, assembly, and testing. Working closely with Design, Build constructs the robot 
+					and field elements while leading hands-on prototyping throughout the season. Their attention to detail ensures 
+					every mechanism is built to a high standard of quality and reliability. During competitions, Build takes the 
+					lead on mechanical maintenance and rapid repairs to keep the robot performing at its best.
 				</p>
 			),
 			image: aboutUsImg1,
@@ -44,11 +46,12 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Electrical",
 			content: 
 				<p>
-					The Electrical subteam wires the robot throughout the season, ensuring that it is properly connected and maintained. 
-					Moreover, they manage the robot’s devices, including the motors, sensors, etc. They also build the electrical board each 
-					season. Vital to robot function, Electrical uses a CAN network to establish communication between the RoboRio and the 
-					robot’s main components. In early prototyping, electrical makes a practice e-board to test components, educate new electrical 
-					members, and  all the use of devices in prototypingAt our major events, they take on the task of troubleshooting the robot.
+					The Electrical Subteam powers everything we create. Responsible for wiring and maintaining the robot, this 
+					team manages motors, sensors, and critical electrical systems while ensuring safe and efficient operation 
+					throughout the season. Electrical designs and assembles the robot’s electrical board and uses the CAN network 
+					to establish communication between the RoboRIO and all major robot components. Early in the season, they create 
+					practice electrical boards to support prototyping, test new devices, and train incoming members. At competitions, 
+					Electrical plays a key role in troubleshooting and keeping the robot match-ready.
 				</p>,
 			image: aboutUsImg2,
 			imageAlt: "The RAPTORS' mascot being waved during a competition."
@@ -57,11 +60,11 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Programming",
 			content: 
 				<p>
-					Our programming subteam writes the functional code for the robot each season, enabling the use of prototyping devices, 
-					as well as managing our online website and offseason robots. They make sure the robot is functional, coding our 
-					swerve drive and many technical subsystems, preparing numerous autonomous modes for compeittion. Programming is 
-					also involved in the early proptotyping, allowing our team to use high power motors rather than drills when first 
-					testing designs. Lastly, they manage our website and program our offseason learning and defense bots. 
+					The Programming Subteam brings the robot to life through software and automation. From developing drive systems 
+					and autonomous routines to programming complex subsystems, they ensure the robot performs reliably and efficiently 
+					during competition. Programming supports prototyping by enabling the use of advanced motors and control systems during 
+					testing and development. Beyond the competition robot, the team also manages offseason robots and maintains our website, 
+					combining technical innovation with long-term team development.
 				</p>,
 			image: aboutUsImg3,
 			imageAlt: "A number of RAPTORS team members running a booth at the Super Science Saturday event."
@@ -70,14 +73,12 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Non-tech",
 			content: 
 				<p>
-					One of our most expansive subteams is non-tech, being responsible for our team's socials, photography, award 
-					preparation, essay writing, sponsorship, and community outreach. Non-tech takes the photos for the team, making 
-					educational and relatable content on our social media platforms. They also are solely responsible for our team's 
-					award preparation, teaching our members about talking to judges as well as writing, managing, and presenting our 
-					team's impact award submission. Non-tech also operates our team's buisness aspect, contacting our sponsors and 
-					going out on the street to reach out and collect funding for the season. Finally, the subteam organizes our 
-					community outreach events with local buisnesses and organizations, ensuring our team makes a lasting 
-					impact on those around us.
+					The Communciations Subteam drives the storytelling, outreach, and operations that make Team 1711 successful both on 
+					and off the field. This team oversees social media, photography, sponsorship development, award submissions, communications, 
+					and community engagement. Members create content that showcases team experiences, prepare award materials and presentations, 
+					educate teammates on speaking with judges, and lead the development of our Impact Award submission. Non-Tech also manages 
+					sponsor relationships and fundraising efforts while organizing outreach initiatives that connect with schools, businesses, 
+					and organizations across the community. Their work ensures the RAPTORS’ impact extends far beyond robotics.
 				</p>,
 			image: aboutUsImg4,
 			imageAlt: "A number of RAPTORS team members running a booth at the Super Science Saturday event."
@@ -86,11 +87,11 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Design",
 			content: 
 				<p>
-					The design subteam is another important mechanical subteam, using Computer-Aided Design programs such as 
-					fusion-360 to model our robot and it's components. Each season they create a full design of the robot in 
-					collaberation with each other subteam, refining and editing the model as prototyping continues. Design 
-					also creates and prints necessary robot parts, such as brackets, as well as other projects, like 
-					competition fidget spinners.
+					The Design Subteam transforms concepts into detailed plans through Computer-Aided Design (CAD). Using programs such as 
+					Onshape and Fusion 360, members collaborate with every subteam to create, refine, and improve the robot throughout the build season. 
+					Design develops full robot models, adapts designs based on prototype feedback, and prepares files for manufacturing and 
+					fabrication. In addition to creating competition components, the team supports creative projects and produces custom parts 
+					that help bring ideas to life.
 				</p>,
 			image: aboutUsImg5,
 			imageAlt: "A number of RAPTORS team members running a booth at the Super Science Saturday event."
@@ -99,10 +100,11 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Safety",
 			content: 
 				<p>
-					While small, the safety subteam is quite important, being responsible for upholding safe practices in the build room, 
-					the pits, or the field. They ensure that all people in these areas are complying with safety regulations; 
-					update and provide access to the Safety Data Sheets; upkeep the documentation; log and manage the injury 
-					report; and create helpful presentations throughout the season to educate the team. 
+					The Safety Subteam is dedicated to creating an environment where innovation and responsibility go hand in hand. They promote 
+					safe practices in the build room, pits, and competition field while ensuring compliance with safety standards across the team. 
+					Their responsibilities include maintaining Safety Data Sheets, managing documentation, tracking incidents, and educating members 
+					through presentations and training. Safety helps create a culture where every team member can learn, build, and compete with 
+					confidence.
 				</p>,
 			image: aboutUsImg6,
 			imageAlt: "A number of RAPTORS team members running a booth at the Super Science Saturday event."
@@ -111,10 +113,10 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Strategy",
 			content: 
 				<p>
-					Strategy is an important competition subteam, scouting matches of other teams, compiling data, and working 
-					with other teams to devise match stategy. Throughout the season and offseason they scout matches, getting relevent 
-					information and statistics on other teams we will compete against. Stategy organizes this information, using it 
-					to make informed descisions when picking alliance partners and making match strategy.
+					The Strategy Subteam turns data into competitive advantage. Throughout the season and offseason, members scout matches, analyze 
+					performance trends, and collect meaningful statistics on teams and gameplay. Using this information, Strategy develops match plans, 
+					collaborates with alliance partners, and supports informed decision-making during alliance selection and competition. Their preparation 
+					and analysis help maximize performance and create opportunities for success on the field.
 				</p>,
 			image: aboutUsImg7,
 			imageAlt: "A number of RAPTORS team members running a booth at the Super Science Saturday event."
@@ -123,13 +125,10 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			title: "Drive Team",
 			content: 
 				<p>
-					The drive team, while not a traditional subteam, includes the members who operate the robot and keep it functioning on the 
-					field. Our driver, operator, drive coach, human player, and technician all work together in competitions to deliver success 
-					in our matches.
-					<br></br>
-					This year, our drive team consists of five junior students: (left to right) Kayden McMillan, Driver; Francesca Harbold, Technician; 
-					Oscar Falcon, Operator; Aviannah Stieve, Human Player; and Milo Woodruff, Drive Coach. Our drive team has seen great success in 
-					previous years and is excited to compete in the 2026 competition season with FIRST Rebuilt.
+					While not a traditional subteam, the Drive Team represents Team 1711 where preparation meets performance. Consisting of the Driver, 
+					Operator, Drive Coach, Human Player, and Technician, this group works together to operate, adapt, and maintain the robot during competition. 
+					Every match relies on communication, quick decision-making, and trust between each role. Through countless hours of practice and collaboration, 
+					the Drive Team turns months of design and development into action on the field and proudly represents the RAPTORS in competition.
 				</p>,
 			image: driveTeam,
 			imageAlt: "A number of RAPTORS team members cheering from the stands during an FRC competition."
@@ -161,11 +160,17 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			<Page name="meet-the-team">
 				<PageHeading>Meet the Team</PageHeading>
 				<div className="subteams">
-					<h2>Subteams</h2>
-					<p>Our team is split into multiple different Subteams that collaborate to build the robot and manage the team's activities. 
-						These Subteams include Build, Design, Strategy, Communications, Programming, Electrical, and Safety. Subject Matter 
-						Experts, or SMEs, are leaders in their specific Subteams. They’re the most knowledgeable in their specialty and must 
-						meet many requirements to become one.
+					<h2>Team Operations</h2>
+					<p>
+						Team 1711 is organized into specialized Subteams that work together to design, build, 
+						and compete while also supporting the operations that keep the team running year-round. 
+						These Subteams include Build, Design, Strategy, Communications, Programming, Electrical, 
+						and Safety, each playing a critical role in the team’s success.
+					</p>
+					<p>
+						Leading each area are Subject Matter Experts (SMEs), students who have demonstrated advanced knowledge, leadership, 
+						and dedication within their specialty. SMEs serve as mentors and resources for their peers and earn their role by 
+						meeting rigorous standards and showing a strong commitment to both technical excellence and team collaboration.
 					</p>
 					<a className="smes-button" href="/meet-the-SMEs">Meet the SMEs</a>
 				</div>

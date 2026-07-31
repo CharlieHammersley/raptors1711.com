@@ -6,12 +6,12 @@ import "./meet-the-smes-page.scss";
 //import leadImageGabrielSeaver from "../../assets/images/leads/gabriel-seaver.jpg";
 
 //import dtGroupPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
-import smeImageAviannah from "../../assets/images/smes/dt-aviannah-headshot.png";
-import smeImageOscar from "../../assets/images/smes/dt-oscar-headshot.png";
-import smeImageFrannie from "../../assets/images/smes/dt-frannie-headshot.png";
-import smeImageKayden from "../../assets/images/smes/dt-kayden-headshot.png";
-import smeImageMilo from "../../assets/images/smes/dt-milo-headshot.png";
-import smeImageCharlie from "../../assets/images/smes/dt-charlie-headshot.png";
+import smeImageAviannah from "../../assets/images/smes/sme-aviannah.JPG";
+import smeImageOscar from "../../assets/images/smes/sme-oscar.JPG";
+import smeImageFrannie from "../../assets/images/smes/sme-frannie.JPG";
+import smeImageKayden from "../../assets/images/smes/sme-kayden.JPG";
+import smeImageMilo from "../../assets/images/smes/sme-milo.JPG";
+import smeImageCharlie from "../../assets/images/smes/sme-charlie.JPG";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";
