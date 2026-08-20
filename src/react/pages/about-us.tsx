@@ -35,7 +35,7 @@ export class AboutUs extends React.Component<Props, State> {
                         programming, and refining robots capable of competing at the highest level. Throughout our 
                         history, that commitment has led to remarkable accomplishments including 48 awards, 11 
                         Imagery Awards, 5 Impact Awards, 11 Event Finalist finishes, 5 competition wins, 10 State 
-                        Championship appearances, 3 World Championship appearances, and one of our proudest moments, 
+                        Championship appearances, 3 World Championship appearances, 
                         earning the opportunity to compete on the Einstein Field.
                         <br />
                     <p/>

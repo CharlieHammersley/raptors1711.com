@@ -60,7 +60,7 @@ export class Home extends React.Component<Props, State> {
 					<p>
 						The RAPTORS are committed to supporting our community through numerous outreach events. We organise many STEM based 
 						eductation events each year, such as Super Science Saturday and SPIKE Lego camps. Moreover, our members contribute an 
-						average of [NUMBER] hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
+						average of 25 hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
 					</p>
 					<a className="outreach-button" href="/outreach">Learn More</a>
 				</div>
