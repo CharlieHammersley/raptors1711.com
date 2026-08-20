@@ -57,6 +57,10 @@ export class Header extends React.Component<Props, State> {
 				"Sponsor Us": "/sponsorship",
 				"Our Sponsors": "/sponsors"
 			},
+			"Documentation": {
+				"2026 Engineering Notebook": "/engineering-notebook-2026",
+				"2026 BONES Document": "/bones-2026"
+			},
 			"Resources": {
 				"Starting an FRC Team": "/start-frc-team",
 				"Starting an FTC Team": "/start-ftc-team",

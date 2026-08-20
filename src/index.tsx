@@ -11,13 +11,15 @@ import { MeetTheSMEsPage } from "./react/pages/meet-the-smes-page";
 import { MeetTheMentorsPage } from "./react/pages/meet-the-mentors-page";
 import { SponsorUs } from "./react/pages/sponsor-us";
 import { Sponsors } from "./react/pages/sponsors";
+import { AboutUs } from "./react/pages/about-us";
 import { History } from "./react/pages/history";
 import { History2026 } from "./react/pages/history-pages/history-2026";
 import { History2025 } from "./react/pages/history-pages/history-2025";
 import { History2024 } from "./react/pages/history-pages/history-2024";
-import { AboutUs } from "./react/pages/about-us";
 import { History2023 } from "./react/pages/history-pages/history-2023";
 import { History2022 } from "./react/pages/history-pages/history-2022";
+import { EngineeringNotebook2026 } from "./react/pages/documentation/engineering-notebook-2026";
+import { Bones2026 } from "./react/pages/documentation/bones-2026";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -43,6 +45,8 @@ root.render(
         <Route path="/history-2024" element={<History2024 />} />
         <Route path="/history-2023" element={<History2023 />} />
         <Route path="/history-2022" element={<History2022 />} />
+        <Route path="/engineering-notebook-2026" element={<EngineeringNotebook2026 />} />
+        <Route path="/bones-2026" element={<Bones2026 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
