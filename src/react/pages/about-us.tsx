@@ -11,11 +11,12 @@ export type State = Readonly<{}>;
 export class AboutUs extends React.Component<Props, State> {
     
     public render(): React.ReactNode {
-        
+    
         return (
             <Page name="about-us">
                 <div className="about-hero">
                     <img src={aboutUsPhoto} alt="Frannie H. talking to the judges at the FIM Championship." />
+                    <div className="overlay"/>
                     <div className="about-hero-heading">
                         <PageHeading>About Us</PageHeading>
                     </div>

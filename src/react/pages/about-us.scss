@@ -26,6 +26,12 @@
 			box-shadow: none;
 		}
 
+		.overlay {
+			position: absolute;
+			inset: 0;
+			background: rgba(0, 0, 0, 0.158);
+		}
+
 		.about-hero-heading {
 			position: absolute;
 			inset: 0;
@@ -47,7 +53,6 @@
 		max-width: var(--page-width);
 
 		p {
-		
 			width: 90%;
 			max-width: 900px;
 
