@@ -35,9 +35,7 @@ export class Header extends React.Component<Props, State> {
 	public static getDefaultNavigationLinks(): NavigationLinks {
 		
 		return {
-			"Home": "/home",
 			"About Us": "/about-us",
-			"Our Outreach": "/outreach",
 			"Meet the Team": {
 				"Meet the Team": "/meet-the-team",
 				"Meet the SMEs": "/meet-the-SMEs",
@@ -45,17 +43,25 @@ export class Header extends React.Component<Props, State> {
 			},
 			"History": {
 				"History": "/history",
-				//"2026 Season": "/history-2026",
+				"2026 Season": "/history-2026",
 				"2025 Season": "/history-2025",
 				"2024 Season": "/history-2024",
-				/*"2023 Season": "/history-2025",
-				"2022 Season": "/history-2024",
-				"2021 Season": "/history-2025",
-				"2019 Season": "/history-2024",
-				"2018 Season": "/history-2025",
-				"2017 Season": "/history-2024",*/
+				/*"2023 Season": "/history-2023",
+				"2022 Season": "/history-2022",
+				"2021 Season": "/history-2021",
+				"2019 Season": "/history-2019",
+				"2018 Season": "/history-2018",
+				"2017 Season": "/history-2017",*/
 			},
-			"Sponsor/Donate": "/sponsorship",
+			"Sponsors":{
+				"Sponsor Us": "/sponsorship",
+				"Our Sponsors": "/sponsors"
+			},
+			"Resources": {
+				"Starting an FRC Team": "/start-frc-team",
+				"Starting an FTC Team": "/start-ftc-team",
+				"Starting an FLL Team": "/start-fll-team",
+			},
 			"Contact Us": "/contact-us"
 		};
 		
@@ -74,8 +80,10 @@ export class Header extends React.Component<Props, State> {
 					let link: string = entry[1];
 					
 					return (
-						<div className="nav-item">
-							<Link className="nav-item-primary-link" to={link} key={navTitle}>{navTitle}</Link>
+						<div className="nav-item" key={navTitle}>
+							<Link className="nav-item-primary-link" to={link}>
+								{navTitle}
+							</Link>
 						</div>
 					);
 					
@@ -114,8 +122,14 @@ export class Header extends React.Component<Props, State> {
 		return (
 			<header>
 				<div className="header-content">
-					<Logo>Raptors<br/>Team 1711</Logo>
-					<img src={logoImage} alt="RAPTORS Logo" className="logoImage"/>
+					<Link to="/home" className="header-home-link">
+						<Logo>Raptors<br/>Team 1711</Logo>
+						<img
+							src={logoImage}
+							alt="RAPTORS Logo"
+							className="logoImage"
+						/>
+					</Link>
 					<nav>
 						{ navigationContent }
 					</nav>

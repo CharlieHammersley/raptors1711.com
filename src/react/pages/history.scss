@@ -1,77 +1,148 @@
+@import "/src/assets/styles/variables";
+
 .page-history main {
-	//max-width: var(--page-width);
-	display: flex;
-	flex-direction: column;
 	align-items: center;
-	
+	text-align: center;
+	margin-bottom: 30px;
+	$spacing: 10px;
+
 	.cover-image-block {
 		position: relative;
 		width: 100%;
-		overflow:hidden;
+		overflow: hidden;
 		margin-bottom: 10px;
+
+		.historyImage {
+			display: block;
+			width: 100%;
+			height: 100vh;
+			object-fit: cover;
+		}
+
+		.overlay-img {
+			position: absolute;
+			inset: 0;
+			background: rgba(0, 0, 0, 0.6);
+			backdrop-filter: blur(0.2px);
+			z-index: 1;
+		}
 
 		.overlay {
 			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 90%;
+			color: white;
+			text-align: center;
+			z-index: 2;
 
-			background: rgba(0, 0, 0, 0.6);
-			backdrop-filter: blur(.2px);
-		}
-		
-		img {
-			width: 100vw;
-			height: 100vh;
-			
-			overflow: hidden;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			object-fit: cover;
-			align-self: center;
-		}
-
-		.blue-banner-block {
-			flex-direction: row;
-
-			img {
-				width: 10%;
-				height: 10%;
-				object-fit:scale-down;
+			.page-heading {
+				display: inline-block;
+				margin: 0 0 20px;
+				font-size: 7vh;
+				padding: 10px;
 			}
-			
-		}
-	}
 
-	p {
-		
-		text-align: center;
-		margin-bottom: 20px;
-		
-	}
+			.blue-banner-block {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
 
-	ul {
-		list-style-type: "➤";
-		line-height: 1.5;
-
-		li {
-			padding-left: 6px;
-
-			a {
-				text-decoration: none;
-				text-decoration: underline;
-				position: relative;
-				font-weight: bold;
-				font-size: 1rem;
-				color: white;
-
-				&:visited {
-					color: white;
+				img {
+					display: block;
+					width: clamp(60px, 9vw, 120px);
+					height: auto;
+					object-fit: contain;
 				}
 			}
 		}
 	}
+
+	.text-block {
+		max-width: var(--page-width);
+		width: 90%;
+		max-width: 1100px;
+		margin: 40px auto 60px;
+		text-align: center;
+
+		p {
+			margin-bottom: 20px;
+		}
+	}
+	
+
+	.season-block {
+		width: 90%;
+		max-width: 1100px;
+		margin: 40px auto 60px;
+		text-align: center;
+
+		h2 {
+			margin-bottom: 25px;
+			font-size: 2rem;
+		}
+
+		.history-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 15px;
+		}
+
+		.season-card {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+
+			min-height: 120px;
+			padding: 20px;
+
+			background: rgba(255, 255, 255, 0.08);
+			border: 2px solid rgba(255, 255, 255, 0.2);
+			border-radius: 10px;
+
+			color: white;
+			text-decoration: none;
+
+			transition:
+				transform 0.2s ease,
+				background 0.2s ease,
+				border-color 0.2s ease;
+
+			&:visited {
+				color: white;
+			}
+
+			&:hover {
+				transform: translateY(-4px);
+				background: rgba(255, 255, 255, 0.15);
+				border-color: #fff;
+			}
+
+			.season-year {
+				font-size: 2rem;
+				font-weight: bold;
+			}
+
+			.season-label {
+				font-size: 0.9rem;
+				opacity: 0.8;
+			}
+
+			.season-arrow {
+				position: absolute;
+				right: 15px;
+				bottom: 10px;
+
+				font-size: 1.2rem;
+				opacity: 0.6;
+			}
+		}
+	}
+
 	
 }

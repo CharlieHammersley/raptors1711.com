@@ -1,140 +1,161 @@
 @import "/src/assets/styles/variables";
 
-.page-home main { 
+.page-home main {
 	align-items: center;
 	text-align: center;
-	margin-bottom: 30px;
-	$spacing: 10px;
-
-	img.banner-image {
-		
-		width: 100vw;
-		height: 100vh;
-		
-		overflow: hidden;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: -1;
-		object-fit: cover;
-		align-self: center;
-		
-	}
+	margin-bottom: 40px;
 
 	.front-image-block {
 		position: relative;
 		width: 100%;
-		overflow:hidden;
+		height: 100vh;
+		min-height: 600px;
+		overflow: hidden;
 
 		img {
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			animation: zoom 12s ease-out;
 		}
 
 		.overlay {
 			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-
+			inset: 0;
 			background: rgba(0, 0, 0, 0.6);
-			backdrop-filter: blur(.2px);
 		}
 
 		.overlay-text {
 			position: absolute;
-    		top: 50%;
-    		left: 50%;
-    		transform: translate(-50%, -50%);
-    
-    		color: white;
-    		text-align: center;
-    		z-index: 2;
-			
+			top: 50%;
+			left: 50%;
+			width: 90%;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+
 			.logo {
-			
-				display: inline-block;
-				margin-right: $spacing;
-				font-size: 7vh;
-				padding: 10px 10px;
-			
+				font-size: clamp(3rem, 7vw, 6rem);
+				animation: fade-up 1s ease-out;
 			}
 
 			p {
-				padding: 5px 5px;
+				max-width: 700px;
+				margin: 20px auto;
+				line-height: 1.6;
+				animation: fade-up 1s ease-out 0.2s both;
 			}
 
 			a {
-				max-width: var(--page-width);
-				margin-right: 10px;
-				margin-left: 10px;
-				text-decoration: none;
-				position: relative;
-				top: 15px;
-				background: #203321;
-				font-weight: bold;
-				font-size: 1rem;
-				padding: 6px  6px; 
-				color: white;
-				border-radius: 3px;
-				border: 1px solid white;
+				display: inline-block;
+				margin: 10px 5px;
+				padding: 8px 15px;
 
-				&:visited {
-					color: rgb(255, 255, 255);
+				background: #203321;
+				color: white;
+				font-weight: bold;
+				text-decoration: none;
+
+				border: 1px solid white;
+				border-radius: 5px;
+
+				animation: fade-up 1s ease-out 0.4s both;
+
+				transition: 0.2s ease;
+
+				&:hover {
+					background: #2d4a30;
+					transform: translateY(-3px);
 				}
 			}
 		}
 	}
 
-	.about-us-block, .first-block, .outreach-block {
-		
-		p {
-			max-width: var(--page-width);
-			text-indent: 50px;
-			text-align: justify;
-			margin-top: 10px;
-		}
-		
-		a {
-			max-width: var(--page-width);
-			margin-right: 10px;
-			margin-left: 10px;
-			text-decoration: none;
-			position: relative;
-			top: 15px;
-			background: #203321;
-			font-weight: bold;
-			font-size: 1rem;
-			padding: 6px  6px; 
-			color: white;
-			border-radius: 3px;
-			border: 1px solid white;
+	.about-us-block,
+	.first-block,
+	.outreach-block {
+		width: min(90%, var(--page-width));
+		margin: 20px auto;
+		padding: 25px 20px;
 
-			&:visited {
-				color: rgb(255, 255, 255);
+		p {
+			max-width: 900px;
+			margin: 10px auto;
+			line-height: 1.7;
+			text-align: justify;
+		}
+
+		a {
+			display: inline-block;
+			margin-top: 15px;
+			padding: 8px 15px;
+
+			background: #203321;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+
+			border: 1px solid white;
+			border-radius: 5px;
+
+			transition: 0.2s ease;
+
+			&:hover {
+				background: #2d4a30;
+				transform: translateY(-3px);
 			}
 		}
 	}
+}
 
-	.about-us-block {
-		max-width: var(--page-width);
-		margin: 0 auto;
-		margin-top: $spacing;
-		margin-bottom: $spacing;
+@keyframes zoom {
+	from {
+		transform: scale(1);
 	}
 
-	.first-block {
-		max-width: var(--page-width);
-		margin: 0 auto;
-		margin-top: 25px;
-		margin-bottom: $spacing;
+	to {
+		transform: scale(1.08);
+	}
+}
+
+@keyframes fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
 	}
 
-	.outreach-block {
-		max-width: var(--page-width);
-		margin: 0 auto;
-		margin-top: $spacing;
-		margin-bottom: $spacing;
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 700px) {
+	.page-home main {
+		.front-image-block {
+			height: 85vh;
+			min-height: 500px;
+
+			.overlay-text {
+				.logo {
+					font-size: 3rem;
+				}
+
+				p {
+					font-size: 0.95rem;
+					text-align: center;
+				}
+			}
+		}
+
+		.about-us-block,
+		.first-block,
+		.outreach-block {
+			width: 92%;
+
+			p {
+				text-align: left;
+			}
+		}
 	}
 }

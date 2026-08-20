@@ -45,7 +45,10 @@ export class History2026 extends React.Component<Props, State> {
                         team’s Safety Subject Matter Expert (SME), and Aviannah S., a junior who served as the team’s Non-Technical 
                         SME. Charlie’s leadership in fostering a strong culture of safety was further recognized at the Michigan State 
                         Championship, where they were selected as the <b>Safety All Star</b>, an honor awarded to students who demonstrate 
-                        exceptional commitment to safety and inspire those around them. Together, Charlie and Aviannah exemplified the values of FIRST through their leadership, dedication, and service to the team and community. Their contributions helped make the 2026 season a success, showcasing technical achievement, impactful outreach, a strong commitment to safety, and the continued development of future STEM leaders.
+                        exceptional commitment to safety and inspire those around them. Together, Charlie and Aviannah exemplified the values 
+                        of FIRST through their leadership, dedication, and service to the team and community. Their contributions helped make 
+                        the 2026 season a success, showcasing technical achievement, impactful outreach, a strong commitment to safety, and 
+                        the continued development of future STEM leaders.
                     </p>
                 </div>
             </Page>
