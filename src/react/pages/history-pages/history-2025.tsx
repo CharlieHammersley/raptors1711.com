@@ -27,7 +27,7 @@ export class History2025 extends React.Component<Props, State> {
                             involving two alliances of three teams that would compete to score the most points by completing various tasks. These 
                             included scoring PVC pipe sections, called Coral, into a tall goal, called the Reef, as well as large dodgeballs, called Algae, 
                             onto one of two goals. At the end of the game, teams could climb on a metal cage to gain additional points.
-                            <a href="https://en.wikipedia.org/wiki/Reefscape"> Learn more about Reefscape.</a>
+                            Learn more about <a href="https://en.wikipedia.org/wiki/Reefscape">Reefscape</a>.
                         </p>
                     </div>
                     <br />

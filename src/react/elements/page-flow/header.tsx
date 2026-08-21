@@ -62,9 +62,9 @@ export class Header extends React.Component<Props, State> {
 				"2026 BONES Document": "/bones-2026"
 			},
 			"Resources": {
-				"Starting an FRC Team": "/start-frc-team",
-				"Starting an FTC Team": "/start-ftc-team",
-				"Starting an FLL Team": "/start-fll-team",
+				"Starting an FRC Team": "/frc-team",
+				"Starting an FTC Team": "/ftc-team",
+				"Starting an FLL Team": "/fll-team",
 			},
 			"Contact Us": "/contact-us"
 		};

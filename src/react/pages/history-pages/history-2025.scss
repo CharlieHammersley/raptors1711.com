@@ -67,6 +67,24 @@
 
 			text-align: left;
 		}
+
+		a {
+			display: inline-block;
+
+			margin: 3px 0;
+
+			color: rgb(243, 243, 245);
+			text-decoration: underline;
+
+			transition:
+				color 0.2s ease,
+				transform 0.2s ease;
+
+			&:hover {
+				color: #b9d8bd;
+				transform: translateX(3px);
+			}
+		}
 		
 		.game {
 			flex: 1;
