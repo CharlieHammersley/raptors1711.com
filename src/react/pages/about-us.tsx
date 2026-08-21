@@ -1,7 +1,7 @@
 import "./about-us.scss";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
-import aboutUsPhoto from "../../assets/images/page-heroes/frannie-judges.JPG";
+import aboutUsPhoto from "../../assets/images/page-heroes/parade-team.jpg";
 import { PageHeading } from "../elements/page-heading";
 
 

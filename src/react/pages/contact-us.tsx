@@ -2,7 +2,7 @@ import "./contact-us.scss";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
-import contactUsPhoto from "../../assets/images/team-photos/states-26-award.png";
+import contactUsPhoto from "../../assets/images/page-heroes/frannie-judges.JPG";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -14,10 +14,7 @@ export class ContactUs extends React.Component<Props, State> {
 	return (
 		<Page name="contact-us">
 			<div className="hero">
-				<img
-					src={contactUsPhoto}
-					alt="The RAPTORS robotics team"
-				/>
+				<img src={contactUsPhoto} alt="The RAPTORS robotics team"/>
 
 				<div className="overlay">
 					<div className="hero-content">
