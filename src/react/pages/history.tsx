@@ -1,6 +1,6 @@
 import "./history.scss";
 import React from "react";
-import historyImage from "../../assets/images/eric+billy-working-on-klieo.JPG";
+import historyImage from "../../assets/images/action-shots/eric+billy-working-on-klieo.JPG";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
 import bb1 from "../../assets/images/blue-banners/frc-bb-carson-winner-2015.png";

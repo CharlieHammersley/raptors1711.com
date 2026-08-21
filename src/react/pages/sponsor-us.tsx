@@ -1,6 +1,6 @@
 import "./sponsor-us.scss";
-import headerPhoto from "../../assets/images/ribbon-cutting.jpg";
-import sponsorPhoto from "../../assets/images/2026-Sponsor-Logos.png";
+import headerPhoto from "../../assets/images/team-photos/ribbon-cutting.jpg";
+import sponsorPhoto from "../../assets/images/icons/2026-Sponsor-Logos.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";

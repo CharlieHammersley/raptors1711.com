@@ -1,15 +1,8 @@
 import "./home.scss";
-//import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
-//import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
-import fullTeamPhoto from "../../assets/images/states-26-award.png";
-import headerVideo from "../../assets/images/tc-auton-26.mp4"
+import fullTeamPhoto from "../../assets/images/team-photos/states-26-award.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Logo } from "../elements/logo";
-import { TextImageBox } from "../elements/text-image-box";
-import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
-import { LogoHorizontalRule } from "/src/react/elements/logo-horizontal-rule";
-
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;

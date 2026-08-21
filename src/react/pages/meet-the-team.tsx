@@ -1,13 +1,13 @@
 import "./meet-the-team.scss";
-import aboutUsImg1 from "../../assets/images/billy-build-26.JPG";
-import aboutUsImg2 from "../../assets/images/23-electrical.jpg";
-import aboutUsImg4 from "../../assets/images/about-us-3.jpg";
-import aboutUsImg3 from "../../assets/images/design_tess.webp";
-import aboutUsImg5 from "../../assets/images/design_trevor.webp";
+import aboutUsImg1 from "../../assets/images/action-shots/billy-build-26.JPG";
+import aboutUsImg2 from "../../assets/images/action-shots/23-electrical.jpg";
+import aboutUsImg4 from "../../assets/images/action-shots/about-us-3.jpg";
+import aboutUsImg3 from "../../assets/images/action-shots/design_tess.webp";
+import aboutUsImg5 from "../../assets/images/action-shots/design_trevor.webp";
 import aboutUsImg6 from "../../assets/images/leads/sage-brown.jpg";
-import aboutUsImg7 from "../../assets/images/strategy-states-26.png";
+import aboutUsImg7 from "../../assets/images/action-shots/strategy-states-26.png";
 
-import driveTeam from "../../assets/images/dt-group-2026.jpg";
+import driveTeam from "../../assets/images/team-photos/dt-group-2026.jpg";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";

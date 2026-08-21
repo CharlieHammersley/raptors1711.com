@@ -2,7 +2,7 @@ import "./header.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import { Logo } from "../logo";
-import logoImage from "/src/assets/images/team-gear-logo-white.png";
+import logoImage from "/src/assets/images/icons/team-gear-logo-white.png";
 
 
 

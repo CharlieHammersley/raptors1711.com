@@ -1,5 +1,5 @@
 import "./logo-horizontal-rule.scss";
-import logo from "../../assets/images/team-gear-logo-white.png";
+import logo from "../../assets/images/icons/team-gear-logo-white.png";
 import React from "react";
 
 export type Props = Readonly<{}>;
