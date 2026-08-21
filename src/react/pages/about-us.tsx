@@ -27,7 +27,7 @@ export class AboutUs extends React.Component<Props, State> {
                         Team 1711 The RAPTORS has grown into a year-round program dedicated to innovation, leadership, 
                         and community impact. RAPTORS (*Robots and People Transmitting Objective Radical Synergy)* 
                         reflects the values that define our team: collaboration, creativity, and the belief that 
-                    incredible things happen when people work together toward a common goal.
+                        incredible things happen when people work together toward a common goal.
                     <br />
                     <p/>
                         Our team meets multiple times each week throughout the year, increasing practice and build 

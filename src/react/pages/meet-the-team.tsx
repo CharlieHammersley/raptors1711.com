@@ -160,7 +160,7 @@ export class MeetTheTeam extends React.Component<Props, State> {
 			<Page name="meet-the-team">
 				<PageHeading>Meet the Team</PageHeading>
 				<div className="subteams">
-					<h2>Team Operations</h2>
+					<h2>Subteams</h2>
 					<p>
 						Team 1711 is organized into specialized Subteams that work together to design, build, 
 						and compete while also supporting the operations that keep the team running year-round. 

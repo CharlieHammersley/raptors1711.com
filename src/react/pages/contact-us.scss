@@ -68,9 +68,12 @@
 					margin: 5px 0;
 
 					a {
-						color: white;
+						display: inline-block;
 
-						text-decoration: underline;
+						margin: 3px 0;
+
+						color: white;
+						text-decoration: bold;
 
 						transition:
 							color 0.2s ease,
@@ -78,6 +81,7 @@
 
 						&:hover {
 							color: #b9d8bd;
+							transform: translateX(3px);
 						}
 					}
 				}
