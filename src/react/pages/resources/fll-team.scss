@@ -32,6 +32,24 @@
 			background: rgba(0, 0, 0, 0.158);
 		}
 
+		a {
+			display: inline-block;
+
+			margin: 3px 0;
+
+			color: rgb(243, 243, 245);
+			text-decoration: underline;
+
+			transition:
+				color 0.2s ease,
+				transform 0.2s ease;
+
+			&:hover {
+				color: #b9d8bd;
+				transform: translateX(3px);
+			}
+		}
+
 		.hero-heading {
 			position: absolute;
 			inset: 0;
@@ -75,6 +93,24 @@
 
 			li {
 				padding-left: 6px;
+			}
+		}
+
+		a {
+			display: inline-block;
+
+			margin: 3px 0;
+
+			color: rgb(243, 243, 245);
+			text-decoration: underline;
+
+			transition:
+				color 0.2s ease,
+				transform 0.2s ease;
+
+			&:hover {
+				color: #b9d8bd;
+				transform: translateX(3px);
 			}
 		}
 	}
