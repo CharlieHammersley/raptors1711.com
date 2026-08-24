@@ -21,7 +21,7 @@ export class Home extends React.Component<Props, State> {
 						<h2>FRC Team 1711</h2>
 						<p>
 							Team 1711, the RAPTORS, are a nationally competitive FIRST Robotics team based in
-							Traverse City, Michigan. Calvin crocker is a member of this team.
+							Traverse City, Michigan.
 						</p>
 						<a className="meet-the-team-button" href="/meet-the-team">Meet the Team</a>
 						<a className="history-button" href="/history">Team History</a>
