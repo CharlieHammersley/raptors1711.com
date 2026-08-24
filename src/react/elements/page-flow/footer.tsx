@@ -11,8 +11,7 @@ export class Footer extends React.Component<Props, State> {
     public render(): React.ReactNode {
 		return (
 			<footer >
-				<hr/>
-				
+				<br />
 				<div className="columns">
 					<div className="sponsor">
 						<h3>Sponsor Us</h3>
@@ -25,11 +24,11 @@ export class Footer extends React.Component<Props, State> {
 					<hr />
     				<div className="navigate">
 						<h3>Navigate</h3>
-						<a href="/">Home&gt;</a> <br />
-						<a href="/meet-the-SMEs">Meet the SMEs&gt;</a><br />
-						<a href="/meet-the-mentors">Meet the Mentors&gt;</a><br />
-						<a href="/sponsorship">Sponsorship Opportunities&gt;</a><br />
-						<a href="/contact-us">Contact Us&gt;</a>
+						<a href="/">Home →</a> <br />
+						<a href="/meet-the-SMEs">Meet the SMEs →</a><br />
+						<a href="/meet-the-mentors">Meet the Mentors →</a><br />
+						<a href="/sponsorship">Sponsorship Opportunities →</a><br />
+						<a href="/contact-us">Contact Us →</a>
 					</div>
 					<hr />
     				<div className="stay-connected">

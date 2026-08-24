@@ -2,20 +2,27 @@
 
 header {
 	$spacing: 10px;
+
 	width: 100%;
 	max-width: var(--max-header-footer-width);
 	padding: 0 20px;
+
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	box-shadow: -5px 20px 20px rgba(0, 0, 0, 0.4);
-	
+
 	background: var(--r-green-gradient);
-	div.header-content {
-		margin-top: $spacing;
-		margin-bottom: $spacing;
+
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+	.header-content {
+		margin: $spacing 0;
+
 		display: flex;
+		align-items: center;
+
 		padding: 0 $spacing;
+		gap: 15px;
 
 		img {
 			align-self: center;
@@ -23,121 +30,161 @@ header {
 			width: 60px;
 			height: auto;
 		}
-		
-		.logo {
-			
-			display: inline-block;
-			margin-right: $spacing;
-			
+
+		.header-home-link{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			color: inherit;
+			text-decoration: none;
+
+			padding: 4px 8px;
+			border-radius: 6px;
+
+			transition: transform 0.5s ease;
+
+			.logoImage {
+				width: 55px;
+				height: auto;
+			}
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
 		
+
 		nav {
-			
 			flex: 1;
-			
+
 			display: flex;
 			justify-content: space-evenly;
 			align-items: center;
-			padding: 0 5%;
-			
+
+			padding: 0 2%;
+
+			gap: 5px;
+
 			.nav-item {
-				
-				flex: 1;
 				position: relative;
+
+				flex: 1;
+
 				display: flex;
 				justify-content: center;
-				
+				align-items: center;
+
 				& > a {
-					
+					position: relative;
+
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					width: 100%;
+
+					padding: 10px 8px;
+
 					color: inherit;
-					padding: 5px;
 					text-align: center;
 					text-decoration: none;
 					text-transform: uppercase;
-					letter-spacing: -0.5px;
+
+					font-size: 0.9rem;
+					font-weight: 600;
+					letter-spacing: 0.5px;
+
 					white-space: nowrap;
-					
-					&:hover:before, &:hover:after{
-						
-						opacity: 1;
+
+					transition:
+						color 0.2s ease,
+						background-color 0.2s ease;
+
+					// underline
+					&::after {
+						content: "";
+
+						position: absolute;
+						bottom: 2px;
+						left: 50%;
+
+						width: 0;
+						height: 2px;
+
+						background: currentColor;
+
+						transform: translateX(-50%);
+
+						transition: width 0.2s ease;
 					}
 
 					&:hover {
-						
-						text-decoration: underline;
+						color: white;
 					}
 
-					&:before, &:after {
-						
-						//content: " — ";
-						position: absolute;
-						white-space: pre;
-						opacity: 0;
-						transition: opacity 0.25s ease;
-						
+					&:hover::after {
+						width: 65%;
 					}
-					
-					&:before {
-						
-						transform: translateX(-100%);
-						
-					}
-					
 				}
-				
-				&:hover {
-					
-					.nav-item-dropdown {
-					
-						display: initial;
-					
-					}
-					
-				}
-				
+
 				.nav-item-dropdown {
-					
 					position: absolute;
 					top: 100%;
+					left: 50%;
+
 					display: none;
 					flex-direction: column;
-					background-color: var(--r-green-gradient);
-					box-shadow: 0 8px 8px #000A;
-					padding: 6px;
-					border: {
-						
-						left: 1px solid grey;
-						bottom: 1px solid grey;
-						right: 1px solid grey;
-						
-					}
-					
+
+					min-width: 180px;
+
+					padding: 8px 0;
+
+					background: var(--r-green-gradient);
+
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					border-radius: 0 0 6px 6px;
+
+					box-shadow:
+						0 8px 15px rgba(0, 0, 0, 0.35);
+
+					transform: translateX(-50%);
+
 					.nav-item-dropdown-entry {
-					
 						display: block;
+
+						padding: 9px 16px;
+
 						color: var(--color-fg);
 						text-decoration: none;
-						
+
+						font-size: 0.9rem;
+
+						white-space: nowrap;
+
+						transition:
+							background-color 0.15s ease,
+							padding-left 0.15s ease;
+
 						&:hover {
-							
-							text-decoration: underline;
-							
+							background: rgba(255, 255, 255, 0.1);
+							padding-left: 20px;
+							text-decoration: none;
 						}
-					
 					}
-					
 				}
-				
+
+				// Show dropdown
+				&:hover {
+					.nav-item-dropdown {
+						display: flex;
+					}
+				}
 			}
-			
 		}
-		
 	}
-	
+
 	hr {
-		
 		margin-top: $spacing;
-		
 	}
-	
 }

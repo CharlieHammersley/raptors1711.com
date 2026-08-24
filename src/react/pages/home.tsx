@@ -1,15 +1,8 @@
 import "./home.scss";
-//import teamKickoffPicture from "../../assets/images/full-team-picture-kickoff-2019.jpg";
-//import driveTeamPhoto from "../../assets/images/smes/dt-drive-team-group-photo.jpg";
-import fullTeamPhoto from "../../assets/images/states-26-award.png";
-import headerVideo from "../../assets/images/tc-auton-26.mp4"
+import fullTeamPhoto from "../../assets/images/team-photos/states-26-award.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Logo } from "../elements/logo";
-import { TextImageBox } from "../elements/text-image-box";
-import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
-import { LogoHorizontalRule } from "/src/react/elements/logo-horizontal-rule";
-
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -54,13 +47,21 @@ export class Home extends React.Component<Props, State> {
 						earn more points than the opposing alliance. Each season, beginning on January 10th 12:00 PM EST, a new game is 
 						released. Watch the video below to learn about this year's game, REBUILT.
 					</p>
+					<section className="youtube-video">
+						<iframe
+							src="https://www.youtube.com/embed/_fybREErgyM"
+							title="REBUILT 2026 FRC Game Animation"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowFullScreen
+						/>
+					</section>
 				</div>
 				<div className="outreach-block">
 					<h2>Outreach</h2>
 					<p>
 						The RAPTORS are committed to supporting our community through numerous outreach events. We organise many STEM based 
 						eductation events each year, such as Super Science Saturday and SPIKE Lego camps. Moreover, our members contribute an 
-						average of [NUMBER] hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
+						average of 25 hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
 					</p>
 					<a className="outreach-button" href="/outreach">Learn More</a>
 				</div>
