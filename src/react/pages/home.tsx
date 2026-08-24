@@ -47,6 +47,14 @@ export class Home extends React.Component<Props, State> {
 						earn more points than the opposing alliance. Each season, beginning on January 10th 12:00 PM EST, a new game is 
 						released. Watch the video below to learn about this year's game, REBUILT.
 					</p>
+					<section className="youtube-video">
+						<iframe
+							src="https://www.youtube.com/embed/_fybREErgyM"
+							title="REBUILT 2026 FRC Game Animation"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowFullScreen
+						/>
+					</section>
 				</div>
 				<div className="outreach-block">
 					<h2>Outreach</h2>
