@@ -19,6 +19,7 @@ header {
 		margin: $spacing 0;
 
 		display: flex;
+		flex: row-wrap;
 		align-items: center;
 
 		padding: 0 $spacing;
@@ -52,6 +53,20 @@ header {
 			&:hover {
 				transform: scale(1.05);
 			}
+		}
+
+		.mobile-menu-button {
+			display: none;
+
+			margin-left: auto;
+
+			background: none;
+			border: none;
+
+			color: inherit;
+			font-size: 2rem;
+
+			cursor: pointer;
 		}
 		
 
@@ -101,7 +116,6 @@ header {
 						color 0.2s ease,
 						background-color 0.2s ease;
 
-					// underline
 					&::after {
 						content: "";
 
@@ -174,7 +188,6 @@ header {
 					}
 				}
 
-				// Show dropdown
 				&:hover {
 					.nav-item-dropdown {
 						display: flex;
@@ -186,5 +199,52 @@ header {
 
 	hr {
 		margin-top: $spacing;
+	}
+}
+
+@media (max-width: 800px) {
+	header {
+		.header-content {
+			flex-wrap: wrap;
+
+			.mobile-menu-button {
+				display: block;
+			}
+
+			nav {
+				display: none;
+				flex-basis: 100%;
+				flex-direction: column;
+
+				&.mobile-open {
+					display: flex;
+				}
+
+				.nav-item {
+					width: 100%;
+					flex-direction: column;
+
+					.nav-item-primary-link {
+						text-align: center;
+					}
+
+					.nav-item-dropdown {
+						position: static;
+						transform: none;
+						width: 100%;
+
+						border: none;
+						border-radius: 0;
+						box-shadow: none;
+						padding: 0;
+
+						.nav-item-dropdown-entry {
+							padding: 9px 25px;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
 	}
 }

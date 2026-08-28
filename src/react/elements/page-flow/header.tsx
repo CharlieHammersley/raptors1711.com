@@ -22,7 +22,9 @@ export type Props = Readonly<{
 	
 }>;
 
-export type State = Readonly<{}>;
+export type State = Readonly<{
+	menuOpen: boolean
+}>;
 
 export class Header extends React.Component<Props, State> {
 	
@@ -31,6 +33,16 @@ export class Header extends React.Component<Props, State> {
 		links: Header.getDefaultNavigationLinks()
 		
 	};
+
+	constructor(props: Props) {
+		super(props);
+
+		this.state = {
+			menuOpen: false
+		};
+	}
+
+	
 	
 	public static getDefaultNavigationLinks(): NavigationLinks {
 		
@@ -83,7 +95,6 @@ export class Header extends React.Component<Props, State> {
 				
 				let navTitle: string = entry[0];
 				
-				// For a plain link.
 				if (typeof entry[1] === "string") {
 					
 					let link: string = entry[1];
@@ -96,7 +107,6 @@ export class Header extends React.Component<Props, State> {
 						</div>
 					);
 					
-				// For a link with a submenu.
 				} else {
 					
 					let primaryLink: string | undefined = entry[1][navTitle];
@@ -115,7 +125,7 @@ export class Header extends React.Component<Props, State> {
 					);
 					
 					return (
-						<div className="nav-item">
+						<div className="nav-item" key={navTitle}>
 							<Link className="nav-item-primary-link" to={primaryLink} key={navTitle}>{navTitle}</Link>
 							<div className="nav-item-dropdown">
 								{dropdownContent}
@@ -139,7 +149,15 @@ export class Header extends React.Component<Props, State> {
 							className="logoImage"
 						/>
 					</Link>
-					<nav>
+
+					<button
+						className="mobile-menu-button"
+						onClick={() => this.setState({ menuOpen: !this.state.menuOpen })}
+					>
+						☰
+					</button>
+
+					<nav className={this.state.menuOpen ? "mobile-open" : ""}>
 						{ navigationContent }
 					</nav>
 				</div>
