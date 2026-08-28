@@ -12,17 +12,24 @@ import { MeetTheMentorsPage } from "./react/pages/meet-the-mentors-page";
 import { SponsorUs } from "./react/pages/sponsor-us";
 import { Sponsors } from "./react/pages/sponsors";
 import { AboutUs } from "./react/pages/about-us";
+// History
 import { History } from "./react/pages/history";
 import { History2026 } from "./react/pages/history-pages/history-2026";
 import { History2025 } from "./react/pages/history-pages/history-2025";
 import { History2024 } from "./react/pages/history-pages/history-2024";
 import { History2023 } from "./react/pages/history-pages/history-2023";
 import { History2022 } from "./react/pages/history-pages/history-2022";
+// Documentation
 import { EngineeringNotebook2026 } from "./react/pages/documentation/engineering-notebook-2026";
 import { Bones2026 } from "./react/pages/documentation/bones-2026";
+// Resources
 import { FRCTeam } from "./react/pages/resources/frc-team";
 import { FTCTeam } from "./react/pages/resources/ftc-team";
 import { FLLTeam } from "./react/pages/resources/fll-team";
+// Community
+import { Community } from "./react/pages/community/community";
+import { JoinTheRaptors } from "./react/pages/community/join-the-raptors";
+import { EducationOpportunities } from "./react/pages/community/education-opportunities";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -60,6 +67,10 @@ root.render(
         <Route path="/frc-team" element={<FRCTeam />} />
         <Route path="/ftc-team" element={<FTCTeam />} />
         <Route path="/fll-team" element={<FLLTeam />} />
+        {/* Community */}
+        <Route path="/community" element={<Community />} />
+        <Route path="/join-the-raptors" element={<JoinTheRaptors />} />
+        <Route path="/education-opportunities" element={<EducationOpportunities />} />
         
       </Routes>
     </BrowserRouter>

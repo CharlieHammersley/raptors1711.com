@@ -33,7 +33,7 @@ export class Footer extends React.Component<Props, State> {
 					<hr />
     				<div className="stay-connected">
 						<h3>Stay Connected</h3>
-						<p>Contact Us: <u>raptors1711@gmail.com</u></p>
+						<p>Email Us: <a className="email-link" onClick={() => navigator.clipboard.writeText("raptors1711@gmail.com")}>raptors1711@gmail.com</a></p>
 						<p>The RAPTORS send out a monthly newsletter.</p>
 						<a href="https://forms.gle/QHoFpEftiZY6WB2M8" className="news-button" target="_blank"
 				   		rel="noopener noreferrer">Sign up for our newsletter!</a>
