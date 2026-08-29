@@ -9,6 +9,15 @@ import sponsor6 from "../../assets/images/sponsors/6.png";
 import sponsor7 from "../../assets/images/sponsors/7.png";
 import sponsor8 from "../../assets/images/sponsors/8.png";
 import sponsor9 from "../../assets/images/sponsors/9.png";
+import sponsor10 from "../../assets/images/sponsors/10.png";
+import sponsor11 from "../../assets/images/sponsors/11.png";
+import sponsor12 from "../../assets/images/sponsors/12.png";
+import sponsor13 from "../../assets/images/sponsors/13.png";
+import sponsor14 from "../../assets/images/sponsors/14.png";
+import sponsor15 from "../../assets/images/sponsors/15.png";
+import sponsor16 from "../../assets/images/sponsors/16.png";
+import sponsor17 from "../../assets/images/sponsors/17.png";
+
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { PageHeading } from "../elements/page-heading";
@@ -62,71 +71,68 @@ export class SponsorUs extends React.Component<Props, State> {
 				<section className="sponsor-gallery">
 					<div className="sponsor-track">
 						<div className="sponsor-logo">
-							<img src={sponsor1} alt="Sponsor 1" />
+							<img src={sponsor1}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor2} alt="Sponsor 2" />
+							<img src={sponsor2}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor3} alt="Sponsor 3" />
+							<img src={sponsor3}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor4} alt="Sponsor 4" />
+							<img src={sponsor4}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor5} alt="Sponsor 5" />
+							<img src={sponsor5}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor6} alt="Sponsor 6" />
+							<img src={sponsor6}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor7} alt="Sponsor 7" />
+							<img src={sponsor7}/>
 						</div>
 						<div className="sponsor-logo">
-							<img src={sponsor8} alt="Sponsor 8" />
+							<img src={sponsor8}/>
 						</div>
 						<div className="sponsor-logo">
-							<img src={sponsor9} alt="Sponsor 9" />
-						</div>
-
-						<div className="sponsor-logo">
-							<img src={sponsor1} alt="Sponsor 1" />
+							<img src={sponsor9}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor2} alt="Sponsor 2" />
+							<img src={sponsor10}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor3} alt="Sponsor 3" />
+							<img src={sponsor11}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor4} alt="Sponsor 4" />
+							<img src={sponsor12}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor5} alt="Sponsor 5" />
+							<img src={sponsor13}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor6} alt="Sponsor 6" />
+							<img src={sponsor14}/>
 						</div>
 
 						<div className="sponsor-logo">
-							<img src={sponsor7} alt="Sponsor 7" />
+							<img src={sponsor15}/>
+						</div>
+
+						<div className="sponsor-logo">
+							<img src={sponsor16}/>
 						</div>
 						<div className="sponsor-logo">
-							<img src={sponsor8} alt="Sponsor 8" />
-						</div>
-						<div className="sponsor-logo">
-							<img src={sponsor9} alt="Sponsor 9" />
+							<img src={sponsor17}/>
 						</div>
 					</div>
 				</section>

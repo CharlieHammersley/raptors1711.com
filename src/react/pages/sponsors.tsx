@@ -12,6 +12,15 @@ import sponsor6 from "../../assets/images/sponsors/6.png";
 import sponsor7 from "../../assets/images/sponsors/7.png";
 import sponsor8 from "../../assets/images/sponsors/8.png";
 import sponsor9 from "../../assets/images/sponsors/9.png";
+import sponsor10 from "../../assets/images/sponsors/10.png";
+import sponsor11 from "../../assets/images/sponsors/11.png";
+import sponsor12 from "../../assets/images/sponsors/12.png";
+import sponsor13 from "../../assets/images/sponsors/13.png";
+import sponsor14 from "../../assets/images/sponsors/14.png";
+import sponsor15 from "../../assets/images/sponsors/15.png";
+import sponsor16 from "../../assets/images/sponsors/16.png";
+import sponsor17 from "../../assets/images/sponsors/17.png";
+
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -79,15 +88,14 @@ const sponsors = {
 };
 
 const heroTrackOne = [
-	sponsor1,
-	sponsor4,
-	sponsor8,
-	sponsor2,
-	sponsor6,
-	sponsor3,
-	sponsor9,
-	sponsor5,
-	sponsor7,
+	sponsor10,
+	sponsor11,
+	sponsor12,
+	sponsor13,
+	sponsor14,
+	sponsor15,
+	sponsor16,
+	sponsor17
 ];
 
 const heroTrackTwo = [
