@@ -36,7 +36,7 @@ export class History2026 extends React.Component<Props, State> {
                     </div>
                     <br />
                     <div className="season">
-                        <h2>Our Season - 2025</h2>
+                        <h2>Our Season - 2026</h2>
                         <p>
                             Included in FIRST AGE, this year’s game was archaeology and restoration-inspired; REBUILT challenged 
                             teams to collect and score Fuel while adapting to dynamic scoring opportunities and endgame climbs. 

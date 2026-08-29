@@ -5,7 +5,6 @@ import { Logo } from "../logo";
 import logoImage from "/src/assets/images/icons/team-gear-logo-white.png";
 
 
-
 export type NavigationLinks = {
 	
 	[name: string]: string | {
