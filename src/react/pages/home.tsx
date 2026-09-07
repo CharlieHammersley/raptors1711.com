@@ -65,9 +65,6 @@ export class Home extends React.Component<Props, State> {
 					</p>
 					<a className="outreach-button" href="/outreach">Learn More</a>
 				</div>
-				<div className="sponsor-block">
-
-				</div>
 			</Page>
 		);
 		

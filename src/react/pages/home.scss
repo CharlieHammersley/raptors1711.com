@@ -73,7 +73,9 @@
 
 	.about-us-block,
 	.first-block,
-	.outreach-block {
+	.outreach-block,
+	.sponsors-block,
+	.calendar-block {
 		width: min(90%, var(--page-width));
 		margin: 20px auto;
 		padding: 25px 20px;
@@ -120,7 +122,7 @@
 				&::after {
 					transform: translateX(4px);
 				}
-			}
+			}			 
 		}
 		
 		.youtube-video {

@@ -20,7 +20,26 @@ import sponsor14 from "../../assets/images/sponsors/14.png";
 import sponsor15 from "../../assets/images/sponsors/15.png";
 import sponsor16 from "../../assets/images/sponsors/16.png";
 import sponsor17 from "../../assets/images/sponsors/17.png";
-
+import sponsor18 from "../../assets/images/sponsors/18.png";
+import sponsor19 from "../../assets/images/sponsors/19.png";
+import sponsor20 from "../../assets/images/sponsors/20.png";
+import sponsor21 from "../../assets/images/sponsors/21.png";
+import sponsor22 from "../../assets/images/sponsors/22.png";
+import sponsor23 from "../../assets/images/sponsors/23.png";
+import sponsor24 from "../../assets/images/sponsors/24.png";
+import sponsor26 from "../../assets/images/sponsors/26.png";
+import sponsor27 from "../../assets/images/sponsors/27.png";
+import sponsor28 from "../../assets/images/sponsors/28.png";
+import sponsor29 from "../../assets/images/sponsors/29.svg";
+import sponsor30 from "../../assets/images/sponsors/30.png";
+import sponsor31 from "../../assets/images/sponsors/31.png";
+import sponsor32 from "../../assets/images/sponsors/32.png";
+import sponsor33 from "../../assets/images/sponsors/33.png";
+import sponsor34 from "../../assets/images/sponsors/34.png";
+import sponsor35 from "../../assets/images/sponsors/35.png";
+import sponsor36 from "../../assets/images/sponsors/36.png";
+import sponsor39 from "../../assets/images/sponsors/39.png";
+import sponsor40 from "../../assets/images/sponsors/40.png";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -33,14 +52,20 @@ const sponsors = {
 			link: "https://about:blank",
 		},
 		{
-			name: "Cone Drive",
-			logo: sponsor3,
-			link: "https://conedrive.com/",
+			name: "Farm Bureau Insurance",
+			logo: sponsor5,
+			link: "https://www.michfb.com/",
 		},
+		
 		{
 			name: "BRITTEN Inc.",
 			logo: sponsor7,
 			link: "https://britteninc.com/",
+		},
+		{
+			name: "Lucky Marmot Aviation LLC",
+			logo: sponsor9,
+			link: "https://about:blank",
 		},
 	],
 
@@ -54,13 +79,15 @@ const sponsors = {
 
 	gold: [
 		{
+			name: "Cone Drive",
+			logo: sponsor3,
+			link: "https://conedrive.com/",
+		},
+		{
 			name: "Strata Design",
 			logo: sponsor1,
 			link: "https://www.stratadesign.com/",
 		},
-	],
-
-	silver: [
 		{
 			name: "American Solutions for Business",
 			logo: sponsor4,
@@ -71,23 +98,150 @@ const sponsors = {
 			logo: sponsor6,
 			link: "https://www.jimmyjohns.com/",
 		},
+		{
+			name: "Thompson Surgical Instruments, Inc.",
+			logo: sponsor18,
+			link: "https://thompsonretractor.com/",
+		},
+	],
+
+	silver: [
+		{
+			name: "Biggby Coffee",
+			logo: sponsor19,
+			link: "https://biggby.com/",
+		},
+		{
+			name: "Action Water Sports",
+			logo: sponsor20,
+			link: "https://actionwater.com/traverse-city/",
+		},
+		{
+			name: "RJG Inc.",
+			logo: sponsor21,
+			link: "https://rjginc.com/",
+		},
+		{
+			name: "CRM Inc.",
+			logo: sponsor22,
+			link: "https://www.crminctc.com/",
+		},
+		{
+			name: "DCL Inc.",
+			logo: sponsor39,
+			link: "https://dclinc.com/",
+		},
+		{
+			name: "Big DH",
+			logo: sponsor23,
+			link: "https://about:blank",
+		},
+		{
+			name: "Songer's Log Cabins",
+			logo: sponsor24,
+			link: "https://about:blank",
+		},
+		{
+			name: "Northwestern Michigan College Aviation",
+			logo: sponsor17,
+			link: "https://www.nmc.edu/programs/academic-offices/aviation/",
+		},
 	],
 
 	friend: [
 		{
-			name: "Farm Bureau Insurance",
-			logo: sponsor5,
-			link: "https://www.michfb.com/",
+			name: "North Bay Energy",
+			logo: sponsor26,
+			link: "https://www.nbayenergy.com/",
 		},
 		{
-			name: "Lucky Marmot Aviation",
-			logo: sponsor9,
+			name: "Grand Traverse Children's Clinic",
+			logo: sponsor27,
+			link: "https://gtchildrens.com/",
+		},
+		{
+			name: "Oryana",
+			logo: sponsor28,
+			link: "https://oryana.coop/",
+		},
+		{
+			name: "Cherry Republic",
+			logo: sponsor29,
+			link: "https://www.cherryrepublic.com/",
+		},
+		{
+			name: "Grand Traverse Pie Company",
+			logo: sponsor40,
+			link: "https://gtpie.com/",
+		},
+		{
+			name: "Grand Traverse Resort & Spa",
+			logo: sponsor30,
+			link: "https://www.grandtraverseresort.com/",
+		},
+		{
+			name: "Nealis Engineering",
+			logo: sponsor31,
+			link: "https://nealisengineering.com/",
+		},
+		{
+			name: "Traverse Bay Area Credit Union",
+			logo: sponsor32,
+			link: "https://www.tbacu.com/",
+		},
+		{
+			name: "MJ Cartwright",
+			logo: sponsor33,
 			link: "https://about:blank",
 		},
+		{
+			name: "Detriot Wing Company",
+			logo: sponsor34,
+			link: "https://detroitwingco.com/locations/traverse-city/",
+		},
+		{
+			name: "Qdoba",
+			logo: sponsor35,
+			link: "https://www.qdoba.com/",
+		},
+		{
+			name: "Bay Bread Company",
+			logo: sponsor36,
+			link: "https://baybreadco.com/",
+		},	
 	],
 };
 
 const heroTrackOne = [
+	sponsor21,
+	sponsor22,
+	sponsor23,
+	sponsor24,
+	sponsor26,
+	sponsor27,
+	sponsor28,
+	sponsor29,
+	sponsor30,
+	sponsor31,
+	sponsor32,
+	sponsor33,
+	sponsor34,
+	sponsor35,
+	sponsor36,
+	sponsor39,
+	sponsor40,
+];
+
+const heroTrackTwo = [
+	sponsor1,
+	sponsor2,
+	sponsor3,
+	sponsor4,
+	sponsor5,
+	sponsor6,
+	sponsor7,
+	sponsor8,
+	sponsor9,
 	sponsor10,
 	sponsor11,
 	sponsor12,
@@ -95,19 +249,10 @@ const heroTrackOne = [
 	sponsor14,
 	sponsor15,
 	sponsor16,
-	sponsor17
-];
-
-const heroTrackTwo = [
-	sponsor7,
-	sponsor2,
-	sponsor5,
-	sponsor9,
-	sponsor3,
-	sponsor8,
-	sponsor1,
-	sponsor6,
-	sponsor4,
+	sponsor17,
+	sponsor18,
+	sponsor19,
+	sponsor20,
 ];
 
 export class Sponsors extends React.Component<Props, State> {
