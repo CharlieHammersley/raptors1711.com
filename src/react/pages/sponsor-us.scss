@@ -2,7 +2,8 @@
 
 .page-sponsor-us main {
 	align-items: center;
-	margin-bottom: 30px;
+	margin-bottom: 0;
+	padding-bottom: 0;
 
 	.hero {
 		position: relative;
@@ -159,31 +160,51 @@
 	}
 	
 	.sponsor-gallery {
+		position: relative;
+
+		width: 100%;
+		height: 150px;
+
+		margin: 40px 0 0;
+		padding: 0;
+
+		overflow: hidden;
+
+		background: #16261c;
+
+		border-top: 2px solid rgba(255, 255, 255, 0.25);
+		border-bottom: 2px solid rgba(255, 255, 255, 0.25);
 		.sponsor-track {
 			position: absolute;
+			top: 0;
+			left: 0;
 
 			display: flex;
 			align-items: center;
 
 			width: max-content;
+			height: 150px;
+
+			animation: sponsor-scroll-left 120s linear infinite;
 
 			.sponsor-logo {
 				display: flex;
 				align-items: center;
 				justify-content: center;
 
-				width: 280px;
-				height: 180px;
+				width: 200px;
+				height: 150px;
 
-				margin: 0 35px;
+				margin: 0;
+				padding: 15px 25px;
 
 				flex-shrink: 0;
 
 				img {
 					display: block;
 
-					max-width: 240px;
-					max-height: 240px;
+					max-width: 160px;
+					max-height: 100px;
 
 					width: auto;
 					height: auto;
@@ -191,16 +212,69 @@
 					object-fit: contain;
 				}
 			}
+
+			.sponsor-logo:first-child {
+				border-left: 1px solid rgba(255, 255, 255, 0.2);
+			}
 		}
 	}
 
-	@keyframes sponsor-hero-scroll {
-	from {
-		transform: translateX(0) translateY(-50%);
+	@keyframes sponsor-scroll-left {
+		from {
+			transform: translateX(0);
+		}
+
+		to {
+			transform: translateX(-50%);
+		}
 	}
 
-	to {
-		transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 800px) {
+	.page-sponsor-us {
+		.sponsor-gallery {
+			height: 130px;
+
+			.sponsor-track {
+				height: 130px;
+
+				.sponsor-logo {
+					width: 180px;
+					height: 130px;
+
+					margin: 0 25px;
+
+					img {
+						max-width: 160px;
+						max-height: 100px;
+					}
+				}
+			}
+		}
 	}
 }
+
+@media (max-width: 500px) {
+	.page-sponsor-us {
+		.sponsor-gallery {
+			height: 110px;
+
+			.sponsor-track {
+				height: 110px;
+
+				.sponsor-logo {
+					width: 150px;
+					height: 110px;
+
+					margin: 0 20px;
+
+					img {
+						max-width: 140px;
+						max-height: 85px;
+					}
+				}
+			}
+		}
+	}
 }
