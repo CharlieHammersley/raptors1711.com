@@ -14,7 +14,10 @@ export class Home extends React.Component<Props, State> {
     	return (
 			<Page name="home">
 				<div className="front-image-block">
-					<img src={fullTeamPhoto} alt="The Raptors after winning the judges award durring their 2026 FIM State Championship" className="banner-image" />
+					<img src={fullTeamPhoto} alt="The Raptors after winning the judges award durring their 2026 FIM State Championship" 
+						className="banner-image"
+						fetchPriority="high"
+					/>
 					<div className="overlay"/>
 					<div className="overlay-text"> 
 						<Logo>The RAPTORS</Logo>
