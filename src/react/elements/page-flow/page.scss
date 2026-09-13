@@ -37,8 +37,10 @@
 		color: var(--color-bg);
 		
 	}
-	
-	a {
+	// Hi future dev, as I was adding the global styles for my index.scss, the buttons would 
+	// display purple as visited regardless of my stylesheet, sorry this is a lazy solution,
+	// but it works for now and I don't think anyone will miss the purple links. :)
+	/*a { 
 		
 		color: #AFAFFA;
 		
@@ -48,6 +50,6 @@
 			
 		}
 		
-	}
+	}*/
 	
 }

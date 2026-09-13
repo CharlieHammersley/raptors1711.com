@@ -44,3 +44,131 @@ html::-webkit-scrollbar {
 	}
 	
 }
+
+/* 
+	Global Styles!! Hello future dev, use these for templated front end components instead of relying on nasty
+	libraries. This will make everyone's life easier in the long run, and I was too lazy to make individual components 
+	for each of these. If you need to make a new component, just put it down here.
+*/
+
+
+// Page Blocks
+
+.basic-block {
+	width: min(90%, var(--page-width));
+	margin: 20px auto;
+	padding: 25px 20px;
+}
+
+
+// Paragraph Text and Stuff
+
+.basic-para {
+	max-width: 900px;
+	margin: 10px auto;
+	line-height: 1.7;
+	text-align: justify;
+}
+
+
+// Headers
+
+
+// Buttons
+
+.basic-button {
+	display: inline-block;
+	margin: 10px 5px;
+	padding: 8px 15px;
+
+	background: #203321;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+
+	border: 1px solid white;
+	border-radius: 5px;
+
+	animation: fade-up 1s ease-out 0.4s both;
+
+	transition: 0.2s ease;
+}
+
+.basic-button-animated {
+	@extend .basic-button;
+
+    &:hover {
+		background: #2d4a30;
+		transform: translateY(-3px);
+	}
+}
+
+.clean-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+
+	margin-top: 10px;
+	padding: 7px 14px;
+
+	color: white;
+	font-weight: 600;
+	font-size: 0.9rem;
+
+	text-decoration: none;
+
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.clean-button-animated {
+	@extend .clean-button;
+
+	transition:
+		color 0.2s ease,
+		border-color 0.2s ease,
+		transform 0.2s ease;
+
+	&::after {
+		content: "→";
+		transition: transform 0.2s ease;
+	}
+
+	&:hover {
+		color: #b9d8bd;
+		border-color: #b9d8bd;
+		transform: translateX(2px);
+
+		&::after {
+			transform: translateX(4px);
+		}
+	}
+
+	&:visited {
+		color: white;
+	}
+	
+}
+
+// Cards
+
+// Navigation Links
+
+// Iframes - These go <section> first, then the <iframe> inside it.
+
+.small-video {
+	width: 90%;
+	max-width: 1000px;
+	margin: 50px auto;
+
+	aspect-ratio: 16 / 9;
+
+	iframe {
+		display: block;
+		width: 100%;
+		height: 100%;
+
+		border: none;
+		border-radius: 10px;
+		box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+	}
+}

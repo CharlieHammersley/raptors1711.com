@@ -26,11 +26,11 @@ export class Home extends React.Component<Props, State> {
 							Team 1711, the RAPTORS, are a nationally competitive FIRST Robotics team based in
 							Traverse City, Michigan.
 						</p>
-						<a className="meet-the-team-button" href="/meet-the-team">Meet the Team</a>
-						<a className="history-button" href="/history">Team History</a>
+						<a className="basic-button-animated" href="/meet-the-team">Meet the Team</a>
+						<a className="basic-button-animated" href="/history">Team History</a>
 					</div>
 				</div>
-				<div className="about-us-block">
+				<div className="basic-block">
 					<h2>About Us</h2>
 					<p>
 						We pride ourselves on our relentless commitment to community outreach,
@@ -39,9 +39,9 @@ export class Home extends React.Component<Props, State> {
 						RAPTORS are about encouraging innovation in all academic pursuits and fostering a culture that
 						supports all learning endeavors.
 					</p>
-					<a className="about-us-button" href="/about-us">Learn More</a>
+					<a className="clean-button-animated" href="/about-us">Learn More</a>
 				</div>
-				<div className="first-block">
+				<div className="basic-block">
 					<h2>What is FRC?</h2>
 					<p>
 						FRC, or FIRST Robotics Competition, is an international robotics contest for middle to highschoolers.
@@ -50,7 +50,7 @@ export class Home extends React.Component<Props, State> {
 						earn more points than the opposing alliance. Each season, beginning on January 10th 12:00 PM EST, a new game is 
 						released. Watch the video below to learn about this year's game, REBUILT.
 					</p>
-					<section className="youtube-video">
+					<section className="small-video">
 						<iframe
 							src="https://www.youtube.com/embed/_fybREErgyM"
 							title="REBUILT 2026 FRC Game Animation"
@@ -59,14 +59,14 @@ export class Home extends React.Component<Props, State> {
 						/>
 					</section>
 				</div>
-				<div className="outreach-block">
+				<div className="basic-block">
 					<h2>Outreach</h2>
 					<p>
 						The RAPTORS are committed to supporting our community through numerous outreach events. We organise many STEM based 
 						eductation events each year, such as Super Science Saturday and SPIKE Lego camps. Moreover, our members contribute an 
 						average of 25 hours of voulenteer service per year, and host a local event in tandem with our sister team, 3767.
 					</p>
-					<a className="outreach-button" href="/outreach">Learn More</a>
+					<a className="clean-button-animated" href="/outreach">Learn More</a>
 				</div>
 			</Page>
 		);
