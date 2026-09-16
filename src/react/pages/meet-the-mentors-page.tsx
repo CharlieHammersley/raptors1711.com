@@ -4,11 +4,12 @@ import mentorImageTrevorSears from "../../assets/images/mentors/trevor-sears.jpg
 import mentorImageJeremiahStieve from "../../assets/images/mentors/jeremiah-stieve.jpg";
 import mentorImageRussRiker from "../../assets/images/mentors/russ-riker.jpg";
 import mentorImageEricSmith from "../../assets/images/mentors/eric-smith.jpg";
+import mentorImageDarrylGreathouse from "../../assets/images/mentors/darryl-greathouse.jpeg";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Props, State } from "./home";
-import { PageHeading } from "../elements/page-heading";
-import { TextImageBox } from "../elements/text-image-box";
+import { PageHeading } from "../elements/page-items/page-heading";
+import { TextImageBox } from "../elements/page-items/text-image-box";
 import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 
 type MentorProfile = {
@@ -72,6 +73,16 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 				include pinball and repairing old computers.
 			</p>,
 			image: mentorImageRussRiker
+		},
+		{
+			name: "Darryl Greathouse",
+			title: "Programming & Mechanical Mentor",
+			bio: <p>
+					A newer mentor on the RAPTORS, Darryl has spent over 10 years in FIRST Robotics between FRC and FTC and 
+					has 30 years of engineering & software experience. He's a strong Java programmer and expirienced Onshape 
+					designer. Outside of robotics, Darryl enjoys tending to his chickens and dogs as well as chopping firewood.
+				</p>,
+			image: mentorImageDarrylGreathouse
 		},
 	];
 	

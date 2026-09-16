@@ -23,9 +23,9 @@ import { History2022 } from "./react/pages/history-pages/history-2022";
 import { EngineeringNotebook2026 } from "./react/pages/documentation/engineering-notebook-2026";
 import { Bones2026 } from "./react/pages/documentation/bones-2026";
 // Resources
-import { FRCTeam } from "./react/pages/resources/frc-team";
-import { FTCTeam } from "./react/pages/resources/ftc-team";
-import { FLLTeam } from "./react/pages/resources/fll-team";
+import { TeamCalendar } from "./react/pages/resources/team-calendar";
+import { StartRoboticsTeam } from "./react/pages/resources/start-robotics-team";
+
 // Community
 import { Community } from "./react/pages/community/community";
 import { JoinTheRaptors } from "./react/pages/community/join-the-raptors";
@@ -64,9 +64,8 @@ root.render(
         <Route path="/engineering-notebook-2026" element={<EngineeringNotebook2026 />} />
         <Route path="/bones-2026" element={<Bones2026 />} />
         {/* Resources */}
-        <Route path="/frc-team" element={<FRCTeam />} />
-        <Route path="/ftc-team" element={<FTCTeam />} />
-        <Route path="/fll-team" element={<FLLTeam />} />
+        <Route path="/team-calendar" element={<TeamCalendar />} />
+        <Route path="/start-robotics-team" element={<StartRoboticsTeam />} />
         {/* Community */}
         <Route path="/community" element={<Community />} />
         <Route path="/join-the-raptors" element={<JoinTheRaptors />} />

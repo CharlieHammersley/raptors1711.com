@@ -1,10 +1,10 @@
 import "./social-media-icons.scss";
-import FacebookIcon from "../../assets/images/icons/facebook.svg?react";
-import GitHubIcon from "../../assets/images/icons/github.svg?react";
-import InstagramIcon from "../../assets/images/icons/instagram.svg?react";
-import TwitterIcon from "../../assets/images/icons/twitter.svg?react";
-import TikTokIcon from "../../assets/images/icons/tiktok.svg?react";
-//import { ReactComponent as SnapchatIcon } from "../../assets/images/icons/snapchat.svg";
+import FacebookIcon from "../../../assets/images/icons/facebook.svg?react";
+import GitHubIcon from "../../../assets/images/icons/github.svg?react";
+import InstagramIcon from "../../../assets/images/icons/instagram.svg?react";
+import TwitterIcon from "../../../assets/images/icons/twitter.svg?react";
+import TikTokIcon from "../../../assets/images/icons/tiktok.svg?react";
+//import { ReactComponent as SnapchatIcon } from "../../../assets/images/icons/snapchat.svg";
 import React from "react";
 
 

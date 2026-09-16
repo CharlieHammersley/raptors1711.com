@@ -1,7 +1,7 @@
 import "./history-2022.scss";
 import React from "react";
 import { Page } from "../../elements/page-flow/page";
-import { PageHeading } from "../../elements/page-heading";
+import { PageHeading } from "../../elements/page-items/page-heading";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;

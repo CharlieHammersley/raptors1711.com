@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import "/src/assets/styles/variables";
 
 @font-face {
   font-family: "Spy Agency";
   src: url("/fonts/spyagency3_2.ttf") format("truetype");
 }
-
 
 * {
 	
@@ -58,6 +58,114 @@ html::-webkit-scrollbar {
 	width: min(90%, var(--page-width));
 	margin: 20px auto;
 	padding: 25px 20px;
+
+	@media (max-width: 700px) {
+		width: 92%;
+
+		.basic-para {
+			text-align: left;
+		}
+	}
+}
+
+.page-hero-heading-block {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 35px;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.overlay {
+		position: absolute;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.158);
+	}
+
+	.hero-heading {
+		position: absolute;
+		inset: 0;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		background: rgba(0, 0, 0, 0.4);
+
+		.page-heading {
+			margin: 0;
+			color: white;
+		}
+	}
+
+	@media (max-width: 700px) {
+		height: 350px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 6px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}
+
+.page-hero-overlay-block {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	min-height: 600px;
+	overflow: hidden;
+	margin-bottom: 15px;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.overlay {
+		position: absolute;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+	.overlay-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 90%;
+		transform: translate(-50%, -50%);
+		color: white;
+		text-align: center;
+
+		p {
+			max-width: 700px;
+			margin: 20px auto;
+			line-height: 1.6;
+		}
+	}
+
+	@media (max-width: 700px) {
+		height: 85vh;
+		min-height: 500px;
+
+		.overlay-text {
+			width: 92%;
+
+			p {
+				font-size: 0.95rem;
+				text-align: center;
+			}
+		}
+	}
 }
 
 
@@ -72,7 +180,12 @@ html::-webkit-scrollbar {
 
 
 // Headers
-
+.logo-heading {
+	.logo {
+		font-size: clamp(3rem, 7vw, 6rem);
+		animation: fade-up 1s ease-out;
+	}
+}
 
 // Buttons
 

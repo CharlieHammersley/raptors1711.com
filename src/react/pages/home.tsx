@@ -2,7 +2,7 @@ import "./home.scss";
 import fullTeamPhoto from "../../assets/images/team-photos/states-26-award.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
-import { Logo } from "../elements/logo";
+import { Logo } from "../elements/logo/logo";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;
@@ -13,14 +13,14 @@ export class Home extends React.Component<Props, State> {
     	
     	return (
 			<Page name="home">
-				<div className="front-image-block">
+				<div className="page-hero-overlay-block">
 					<img src={fullTeamPhoto} alt="The Raptors after winning the judges award durring their 2026 FIM State Championship" 
 						className="banner-image"
 						fetchPriority="high"
 					/>
 					<div className="overlay"/>
 					<div className="overlay-text"> 
-						<Logo>The RAPTORS</Logo>
+						<div className="logo-heading"><Logo >The RAPTORS</Logo></div>
 						<h2>FRC Team 1711</h2>
 						<p>
 							Team 1711, the RAPTORS, are a nationally competitive FIRST Robotics team based in

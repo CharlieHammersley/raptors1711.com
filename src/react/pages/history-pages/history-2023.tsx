@@ -1,7 +1,7 @@
 import "./history-2023.scss";
 import React from "react";
 import { Page } from "/src/react/elements/page-flow/page";
-import { PageHeading } from "/src/react/elements/page-heading";
+import { PageHeading } from "../../elements/page-items/page-heading";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;

@@ -1,7 +1,7 @@
 import "./footer.scss";
 import React from "react";
-import { LogoHorizontalRule } from "../logo-horizontal-rule";
-import { SocialMediaIcons } from "../social-media-icons";
+import { LogoHorizontalRule } from "../logo/logo-horizontal-rule";
+import { SocialMediaIcons } from "../icons/social-media-icons";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;

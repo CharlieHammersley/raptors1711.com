@@ -2,7 +2,7 @@ import "./history-2024.scss";
 import React from "react";
 import historyPhoto from "/src/assets/images/page-heroes/artemis-robot.PNG";
 import { Page } from "/src/react/elements/page-flow/page";
-import { PageHeading } from "/src/react/elements/page-heading";
+import { PageHeading } from "../../elements/page-items/page-heading";
 
 export type Props = Readonly<{}>;
 export type State = Readonly<{}>;

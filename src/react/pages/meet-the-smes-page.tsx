@@ -10,8 +10,8 @@ import smeImageCharlie from "../../assets/images/smes/sme-charlie.JPG";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Props, State } from "./home";
-import { PageHeading } from "../elements/page-heading";
-import { TextImageBox } from "../elements/text-image-box";
+import { PageHeading } from "../elements/page-items/page-heading";
+import { TextImageBox } from "../elements/page-items/text-image-box";
 import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 
 type SMEProfile = {

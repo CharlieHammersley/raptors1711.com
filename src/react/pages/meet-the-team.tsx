@@ -11,8 +11,8 @@ import driveTeam from "../../assets/images/team-photos/dt-group-2026.jpg";
 
 import React from "react";
 import { Page } from "../elements/page-flow/page";
-import { PageHeading } from "../elements/page-heading";
-import { TextImageBox } from "../elements/text-image-box";
+import { PageHeading } from "../elements/page-items/page-heading";
+import { TextImageBox } from "../elements/page-items/text-image-box";
 import { sanitizeStringToID } from "../../util/sanitize-string-to-id";
 
 type AboutUsSection = {

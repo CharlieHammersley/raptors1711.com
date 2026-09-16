@@ -2,7 +2,7 @@ import "./about-us.scss";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import aboutUsPhoto from "../../assets/images/page-heroes/parade-team.jpg";
-import { PageHeading } from "../elements/page-heading";
+import { PageHeading } from "../elements/page-items/page-heading";
 
 
 export type Props = Readonly<{}>;
@@ -14,10 +14,10 @@ export class AboutUs extends React.Component<Props, State> {
     
         return (
             <Page name="about-us">
-                <div className="about-hero">
+                <div className="page-hero-heading-block">
                     <img src={aboutUsPhoto} alt="Frannie H. talking to the judges at the FIM Championship." />
                     <div className="overlay"/>
-                    <div className="about-hero-heading">
+                    <div className="hero-heading">
                         <PageHeading>About Us</PageHeading>
                     </div>
                 </div>

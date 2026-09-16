@@ -2,7 +2,7 @@ import "./history.scss";
 import React from "react";
 import historyImage from "../../assets/images/action-shots/eric+billy-working-on-klieo.JPG";
 import { Page } from "../elements/page-flow/page";
-import { PageHeading } from "../elements/page-heading";
+import { PageHeading } from "../elements/page-items/page-heading";
 import bb1 from "../../assets/images/blue-banners/frc-bb-carson-winner-2015.png";
 import bb2 from "../../assets/images/blue-banners/frc-bb-chairmans-2012.png";
 import bb3 from "../../assets/images/blue-banners/frc-bb-chairmans-2014.png";

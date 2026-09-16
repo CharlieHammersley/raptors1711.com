@@ -1,7 +1,7 @@
 import "./sponsors.scss";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
-import { PageHeading } from "../elements/page-heading";
+import { PageHeading } from "../elements/page-items/page-heading";
 
 import sponsor1 from "../../assets/images/sponsors/1.png";
 import sponsor2 from "../../assets/images/sponsors/2.png";

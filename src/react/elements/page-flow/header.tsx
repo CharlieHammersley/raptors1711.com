@@ -1,7 +1,7 @@
 import "./header.scss";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Logo } from "../logo";
+import { Logo } from "../logo/logo";
 import logoImage from "/src/assets/images/icons/team-gear-logo-white.png";
 
 export type NavigationLinks = {
@@ -56,9 +56,8 @@ export class Header extends React.Component<Props, State> {
 				"Camps & Workshops": "/education-opportunities",
 			},
 			Resources: {
-				"Starting an FRC Team": "/frc-team",
-				"Starting an FTC Team": "/ftc-team",
-				"Starting an FLL Team": "/fll-team",
+				"Team Calendar": "/team-calendar",
+				"How to Start a Robotics Team": "/start-robotics-team",
 			},
 			"Contact Us": "/contact-us",
 		};
