@@ -1,7 +1,7 @@
 import "./start-robotics-team.scss";
 import React from "react";
 import { Page } from "../../elements/page-flow/page";
-import heroImage from "../../../images/page-heroes/frc-placeholder.jpg";
+import heroImage from "../../../assets/images/page-heroes/frc-placeholder.JPG";
 import { PageHeading } from "../../elements/page-items/page-heading";
 
 export type Props = Readonly<{}>;
