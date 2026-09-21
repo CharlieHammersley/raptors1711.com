@@ -96,7 +96,6 @@
 				padding: 15px 25px;
 
 				color: white;
-
 				text-align: center;
 
 				text-shadow:
@@ -134,235 +133,77 @@
 			margin: 0 auto 50px;
 
 			line-height: 1.7;
+
 			text-align: center;
 		}
-		
-		a {
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
 
+		.text-card {
 			width: min(300px, 90%);
 			min-height: 80px;
 
 			margin: 30px auto 40px;
-			padding: 25px 60px 25px 35px;
-
-			background: rgba(255, 255, 255, 0.08);
-			color: white;
-
-			font-size: 1rem;
-			font-weight: 700;
-			text-align: center;
-			text-decoration: none;
-
-			border: 2px solid rgba(255, 255, 255, 0.2);
-			border-radius: 10px;
-
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-			transition:
-				transform 0.2s ease,
-				background 0.2s ease,
-				border-color 0.2s ease,
-				box-shadow 0.2s ease;
-
-			&::after {
-				content: "➜";
-
-				position: absolute;
-				right: 18px;
-				bottom: 12px;
-
-				font-size: 1.3rem;
-				opacity: 0.6;
-
-				transition:
-					transform 0.2s ease,
-					opacity 0.2s ease;
-			}
-
-			&:visited {
-				color: white;
-			}
-
-			&:hover {
-				transform: translateY(-4px);
-
-				background: rgba(255, 255, 255, 0.15);
-				border-color: #fff;
-
-				box-shadow: 0 7px 18px rgba(0, 0, 0, 0.25);
-
-				&::after {
-					transform: translateX(4px);
-					opacity: 1;
-				}
-			}
-
-			&:active {
-				transform: translateY(0);
-				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-			}
 		}
 	}
-
-	
 
 	.sponsor-tier {
-		width: 90%;
-		max-width: 1100px;
-
+		width: min(90%, var(--page-width));
 		margin: 0 auto 60px;
 
-		h2 {
+		.basic-h2 {
 			margin: 0 0 25px;
-
-			font-size: 2rem;
 			text-align: center;
 		}
-	}
 
-	.sponsor-grid {
-		display: flex;
-		flex-wrap: wrap;
-
-		justify-content: center;
-
-		gap: 20px;
-
-		width: 100%;
-	}
-
-	.sponsor-card {
-		position: relative;
-
-		display: flex;
-
-		width: 300px;
-		min-height: 180px;
-
-		padding: 25px;
-
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-
-		background: rgba(255, 255, 255, 0.08);
-
-		border: 2px solid rgba(255, 255, 255, 0.2);
-		border-radius: 10px;
-
-		color: white;
-		text-decoration: none;
-
-		transition:
-			transform 0.2s ease,
-			background 0.2s ease,
-			border-color 0.2s ease,
-			box-shadow 0.2s ease;
-
-		.sponsor-logo {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
+		.card-grid-3 {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
 			width: 100%;
-			height: 100px;
-
-			margin-bottom: 15px;
-
-			img {
-				display: block;
-
-				max-width: 180px;
-				max-height: 80px;
-
-				width: auto;
-				height: auto;
-
-				object-fit: contain;
-			}
-		}
-
-		span {
-			font-size: 1rem;
-			font-weight: 600;
-			text-align: center;
-		}
-
-		&:visited {
-			color: white;
-		}
-
-		&:hover {
-			transform: translateY(-4px);
-
-			background: rgba(255, 255, 255, 0.15);
-			border-color: white;
-
-			box-shadow: 0 7px 18px rgba(0, 0, 0, 0.2);
-		}
-	}
-}
-
-@keyframes sponsor-hero-scroll {
-	from {
-		transform: translateX(0) translateY(-50%);
-	}
-
-	to {
-		transform: translateX(-50%) translateY(-50%);
-	}
-}
-
-@media (max-width: 800px) {
-	.page-sponsors {
-		.sponsor-hero {
-			height: 45vh;
-			min-height: 350px;
-
-			.sponsor-hero-track {
-				.sponsor-logo {
-					width: 180px;
-					height: 130px;
-
-					margin: 0 25px;
-
-					img {
-						max-width: 160px;
-						max-height: 100px;
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 500px) {
-	.page-sponsors {
-		.sponsor-hero {
-			height: 40vh;
-			min-height: 300px;
-
-			.sponsor-hero-track {
-				.sponsor-logo {
-					width: 150px;
-					height: 110px;
-
-					margin: 0 20px;
-
-					img {
-						max-width: 140px;
-						max-height: 85px;
-					}
-				}
-			}
+			gap: 15px;
+			justify-items: stretch;
 		}
 
 		.sponsor-card {
-			width: min(300px, 90%);
+			width: 100%;
+
+			.sponsor-logo {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100px;
+				margin-bottom: 15px;
+
+				img {
+					display: block;
+					max-width: 180px;
+					max-height: 80px;
+					width: auto;
+					height: auto;
+					object-fit: contain;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 900px) {
+	.page-sponsors {
+		.sponsor-tier {
+			.card-grid-3 {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.page-sponsors {
+		.sponsor-tier {
+			width: 92%;
+
+			.card-grid-3 {
+				grid-template-columns: 1fr;
+			}
 		}
 	}
 }

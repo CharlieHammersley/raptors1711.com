@@ -58,25 +58,25 @@ export class History extends React.Component<Props, State> {
                 </div>
                 
                 <div className="season-block">
-                    <h2>Our Past Seasons</h2>
+                    <h2 className="basic-h2">Our Past Seasons</h2>
 
-                    <div className="history-grid">
-                        <a href="/history-2026" className="season-card">
-                            <span className="season-year">2026</span>
-                            <span className="season-label">Season</span>
-                            <span className="season-arrow">→</span>
+                    <div className="card-grid-3">
+                        <a href="/history-2026" className="text-card">
+                            <span className="card-subtext">2026</span>
+                            <span className="card-label">Season</span>
+                            <span className="card-arrow">→</span>
                         </a>
 
-                        <a href="/history-2025" className="season-card">
-                            <span className="season-year">2025</span>
-                            <span className="season-label">Season</span>
-                            <span className="season-arrow">→</span>
+                        <a href="/history-2025" className="text-card">
+                            <span className="card-subtext">2025</span>
+                            <span className="card-label">Season</span>
+                            <span className="card-arrow">→</span>
                         </a>
 
-                        <a href="/history-2024" className="season-card">
-                            <span className="season-year">2024</span>
-                            <span className="season-label">Season</span>
-                            <span className="season-arrow">→</span>
+                        <a href="/history-2024" className="text-card">
+                            <span className="card-subtext">2024</span>
+                            <span className="card-label">Season</span>
+                            <span className="card-arrow">→</span>
                         </a>
                     </div>
                 </div>

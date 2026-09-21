@@ -1,48 +1,66 @@
-.page-meet-the-team main {
-	max-width: var(--page-width);
-	.text-image-box:first-of-type {
-			
-		margin-top: 50px;
-		
-	}
+@import "/src/assets/styles/variables";
 
-	.text-box {
-		.section-title {
-			display: flex;
-			align-items: baseline;
-			justify-content: center;
-			flex-wrap: wrap;
-			margin-bottom: 5px;
-			padding: 1 5px;
+.page-meet-the-team main {
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.page-hero-heading-block {
+		.hero-heading {
+			flex-direction: column;
+			text-align: center;
 		}
 	}
 
-	.subteams {
-		align-items: center;
-		text-align: center;
-		margin-bottom: 50px;
+	.hero-subteams {
+		width: min(90vw, 700px);
+		margin: 25px auto 0;
 
-		.smes-button {
-			margin-right: 10px;
-			margin-left: 10px;
-			text-decoration: none;
-			position: relative;
-			top: 15px;
-			background: #203321;
-			font-weight: bold;
-			font-size: 1rem;
-			padding: 6px  6px; 
-			color: white;
-			border-radius: 3px;
-			border: 1px solid white;
+		p {
+			max-width: 650px;
+			margin: 0 auto 10px;
+			line-height: 1.6;
+		}
+	}
 
-			&:visited {
-			
-				color: white;
+	.team-sections {
+		max-width: var(--page-width);
+		width: 100%;
+	}
 
+	.team-section {
+		margin: 30px 0;
+
+		.section-title {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 8px;
+		}
+
+		p {
+			max-width: 750px;
+			margin: 0 auto;
+			line-height: 1.7;
+		}
+	}
+
+	@media (max-width: 700px) {
+		.hero-subteams {
+			width: 92vw;
+
+			p {
+				font-size: 0.95rem;
+			}
+		}
+
+		.team-section {
+			margin: 15px 0;
+
+			p {
+				width: 90%;
 			}
 		}
 	}
-	
-	
 }

@@ -1,29 +1,84 @@
+@import "/src/assets/styles/variables";
+
 .page-join-the-raptors main {
-    align-items: center;
-	text-align: center;
-	margin-bottom: 40px;
+	.join-intro,
+	.join-info,
+	.join-contact {
+		text-align: center;
 
-    .basic-block {
-        p {
-            text-align: center;
-        }
+		h2 {
+			margin-bottom: 5px;
+		}
 
-        ul {
-            text-align: center;
-            display: inline-block;
-            margin-top: 20px;
-            li {
-                margin-bottom: 10px;
-            }
-        }
+		.basic-para {
+			max-width: 800px;
+			margin: 0 auto 15px;
+			text-align: center;
+		}
+	}
 
-        a {
-            align-items: center;
-            text-align: center;
-            &.basic-button {
-                display: inline-block;
-                margin-top: 20px;
-            }
-        }
-    }
+	.join-intro {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.join-info {
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+		.basic-para:last-of-type {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+	}
+
+	.join-skills {
+		display: inline-block;
+		margin: 0 auto;
+		padding-left: 20px;
+		text-align: left;
+
+		li {
+			margin-bottom: 6px;
+			line-height: 1.4;
+		}
+	}
+
+	.join-contact {
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+		.basic-para {
+			max-width: 650px;
+			margin-bottom: 20px;
+		}
+
+		.outline-button-animated {
+			margin-top: 5px;
+		}
+	}
+
+	@media (max-width: 700px) {
+		.join-intro,
+		.join-info,
+		.join-contact {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.join-intro {
+			padding-top: 30px;
+			padding-bottom: 25px;
+		}
+
+		.join-info {
+			padding-top: 25px;
+			padding-bottom: 30px;
+		}
+
+		.join-contact {
+			padding-top: 25px;
+			padding-bottom: 35px;
+		}
+	}
 }

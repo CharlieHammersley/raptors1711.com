@@ -1,3 +1,47 @@
+@import "/src/assets/styles/variables";
+
 .page-education-opportunities main {
-   
+	.education-intro,
+	.education-section {
+		padding-top: 35px;
+		padding-bottom: 40px;
+		text-align: center;
+
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		h3 {
+			margin-top: 30px;
+			margin-bottom: 15px;
+		}
+
+		.basic-para {
+			max-width: 850px;
+			margin: 0 auto 15px;
+			text-align: center;
+		}
+	}
+
+	.education-intro {
+		padding-bottom: 30px;
+	}
+
+	.education-subheading {
+		margin: -5px auto 25px;
+		opacity: 0.7;
+		font-style: italic;
+	}
+
+	@media (max-width: 700px) {
+		.education-intro,
+		.education-section {
+			padding: 25px 10px 30px;
+		}
+
+		.education-intro h3,
+		.education-section h3 {
+			margin-top: 25px;
+		}
+	}
 }

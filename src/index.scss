@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Rajdhani:wght@500;600;700&display=swap");
 @import "/src/assets/styles/variables";
 
 @font-face {
-  font-family: "Spy Agency";
-  src: url("/fonts/spyagency3_2.ttf") format("truetype");
+	font-family: "Spy Agency";
+	src: url("/fonts/spyagency3_2.ttf") format("truetype");
 }
 
 * {
-	
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 }
 
-html, body, #react-root {
-	
-	height: 100%;
+html,
+body,
+#react-root {
 	width: 100%;
-	
+	height: 100%;
 	font-family: "PT Sans", sans-serif;
 	font-size: 16px;
-	
 }
 
 html {
@@ -33,38 +32,23 @@ html::-webkit-scrollbar {
 }
 
 #react-root {
-	
 	display: flex;
 	flex-direction: column;
-	
+
 	.page {
-		
 		flex: 1;
-		
 	}
-	
 }
-
-/* 
-	Global Styles!! Hello future dev, use these for templated front end components instead of relying on nasty
-	libraries. This will make everyone's life easier in the long run, and I was too lazy to make individual components 
-	for each of these. If you need to make a new component, just put it down here.
-*/
-
-
-// Page Blocks
 
 .basic-block {
 	width: min(90%, var(--page-width));
-	margin: 20px auto;
-	padding: 25px 20px;
+	margin: 40px auto;
+	padding: 50px 30px;
 
 	@media (max-width: 700px) {
 		width: 92%;
-
-		.basic-para {
-			text-align: left;
-		}
+		margin: 30px auto;
+		padding: 40px 20px;
 	}
 }
 
@@ -91,11 +75,9 @@ html::-webkit-scrollbar {
 	.hero-heading {
 		position: absolute;
 		inset: 0;
-
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 		background: rgba(0, 0, 0, 0.4);
 
 		.page-heading {
@@ -122,8 +104,8 @@ html::-webkit-scrollbar {
 	width: 100%;
 	height: 100vh;
 	min-height: 600px;
-	overflow: hidden;
 	margin-bottom: 15px;
+	overflow: hidden;
 
 	img {
 		width: 100%;
@@ -168,49 +150,87 @@ html::-webkit-scrollbar {
 	}
 }
 
-
-// Paragraph Text and Stuff
-
 .basic-para {
 	max-width: 900px;
-	margin: 10px auto;
+	margin: 0 auto 25px;
 	line-height: 1.7;
-	text-align: justify;
+	text-align: center;
 }
 
-
-// Headers
 .logo-heading {
 	.logo {
-		font-size: clamp(3rem, 7vw, 6rem);
+		font-size: clamp(2rem, 4vw, 4rem);
 		animation: fade-up 1s ease-out;
 	}
 }
 
-// Buttons
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Space Grotesk", sans-serif;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+h1 {
+	font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h2 {
+	font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+}
+
+h3 {
+	font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+}
+
+h4 {
+	font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+h5 {
+	font-size: clamp(1.05rem, 1.7vw, 1.4rem);
+}
+
+h6 {
+	font-size: clamp(0.95rem, 1.4vw, 1.2rem);
+}
+
+.display-label {
+	font-family: "Rajdhani", sans-serif;
+	font-size: 0.85rem;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.display-label-large {
+	@extend .display-label;
+	font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
 
 .basic-button {
 	display: inline-block;
 	margin: 10px 5px;
 	padding: 8px 15px;
-
 	background: #203321;
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-
 	border: 1px solid white;
 	border-radius: 5px;
-
 	animation: fade-up 1s ease-out 0.4s both;
-
 	transition: 0.2s ease;
 }
 
 .basic-button-animated {
 	@extend .basic-button;
 
-    &:hover {
+	&:hover {
 		background: #2d4a30;
 		transform: translateY(-3px);
 	}
@@ -220,22 +240,17 @@ html::-webkit-scrollbar {
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
-
 	margin-top: 10px;
 	padding: 7px 14px;
-
 	color: white;
 	font-weight: 600;
 	font-size: 0.9rem;
-
 	text-decoration: none;
-
 	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .clean-button-animated {
 	@extend .clean-button;
-
 	transition:
 		color 0.2s ease,
 		border-color 0.2s ease,
@@ -259,24 +274,19 @@ html::-webkit-scrollbar {
 	&:visited {
 		color: white;
 	}
-	
 }
 
 .outline-button {
 	display: inline-block;
 	margin: 10px 5px;
 	padding: 8px 15px;
-
 	background: transparent;
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-
 	border: 1px solid white;
 	border-radius: 5px;
-
 	animation: fade-up 1s ease-out 0.4s both;
-
 	transition: 0.2s ease;
 }
 
@@ -290,24 +300,143 @@ html::-webkit-scrollbar {
 	}
 }
 
-// Cards
+.text-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 120px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	transition:
+		transform 0.2s ease,
+		background 0.2s ease,
+		border-color 0.2s ease;
 
-// Navigation Links
+	&:visited {
+		color: white;
+	}
 
-// Iframes - These go <section> first, then the <iframe> inside it.
+	&:hover {
+		transform: translateY(-4px);
+		background: rgba(255, 255, 255, 0.15);
+		border-color: white;
+	}
+
+	.card-subtext {
+		font-family: "Space Grotesk", sans-serif;
+		font-size: 1.8rem;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+
+	.card-label {
+		font-family: "PT Sans", sans-serif;
+		font-size: 0.9rem;
+		opacity: 0.8;
+	}
+
+	.card-arrow {
+		position: absolute;
+		right: 15px;
+		bottom: 10px;
+		font-size: 1.2rem;
+		opacity: 0.6;
+	}
+}
+
+.text-image-card {
+	display: flex;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+
+	.card-image {
+		width: 40%;
+		object-fit: cover;
+	}
+
+	.text-image-card-content {
+		flex: 1;
+		padding: 25px;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: "Space Grotesk", sans-serif;
+			font-weight: 700;
+		}
+	}
+}
+
+.card-grid {
+	display: grid;
+	width: 100%;
+	gap: 15px;
+	justify-content: center;
+}
+
+.card-grid-2 {
+	@extend .card-grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-grid-3 {
+	@extend .card-grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card-grid-4 {
+	@extend .card-grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+	.card-grid-4 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.card-grid-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.card-grid-2,
+	.card-grid-3,
+	.card-grid-4 {
+		grid-template-columns: 1fr;
+	}
+
+	.text-image-card {
+		flex-direction: column;
+
+		.text-image-card-image {
+			width: 100%;
+			height: 220px;
+		}
+	}
+}
 
 .small-video {
 	width: 90%;
 	max-width: 1000px;
 	margin: 50px auto;
-
 	aspect-ratio: 16 / 9;
 
 	iframe {
 		display: block;
 		width: 100%;
 		height: 100%;
-
 		border: none;
 		border-radius: 10px;
 		box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);

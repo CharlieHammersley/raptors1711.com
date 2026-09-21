@@ -81,7 +81,8 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 			bio: <p>
 					A newer mentor on the RAPTORS, Darryl has spent over 10 years in FIRST Robotics between FRC and FTC and 
 					has 30 years of engineering & software experience. He's a strong Java programmer, expirienced Onshape 
-					designer, and teaches at Northwestern Michigan College. Outside of robotics, Darryl enjoys tending to his chickens and dogs as well as chopping firewood.
+					designer, and teaches at Northwestern Michigan College. Outside of robotics, Darryl enjoys tending to 
+					his chickens and dogs as well as chopping firewood.
 				</p>,
 			image: mentorImageDarrylGreathouse
 		},
@@ -89,7 +90,10 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 			name: "Ryan Trombly",
 			title: "Programming & Mechanical Mentor",
 			bio: <p>
-					This is Ryan's 3rd season with the RAPTORS. He primarily assists with scouting/strategy and branding development, but is always willing to lend a hand in other areas as well. Ryan is currently a Senior at Michigan State studying hospitality management. In his free time, he enjoys spending time with friends and family as well as exploring new places.
+					This is Ryan's 3rd season with the RAPTORS. He primarily assists with scouting/strategy and branding 
+					development, but is always willing to lend a hand in other areas. Ryan is currently a Senior at Michigan 
+					State studying hospitality management. In his free time, he enjoys spending time with friends and family 
+					as well as exploring new places.
 				</p>,
 			image: mentorImageRyanTrombly
 		},

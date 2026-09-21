@@ -56,7 +56,6 @@ const sponsors = {
 			logo: sponsor5,
 			link: "https://www.michfb.com/",
 		},
-		
 		{
 			name: "BRITTEN Inc.",
 			logo: sponsor7,
@@ -208,7 +207,7 @@ const sponsors = {
 			name: "Bay Bread Company",
 			logo: sponsor36,
 			link: "https://baybreadco.com/",
-		},	
+		},
 	],
 };
 
@@ -259,61 +258,72 @@ export class Sponsors extends React.Component<Props, State> {
 	public render(): React.ReactNode {
 		return (
 			<Page name="sponsors">
-
 				<div className="sponsor-hero">
+					<div className="sponsor-hero-track track-one">
+						{heroTrackOne.map((logo, index) => (
+							<div className="sponsor-logo" key={`one-${index}`}>
+								<img src={logo} alt="Sponsor" />
+							</div>
+						))}
 
-                    <div className="sponsor-hero-track track-one">
-                        {heroTrackOne.map((logo, index) => (
-                            <div className="sponsor-logo" key={`one-${index}`}>
-                                <img src={logo} alt="Sponsor" />
-                            </div>
-                        ))}
+						{heroTrackOne.map((logo, index) => (
+							<div className="sponsor-logo" key={`one-copy-${index}`}>
+								<img src={logo} alt="" />
+							</div>
+						))}
+					</div>
 
-                        {heroTrackOne.map((logo, index) => (
-                            <div className="sponsor-logo" key={`one-copy-${index}`}>
-                                <img src={logo} alt="" />
-                            </div>
-                        ))}
-                    </div>
+					<div className="sponsor-hero-track track-two">
+						{heroTrackTwo.map((logo, index) => (
+							<div className="sponsor-logo" key={`two-${index}`}>
+								<img src={logo} alt="Sponsor" />
+							</div>
+						))}
 
-                    <div className="sponsor-hero-track track-two">
-                        {heroTrackTwo.map((logo, index) => (
-                            <div className="sponsor-logo" key={`two-${index}`}>
-                                <img src={logo} alt="Sponsor" />
-                            </div>
-                        ))}
+						{heroTrackTwo.map((logo, index) => (
+							<div className="sponsor-logo" key={`two-copy-${index}`}>
+								<img src={logo} alt="" />
+							</div>
+						))}
+					</div>
 
-                        {heroTrackTwo.map((logo, index) => (
-                            <div className="sponsor-logo" key={`two-copy-${index}`}>
-                                <img src={logo} alt="" />
-                            </div>
-                        ))}
-                    </div>
-                    <div className="sponsor-hero-overlay" />
-                    <div className="sponsor-hero-heading">
-                        <PageHeading>Our Sponsors</PageHeading>
-                    </div>
-            </div>
-            <div className="intro">
-				<p >
-					Team 1711 The RAPTORS would like to extend our sincere gratitude
-					to our sponsors for their continued support and investment in our
-					team. Their generosity makes it possible for us to design, build,
-					compete, and inspire the next generation of innovators. From
-					competition expenses to outreach initiatives and educational
-					opportunities, our sponsors play a vital role in our success,
-					and we are proud to represent their commitment to STEM education
-					and our community.
-				</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Become a Sponsor Today</a>
-            </div>
+					<div className="sponsor-hero-overlay" />
+
+					<div className="sponsor-hero-heading">
+						<PageHeading>Our Sponsors</PageHeading>
+					</div>
+				</div>
+
+				<div className="intro">
+					<p>
+						Team 1711 The RAPTORS would like to extend our sincere gratitude
+						to our sponsors for their continued support and investment in our
+						team. Their generosity makes it possible for us to design, build,
+						compete, and inspire the next generation of innovators. From
+						competition expenses to outreach initiatives and educational
+						opportunities, our sponsors play a vital role in our success,
+						and we are proud to represent their commitment to STEM education
+						and our community.
+					</p>
+
+					<a
+						className="text-card"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<span className="card-subtext">Become a Sponsor Today</span>
+						<span className="card-arrow">→</span>
+					</a>
+				</div>
+
 				<section className="sponsor-tier">
-					<h2>Trojan Sponsors</h2>
+					<h2 className="basic-h2">Trojan Sponsors</h2>
 
-					<div className="sponsor-grid">
+					<div className="card-grid-3">
 						{sponsors.trojan.map((sponsor) => (
 							<a
-								className="sponsor-card"
+								className="text-card sponsor-card"
 								href={sponsor.link}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -323,19 +333,19 @@ export class Sponsors extends React.Component<Props, State> {
 									<img src={sponsor.logo} alt={sponsor.name} />
 								</div>
 
-								<span>{sponsor.name}</span>
+								<span className="card-label">{sponsor.name}</span>
 							</a>
 						))}
 					</div>
 				</section>
 
 				<section className="sponsor-tier">
-					<h2>Platinum Sponsors</h2>
+					<h2 className="basic-h2">Platinum Sponsors</h2>
 
-					<div className="sponsor-grid">
+					<div className="card-grid-3">
 						{sponsors.platinum.map((sponsor) => (
 							<a
-								className="sponsor-card"
+								className="text-card sponsor-card"
 								href={sponsor.link}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -345,19 +355,19 @@ export class Sponsors extends React.Component<Props, State> {
 									<img src={sponsor.logo} alt={sponsor.name} />
 								</div>
 
-								<span>{sponsor.name}</span>
+								<span className="card-label">{sponsor.name}</span>
 							</a>
 						))}
 					</div>
 				</section>
 
 				<section className="sponsor-tier">
-					<h2>Gold Sponsors</h2>
+					<h2 className="basic-h2">Gold Sponsors</h2>
 
-					<div className="sponsor-grid">
+					<div className="card-grid-3">
 						{sponsors.gold.map((sponsor) => (
 							<a
-								className="sponsor-card"
+								className="text-card sponsor-card"
 								href={sponsor.link}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -367,19 +377,19 @@ export class Sponsors extends React.Component<Props, State> {
 									<img src={sponsor.logo} alt={sponsor.name} />
 								</div>
 
-								<span>{sponsor.name}</span>
+								<span className="card-label">{sponsor.name}</span>
 							</a>
 						))}
 					</div>
 				</section>
 
 				<section className="sponsor-tier">
-					<h2>Silver Sponsors</h2>
+					<h2 className="basic-h2">Silver Sponsors</h2>
 
-					<div className="sponsor-grid">
+					<div className="card-grid-3">
 						{sponsors.silver.map((sponsor) => (
 							<a
-								className="sponsor-card"
+								className="text-card sponsor-card"
 								href={sponsor.link}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -389,19 +399,19 @@ export class Sponsors extends React.Component<Props, State> {
 									<img src={sponsor.logo} alt={sponsor.name} />
 								</div>
 
-								<span>{sponsor.name}</span>
+								<span className="card-label">{sponsor.name}</span>
 							</a>
 						))}
 					</div>
 				</section>
 
 				<section className="sponsor-tier">
-					<h2>Friend Sponsors</h2>
+					<h2 className="basic-h2">Friend Sponsors</h2>
 
-					<div className="sponsor-grid">
+					<div className="card-grid-3">
 						{sponsors.friend.map((sponsor) => (
 							<a
-								className="sponsor-card"
+								className="text-card sponsor-card"
 								href={sponsor.link}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -411,12 +421,11 @@ export class Sponsors extends React.Component<Props, State> {
 									<img src={sponsor.logo} alt={sponsor.name} />
 								</div>
 
-								<span>{sponsor.name}</span>
+								<span className="card-label">{sponsor.name}</span>
 							</a>
 						))}
 					</div>
 				</section>
-
 			</Page>
 		);
 	}

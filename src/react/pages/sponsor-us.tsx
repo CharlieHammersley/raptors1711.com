@@ -127,7 +127,15 @@ export class SponsorUs extends React.Component<Props, State> {
 						community investment while helping students develop valuable technical and 
 						professional skills.
 					</p>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Become a Sponsor</a>
+					<a
+						className="text-card sponsor-button"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSc9CT2cltBko3e_wUY_TqwMtU6mWkmDE7KQ2SNkt5T6jf5aSA/viewform?usp=dialog"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<span className="card-subtext">Become a Sponsor</span>
+						<span className="card-arrow">→</span>
+					</a>
 				</div>
 				<section className="sponsor-gallery">
 					<div className="sponsor-track sponsors-track">

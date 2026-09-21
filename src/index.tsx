@@ -49,7 +49,7 @@ root.render(
         <Route path="/meet-the-SMEs" element={<MeetTheSMEsPage />} />
         <Route path="/meet-the-mentors" element={<MeetTheMentorsPage />} />
         {/* Sponsorship */}
-        <Route path="/sponsorship" element={<SponsorUs />} />
+        <Route path="/sponsor-us" element={<SponsorUs />} />
         <Route path="/sponsors" element={<Sponsors />} />
         {/* Misc */}
         <Route path="/contact-us" element={<ContactUs />} />

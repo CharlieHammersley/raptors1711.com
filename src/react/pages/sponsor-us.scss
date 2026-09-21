@@ -73,75 +73,12 @@
 			text-align: left;
 		}
 
-		a {
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
+		.sponsor-button {
 			width: min(500px, 90%);
 			min-height: 110px;
-
-			margin: 30px auto 40px;
-			padding: 25px 60px 25px 35px;
-
-			background: rgba(255, 255, 255, 0.08);
-			color: white;
-
-			font-size: 1.5rem;
-			font-weight: 700;
-			text-align: center;
-			text-decoration: none;
-
-			border: 2px solid rgba(255, 255, 255, 0.2);
-			border-radius: 10px;
-
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-			transition:
-				transform 0.2s ease,
-				background 0.2s ease,
-				border-color 0.2s ease,
-				box-shadow 0.2s ease;
-
-			&::after {
-				content: "➜";
-
-				position: absolute;
-				right: 18px;
-				bottom: 12px;
-
-				font-size: 1.3rem;
-				opacity: 0.6;
-
-				transition:
-					transform 0.2s ease,
-					opacity 0.2s ease;
-			}
-
-			&:visited {
-				color: white;
-			}
-
-			&:hover {
-				transform: translateY(-4px);
-
-				background: rgba(255, 255, 255, 0.15);
-				border-color: #fff;
-
-				box-shadow: 0 7px 18px rgba(0, 0, 0, 0.25);
-
-				&::after {
-					transform: translateX(4px);
-					opacity: 1;
-				}
-			}
-
-			&:active {
-				transform: translateY(0);
-				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-			}
+			margin: 40px auto;
 		}
+
 
 		ul {
 			max-width: 900px;

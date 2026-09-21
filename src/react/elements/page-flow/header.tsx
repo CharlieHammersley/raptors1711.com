@@ -43,7 +43,7 @@ export class Header extends React.Component<Props, State> {
 				"2024 Season": "/history-2024",
 			},
 			Sponsors: {
-				"Sponsor Us": "/sponsorship",
+				"Sponsor Us": "/sponsor-us",
 				"Our Sponsors": "/sponsors",
 			},
 			Documentation: {
