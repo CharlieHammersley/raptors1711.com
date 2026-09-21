@@ -1,4 +1,5 @@
 import "./meet-the-team.scss";
+import fullTeamPhoto from "../../assets/images/team-photos/states-26-award.png";
 import aboutUsImg1 from "../../assets/images/action-shots/billy-build-26.JPG";
 import aboutUsImg2 from "../../assets/images/action-shots/23-electrical.jpg";
 import aboutUsImg4 from "../../assets/images/action-shots/about-us-3.jpg";
@@ -159,6 +160,7 @@ export class MeetTheTeam extends React.Component<Props, State> {
     	return (
 			<Page name="meet-the-team">
 				<PageHeading>Meet the Team</PageHeading>
+				
 				<div className="subteams">
 					<h2>Subteams</h2>
 					<p>

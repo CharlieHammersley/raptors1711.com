@@ -1,33 +1,53 @@
 import "./home.scss";
-import fullTeamPhoto from "../../assets/images/team-photos/states-26-award.png";
+import heroVideo from "../../assets/videos/hero-montage-small.mp4";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Logo } from "../elements/logo/logo";
 
 export type Props = Readonly<{}>;
-export type State = Readonly<{}>;
+export type State = Readonly<{ videoLoaded: boolean }>;
 
 export class Home extends React.Component<Props, State> {
-    
-    public render(): React.ReactNode {
-    	
-    	return (
+
+	private videoRef = React.createRef<HTMLVideoElement>();
+
+	constructor(props: Props) {
+		super(props);
+		this.state = { videoLoaded: false };
+	}
+
+	componentDidMount(): void {
+		if (this.videoRef.current) {
+			this.setState({ videoLoaded: true });
+		}
+	}
+
+	handleVideoLoaded = (): void => {
+		this.setState({ videoLoaded: true });
+	}
+
+	public render(): React.ReactNode {
+		
+		return (
 			<Page name="home">
 				<div className="page-hero-overlay-block">
-					<img src={fullTeamPhoto} alt="The Raptors after winning the judges award durring their 2026 FIM State Championship" 
-						className="banner-image"
-						fetchPriority="high"
-					/>
+					<video 
+						ref={this.videoRef} autoPlay muted loop playsInline 
+						onLoadedData={this.handleVideoLoaded} 
+						className={`banner-video ${this.state.videoLoaded ? "loaded" : ""}`}
+					>
+						<source src={heroVideo} type="video/mp4" />
+					</video>
 					<div className="overlay"/>
 					<div className="overlay-text"> 
 						<div className="logo-heading"><Logo >The RAPTORS</Logo></div>
-						<h2>FRC Team 1711</h2>
+						
 						<p>
 							Team 1711, the RAPTORS, are a nationally competitive FIRST Robotics team based in
 							Traverse City, Michigan.
 						</p>
-						<a className="basic-button-animated" href="/meet-the-team">Meet the Team</a>
-						<a className="basic-button-animated" href="/history">Team History</a>
+						<a className="outline-button-animated" href="/meet-the-team">Meet the Team</a>
+						<a className="outline-button-animated" href="/history">Team History</a>
 					</div>
 				</div>
 				<div className="basic-block">

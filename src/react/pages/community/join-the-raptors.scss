@@ -1,3 +1,29 @@
 .page-join-the-raptors main {
-   
+    align-items: center;
+	text-align: center;
+	margin-bottom: 40px;
+
+    .basic-block {
+        p {
+            text-align: center;
+        }
+
+        ul {
+            text-align: center;
+            display: inline-block;
+            margin-top: 20px;
+            li {
+                margin-bottom: 10px;
+            }
+        }
+
+        a {
+            align-items: center;
+            text-align: center;
+            &.basic-button {
+                display: inline-block;
+                margin-top: 20px;
+            }
+        }
+    }
 }

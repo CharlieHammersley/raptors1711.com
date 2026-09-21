@@ -262,6 +262,34 @@ html::-webkit-scrollbar {
 	
 }
 
+.outline-button {
+	display: inline-block;
+	margin: 10px 5px;
+	padding: 8px 15px;
+
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+
+	border: 1px solid white;
+	border-radius: 5px;
+
+	animation: fade-up 1s ease-out 0.4s both;
+
+	transition: 0.2s ease;
+}
+
+.outline-button-animated {
+	@extend .outline-button;
+
+	&:hover {
+		background: white;
+		color: #203321;
+		transform: translateY(-3px);
+	}
+}
+
 // Cards
 
 // Navigation Links
