@@ -6,6 +6,7 @@ import mentorImageRussRiker from "../../assets/images/mentors/russ-riker.jpg";
 import mentorImageEricSmith from "../../assets/images/mentors/eric-smith.jpg";
 import mentorImageDarrylGreathouse from "../../assets/images/mentors/darryl-greathouse.jpeg";
 import mentorImageRyanTrombly from "../../assets/images/mentors/ryan-trombly.png";
+import mentorImageMarjie from "../../assets/images/mentors/marjie-killingsworth-bonecutter.png";
 import React from "react";
 import { Page } from "../elements/page-flow/page";
 import { Props, State } from "./home";
@@ -74,6 +75,15 @@ export class MeetTheMentorsPage extends React.Component<Props, State> {
 				include pinball and repairing old computers.
 			</p>,
 			image: mentorImageRussRiker
+		},
+		{
+			name: "Marjie Killingsworth-Bonecutter",
+			title: "Strategy, Scouting, & Programming Mentor",
+			bio: <p>
+				Marjie started as a volunteer and referee in Kansas City in 2017. For the last 7 years she has been a
+				mentor in Scouting and Strategy. In her free time, Marjie likes to do all things crafts and spend time on the curling ice.
+			</p>,
+			image: mentorImageMarjie
 		},
 		{
 			name: "Darryl Greathouse",
