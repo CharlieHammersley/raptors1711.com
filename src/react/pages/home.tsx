@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.scss";
 import heroVideo from "../../assets/videos/hero-montage-small.mp4";
+import preloadBackImage from "../../assets/images/pre-load/preloadBackImage.png";
 import teamPhoto from "../../assets/images/team-photos/tc26-cheering.jpg";
 import outreachPhoto from "../../assets/images/page-heroes/parade-team.jpg";
 import { Page } from "../elements/page-flow/page";
@@ -29,6 +30,7 @@ export class Home extends React.Component<Props, State> {
 		return (
 			<Page name="home">
 				<section className="home-hero">
+					<img src={preloadBackImage} className="preloadImage" />
 					<video
 						ref={this.videoRef}
 						autoPlay
@@ -94,6 +96,8 @@ export class Home extends React.Component<Props, State> {
 									title="REBUILT 2026 FRC Game Animation"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 									allowFullScreen
+									muted
+									referrerpolicy='strict-origin-when-cross-origin'
 								/>
 							</div>
 

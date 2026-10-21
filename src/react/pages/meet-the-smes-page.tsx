@@ -24,27 +24,7 @@ type SMEProfile = {
 export class MeetTheSMEsPage extends React.Component<Props, State> {
 	
 	public static readonly SMEs: SMEProfile[] = [
-		{
-			name: "Kayden Mcmillan",
-			title: "Driver, Strategy SME, Build SME, & Design SME",
-			bio: <p>
-				Kayden has been a part of the RAPTORS for 5 years now after joining in 8th grade. Now in his junior year, 
-				he’s become our primary driver as well as branching out to lead the strategy, build, and design teams. When he’s not in the 
-				build room, you’ll find Kayden CADing, 3d printing, or socializing with his friends. He loves to play with his dogs, 
-				RJ, and Sasha, as well as friends’ cats when he is able.
-			</p>,
-			image: smeImageKayden
-		},
-		{
-			name: "Aviannah Stieve",
-			title: "Human Player & Communications SME",
-			bio: <p>
-				This is Aviannah’s senior year after joining the team in 8th grade. Now in her 4th year with the RAPTORS, 
-				Aviannah leads media, outreach, and communications on the team, as well as being the human player. Aviannah likes 
-				reading, playing with her cat Silver Bell, and practicing with the debate team.
-			</p>,
-			image: smeImageAviannah
-		},
+		
 		{
 			name: "Oscar Falcon",
 			title: "Operator, Strategy SME, & Programming SME",
@@ -67,6 +47,38 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 			</p>,
 			image: smeImageFrannie
 		},
+		
+		{
+			name: "Charlie Hammersley",
+			title: "Programming SME & Safety SME",
+			bio: <p>
+				This is Charlie's 8th year in FIRST and their 4th competition season with the RAPTORS after joining their 
+				freshman year. They've become a programming SME, safety SME, and media/photographer. In their spare time, 
+				Charlie can be found crocheting, writing, or spending time with their friends.
+			</p>,
+			image: smeImageCharlie
+		},
+		{
+			name: "Aviannah Stieve",
+			title: "Human Player & Communications SME",
+			bio: <p>
+				This is Aviannah’s senior year after joining the team in 8th grade. Now in her 5th year with the RAPTORS, 
+				Aviannah leads media, outreach, and communications on the team, as well as being the human player. Aviannah likes 
+				reading, playing with her cat Silver Bell, and practicing with the debate team.
+			</p>,
+			image: smeImageAviannah
+		},
+		{
+			name: "Kayden Mcmillan",
+			title: "Driver, Strategy SME, Build SME, & Design SME",
+			bio: <p>
+				Kayden has been a part of the RAPTORS for 5 years now after joining in 8th grade. Now in his junior year, 
+				he’s become our primary driver as well as branching out to lead the strategy, build, and design teams. When he’s not in the 
+				build room, you’ll find Kayden CADing, 3d printing, or socializing with his friends. He loves to play with his dogs, 
+				RJ, and Sasha, as well as friends’ cats when he is able.
+			</p>,
+			image: smeImageKayden
+		},
 		{
 			name: "Milo Woodruff",
 			title: "Drive Coach & Strategy SME",
@@ -77,16 +89,6 @@ export class MeetTheSMEsPage extends React.Component<Props, State> {
 			</p>,
 			image: smeImageMilo
 		},
-		{
-			name: "Charlie Hammersley",
-			title: "Programming SME & Safety SME",
-			bio: <p>
-				This is Charlie's 8th year in FIRST and their 4th competition season with the RAPTORS after joining their 
-				freshman year. They've become a programming SME, safety SME, and media/photographer. In their spare time, 
-				Charlie can be found crocheting, writing, or spending time with their friends.
-			</p>,
-			image: smeImageCharlie
-		}
 	];
 	
 	public render(): React.ReactNode {
